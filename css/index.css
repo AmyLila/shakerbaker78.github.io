@@ -1,0 +1,47 @@
+header, footer {
+    text-align: center;
+    background-color:#D7DAB7; 
+    color:#8C615A; 
+    font-family: 'PT Serif', "Georgia",serif;
+    border: #D7DAB7 1px solid;
+    border-radius:15px;}
+
+header img {
+        float: right;
+        width:200px;
+        margin: 25px;
+        border: #8c615a 1px ;
+        border-radius:15px;
+        box-shadow  :5px 5px 5px gray;
+         }    
+main
+  {width:1080px; 
+    margin:0 auto; 
+    font-family: 'pt serif',"Georgia", serif; 
+    background-color:#D6E4E7;}
+
+main h2 {
+        border-bottom: 1px solid #8C615A;
+      }    
+
+
+  
+h1,h2
+    {color:#EA6D56; 
+    font-family: 'Special Elite', cursive, sans-serif;
+      font-size:2em;
+      text-align:center;
+     padding:10px;
+      line-height :1em;
+      }
+
+p 
+    {color:#8C615A;
+      font-size:1em;
+      line-height:1.3em;
+    font-family: 'pt serif', "Georgia",serif; 
+    padding:10px;}
+
+
+
+

@@ -1,0 +1,110 @@
+#content 
+  {width:960px; 
+    margin:0 auto; 
+    font-family: 'pt serif',"Georgia", serif; 
+    background-color:#D6E4E7;}
+#logo {width:200px;
+        padding-left:.5em;
+        position:relative;
+        background-color:#d6e4e7;
+        border: #8c615a 1px solid;
+        border-radius:15px;
+        box-shadow  :5px 5px 5px #8c615a;
+        margin-left: 1.5em;
+        
+       }
+  
+  nav {background-color:#D7DAB7; 
+    color:#8C615A;
+    padding:.1em;
+    margin-top:-125px;
+    padding-left:150px;
+}
+
+  nav a {color:#8C615A; 
+    font-family: 'PT Serif', "Georgia",serif; 
+    font-size:1.2em;
+    line-height:4em;}
+  
+nav a:hover { color:#ea6d56;}
+
+  nav ul {display:flex;
+          justify-content:space-around;
+          margin:0;}
+      li
+        {list-style-type:none;
+          color:#8c615a;}
+ 
+h1,h2,h3,h4,h5,h6 
+    {color:#EA6D56; 
+    font-family: 'Special Elite', cursive, sans-serif;
+      font-size:2em;
+      text-align:center;
+     padding:10px;
+      line-height :1em;
+      }
+
+
+p 
+    {color:#8C615A;
+      font-size:1em;
+      line-height:1.3em;
+    font-family: 'pt serif', "Georgia",serif; 
+    padding:10px;}
+
+
+
+
+#banner {width:100%;}
+
+
+#section-1, #section-2, #contact-section-1, #blog-section-1, footer {display:flex; flex-flow:row wrap; align-items:center; justify-content:center;}
+   
+#blog-section-2 {display:flex; flex-flow:row wrap; align-items:stretch; justify-content:center;}
+
+        .leftcol, .rightcol 
+          {width:48%;
+          flex:1 0 15em;
+          margin:.5em;}
+
+        .section-1-image, .section-2-image 
+          {width:450px;
+            padding:5px;
+            box-shadow:8px 8px 8px #8c615a;
+            border-radius:15px;}
+       
+        .blog-left-col, .blog-middle, .blog-right-col   
+          {width:33.333%;
+            
+            }
+          
+        .blog-1-image, .blog-2-image 
+          { Width:320px;
+           
+            }
+        .blog-1-image {
+            padding-right:15px;
+            }
+  
+          
+#section-2, #contact-section-1 , #blog-section-1  {background-color:#D7DAB7;}
+
+
+
+.mustard-color {color:#8C615A;}
+#section-3 {text-align:center; margin:1em;}
+
+footer {background-color:#D7DAB7; color:#8C615A; font-family: 'PT Serif', "Georgia",serif;}
+    .youtube, .pinterest, .twitter 
+            {float:right;
+              padding:25px;}
+
+  #details, h3 {font-size: 1em;}
+  #contact-list {display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+                margin-right:35px;}
+
+
+.contact-footer{background-color:#d6e4e7;}

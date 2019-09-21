@@ -10,7 +10,7 @@
   <script src="js/foooter-dates.js"></script>
 	<link href = "https://fonts.googleapis.com/css?family=PT+Serif|Special+Elite');"
 </head>
-<body>
+<body onload="loadDate()">
      <header>
         <img id="picture" src="images/DSC_1222 copy 2.jpg" alt="Picture of Amy Baker">
         
@@ -31,10 +31,11 @@
   <footer>
         <div class="toprow">
           <p> &copy; <span id="year"> </span> | Amy Baker | Idaho | <a href="https://www.byui.edu/online">BYUI Online Learning</a> </p>
-        </div>
-        <div class="updated">
+          <p id="lastModified">
          
+          </p>
         </div>
+       
     </footer>
   </div>
 </body>

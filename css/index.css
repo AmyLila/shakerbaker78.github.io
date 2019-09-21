@@ -27,6 +27,10 @@ main {
   padding-top: 1em;
   padding-bottom: 2em;
 }
+footer {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
 main h2 {
         border-bottom: 1px solid #8C615A;
       }    
@@ -41,7 +45,7 @@ p
       font-size:1em;
       line-height:1.3em;
     font-family: 'pt serif', "Georgia",serif; 
-    padding:10px;}
+    padding:1px;}
 
 
 

@@ -3,7 +3,6 @@ footer {
   text-align: center;
   background-color: #D7DAB7;
   color: #8C615A;
-  border-radius: 15px;
 }
 
 header {
@@ -11,12 +10,8 @@ header {
 }
 
 header img {
-  float: right;
   width: 200px;
   margin: 1.5rem;
-  border: #8c615a 1px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px gray;
 }
 
 header h1 {

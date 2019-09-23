@@ -46,6 +46,8 @@ main h2 {
   border-bottom: 1px solid #8C615A;
 }
 
+ul {margin-left: 4.5em;}
+
 h1,
 h2 {
   color: #EA6D56;
@@ -55,7 +57,7 @@ h2 {
   font-family: 'Special Elite', cursive;
 }
 
-p {
+p, ul {
   color: #8C615A;
   font-size: 1em;
   line-height: 1.5em;

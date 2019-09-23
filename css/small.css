@@ -21,7 +21,8 @@ header img {
 }
 
 header h1 {
-  margin-left: 4.5em;
+  margin-left: 4.5rem;
+  font-size: 2rem;
 }
 
 header,
@@ -29,7 +30,7 @@ main,
 footer {
   max-width: 1080px;
   margin: 0 auto;
-  font-family: 'pt serif', "Georgia", serif;
+  font-family: 'Merriweather', serif;
 }
 
 main {
@@ -43,6 +44,7 @@ footer {
 }
 
 main h2 {
+  font-size: 1rem;
   border-bottom: 1px solid #8C615A;
 }
 
@@ -51,7 +53,6 @@ ul {margin-left: 4.5em;}
 h1,
 h2 {
   color: #EA6D56;
-  font-size: 2em;
   padding: 5px;
   line-height: 1em;
   font-family: 'Special Elite', cursive;

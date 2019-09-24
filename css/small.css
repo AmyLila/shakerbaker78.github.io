@@ -14,8 +14,8 @@ header img {
   margin: 1.5rem;
 }
 
-header h1 {
-  margin-left: 4.5rem;
+h1 {
+  
   font-size: 2rem;
 }
 
@@ -36,7 +36,7 @@ footer {
   padding-bottom: .25rem;
 }
 
-main h2 {
+h2 {
   font-size: 1rem;
   border-bottom: 1px solid #8C615A;
 }

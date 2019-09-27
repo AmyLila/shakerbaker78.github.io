@@ -2,7 +2,7 @@ header,
 footer {
   text-align: center;
   background-color: #D7DAB7;
-  color: #8C615A;
+  color: #6B4D48;
 }
 
 header img {
@@ -11,7 +11,7 @@ header img {
 }
 
 h1 {
-  color: #EA6D56;
+  color: #6D1A36;
   padding: .01rem;
   font-family: 'Special Elite', cursive;
   font-size: 2rem;
@@ -36,17 +36,19 @@ footer {
 
 h2 {
   font-size: 1rem;
-  border-bottom: 1px solid #8C615A;
-  color: #EA6D56;
+  border-bottom: 1px solid #6B4D48;
+  color: #6D1A36;
   padding: .01rem;
   font-family: 'Special Elite', cursive;
 }
 
 ul {margin-left: 4.5rem;}
-
+a {
+  color: #53917E;
+}
 
 p, ul {
-  color: #8C615A;
+  color: #6B4D48;
   font-size: 1rem;
   line-height: 1.5rem;
   font-family: 'Merriweather', serif;

@@ -20,9 +20,13 @@ footer {
 }
 
 main {
+  display: grid;
+  grid-template-columns: 1fr;
   padding-top: 1rem;
   padding-bottom: 3rem;
+  max-width: 80%;
 }
+
 
 footer {
   padding-top: .25rem;

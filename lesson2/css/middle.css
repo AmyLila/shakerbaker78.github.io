@@ -1,0 +1,30 @@
+@media (min-width: 32.5em){
+    
+    main {
+        grid-template-columns: 1fr 1fr;
+        grid-column: span 2;
+      }
+      
+    h1 {
+        font-size: 2.5rem;
+        margin: 1rem;
+        padding: .1rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      padding: .1rem;
+      }  
+      header,
+      footer {
+        border-radius: 10px;
+      }  
+      header img {
+        float: right;
+        border: #6B4D48 1px;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px gray;
+      } 
+      header {
+        padding: .1rem;
+      }   
+}

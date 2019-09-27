@@ -2,7 +2,6 @@
     
     main {
         grid-template-columns: 1fr 1fr;
-        grid-column: span 2;
       }
       .grid-item {
         border-style: outset;

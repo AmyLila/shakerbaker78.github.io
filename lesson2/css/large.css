@@ -2,7 +2,6 @@
     
   main {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column: span 1;
     }
 
     h1 {

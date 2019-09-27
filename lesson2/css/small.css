@@ -13,7 +13,6 @@ h1 {
 }
 
 header,
-main,
 footer {
   max-width: 1080px;
   margin: 0 auto;
@@ -23,9 +22,13 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   padding-top: 1rem;
-  padding-bottom: 3rem;
-  max-width: 80%;
+  padding-bottom: 1rem;
+  max-width: 100%;
 }
+.grid-item {
+  border-style: outset;
+  padding: 1rem;
+} 
 
 
 footer {

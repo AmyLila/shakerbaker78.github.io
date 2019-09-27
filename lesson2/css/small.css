@@ -11,10 +11,9 @@ h1 {
   font-family: 'Special Elite', cursive;
   font-size: 2rem;
 }
-
 header,
 footer {
-  max-width: 1080px;
+  max-width: full;
   margin: 0 auto;
 }
 
@@ -30,7 +29,9 @@ main {
   padding: 1rem;
 } 
 
-
+.grid-pic{
+  max-width: 100%;
+}
 footer {
   padding-top: .25rem;
   padding-bottom: .25rem;
@@ -43,8 +44,6 @@ h2 {
   font-family: 'Special Elite', cursive;
 }
 
-
-
 h3, h4{
   color: #53917E;
   font-size: 1rem;
@@ -52,7 +51,6 @@ h3, h4{
   font-family: 'Merriweather', serif;
   padding: 1px;
 }
-
 
 a {
   color: #53917E;

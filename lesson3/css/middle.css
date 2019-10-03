@@ -8,4 +8,22 @@ h1 {
   padding-left: 3rem;
   font-size: 2rem;
 }
+nav ul {
+  display: flex;
+  /*flex-flow:row wrap; 
+  align-items:center; 
+  justify-content:space-around;*/
+}
+nav ul li { flex: 1 1 100%; }
+#purpose {
+  display:flex; 
+  flex-flow:row wrap; 
+  align-items:center; 
+  justify-content:space-evenly;
+}
+.leftcol, .rightcol 
+    {width:48%;
+    flex:1 0 15rem;
+    padding-left: 5rem
+  }
 }

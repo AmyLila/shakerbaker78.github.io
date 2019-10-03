@@ -17,5 +17,6 @@
     header img {
       float: left;
       padding: .5rem;
+      max-width: 200px;
     } 
 }

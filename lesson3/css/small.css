@@ -104,21 +104,21 @@ ul, ol {
   margin: 1rem;
 }
 #hd {
-  background-color: #E3E1CE;
+  background-color: white;
   border: #273C49 1px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px gray;
   margin: 1rem;
 }
 #ph {
-  background-color: #E3E1CE;
+  background-color: white;
   border: #273C49 1px;
   border-radius: 15px;
   box-shadow: 5px 5px 5px gray;
   margin: 1rem;
 }
 .lt {
-  color: #E3E1CE;
+  color: white;
 }
 .dk {
   color: #273C49;

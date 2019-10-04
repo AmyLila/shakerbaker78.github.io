@@ -16,6 +16,9 @@ header, .color {
 header img {
     max-width: 100px;  
 } 
+#logocap {
+  text-align: center;
+}
 h1 {
   color: #E3E1CE;
   font-family: 'Arvo', serif;

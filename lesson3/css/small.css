@@ -57,7 +57,7 @@ main {
   text-align: center;
   font-weight: 600;
 }
-#purpose {
+.fl {
   display:flex; 
   flex-flow:row wrap; 
   align-items:center; 
@@ -122,6 +122,12 @@ ul, ol {
 }
 .med {
   color: #426F68;
+}
+#typepic {
+  border: #273C49 1px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px gray;
+  margin: 1rem;
 }
 p {
   color: #273C49;

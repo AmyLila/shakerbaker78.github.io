@@ -80,14 +80,14 @@ h3 {
   padding-bottom: 1.5rem
 }
 a {
-  color: #E3E1CE;
+  color: white;
 } 
 ul, ol {
   color: #273C49;
   font-family: 'Open Sans', sans-serif;
 }
 .footertext {
-  color: #E3E1CE;
+  color: white;
 }
 #headercolor {
   background-color: #426F68;

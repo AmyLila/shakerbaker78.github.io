@@ -24,23 +24,20 @@ nav ul li { flex: 1 1 100%; }
   }
   .colorpage {
     display:flex;
-    flex-direction: column;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
-    max-width: 80%;
+    
   }
-#headercolor, #navigation, #headings, #paragraph {
-  flex-direction: column;
+#headercolor, #navigation, #hd, #ph {
+  /*flex-direction: column;
   justify-content: space-around;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 600;*/
   flex: 1 1 50%;
   /*max-width: 80%;*/
-  padding: 1rem 8rem;
-  align-items:center; 
-  margin: 1.5rem 10rem;
-  
-  
+  padding: 1rem 2rem;
+  margin: 1.5rem;
 }
 #ta, #tp, #fs {
   margin-left: 2rem;

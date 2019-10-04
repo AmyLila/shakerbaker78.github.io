@@ -33,4 +33,10 @@ nav ul li { flex: 1 1 100%; }
   padding: 1rem;
   align-items:center; 
 }
+#ta, #tp, #fs {
+  margin-left: 2rem;
+}
+ol li {
+  margin-left: 1rem;
+}
 }

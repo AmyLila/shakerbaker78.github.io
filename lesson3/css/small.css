@@ -129,6 +129,8 @@ ul, ol {
   box-shadow: 5px 5px 5px gray;
   margin: 1rem;
 }
+ol li {
+  padding: 0.5rem;}
 p {
   color: #273C49;
   font-size: 1rem;

@@ -22,16 +22,25 @@ nav ul li { flex: 1 1 100%; }
     flex:1 0 15rem;
     padding-left: 5rem
   }
+  .colorpage {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+  }
 #headercolor, #navigation, #headings, #paragraph {
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   line-height: 1;
   font-weight: 600;
   flex: 1 1 50%;
-  max-width: 80%;
-  margin-left: 8rem;
-  padding: 1rem;
+  /*max-width: 80%;*/
+  padding: 1rem 8rem;
   align-items:center; 
+  margin: 1.5rem 10rem;
+  
+  
 }
 #ta, #tp, #fs {
   margin-left: 2rem;

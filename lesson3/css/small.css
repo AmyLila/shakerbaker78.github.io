@@ -6,7 +6,7 @@ footer {
   max-width: 100%;
   margin: 0 auto;
 }
-header, .color {
+header {
   display:flex; 
   flex-flow:row wrap; 
   align-items:center; 

@@ -1,0 +1,17 @@
+@media only screen and (min-width: 65em){
+  header {
+    justify-content:flex-start;
+  } 
+  header img {
+    max-width: 200px;  
+} 
+#logocap {
+  text-align: start;
+  margin-left: 5rem
+}
+  h1 {
+    padding-left: 9rem;
+    font-size: 2.5rem;
+  }
+
+}

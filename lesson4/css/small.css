@@ -30,26 +30,37 @@ nav {
 	text-align: center;
   box-shadow: 0 2px 15px gray;
 }
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  color: #273C49;
+  font-size: 1.6rem;
+}
 nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 }
+nav ul .hide {
+  display: none;
+}
 nav li a {
 	display: block;
 	color: #273C49;
 	text-align: center;
-	padding: 0.75rem;
+	padding: 0.9rem 2%;
 	text-decoration: none;
   font-size: 0.95rem;
   font-weight: 600;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
-nav a:hover {
+nav ul li a:hover {
 	background-color: #426F68;
 	color: #E3E1CE;
 }
-.active {
+nav ul li .active {
 	color:#6D1A36;
 }
 main {

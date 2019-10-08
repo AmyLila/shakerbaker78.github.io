@@ -43,7 +43,7 @@ nav ul {
 	padding: 0;
 	overflow: hidden;
 }
-nav ul .hide {
+.hide {
   display: none;
 }
 nav li a {

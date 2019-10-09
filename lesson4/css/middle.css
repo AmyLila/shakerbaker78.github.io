@@ -9,6 +9,15 @@ h1 {
   font-size: 2rem;
   font-weight: 700;
 }
+.headings {
+	display: flex;
+  flex-direction: column;
+  align-items:center; 
+  justify-content:space-around;
+}
+.ltheader {
+  margin-left: 5rem;
+}
 nav button {display:none;}
 .hide{
   display: flex;
@@ -18,5 +27,18 @@ nav button {display:none;}
 }
 nav ul li { flex: 1 1 100%; }
 nav ul li a {border:none;}
-
+.prestonmid, .prestonbottom {
+  display:flex; 
+  flex-direction:row;
+  align-items:center; 
+  justify-content:center;
+}
+.leftcol, .rightcol {
+  flex:1 1 100%;
+}
+#middlesectionpic, #bottomsectionpic {
+  width:450px;
+  padding:5px;
+  box-shadow:8px 8px 8px #8c615a;
+  border-radius:15px;}  
 }

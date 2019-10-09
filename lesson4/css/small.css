@@ -11,7 +11,19 @@ header {
   flex-flow:row wrap; 
   align-items:center; 
   justify-content:center;
-  box-shadow: 0 2px 15px gray;
+}
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+.ltheader {
+  color: #E3E1CE;
+  text-align: center;
+  border: none;
+  font-style: italic;
+  letter-spacing: 1pt;
+  font-size: .9rem;
+  padding-bottom: 1rem;
 }
 header img {
     max-width: 100px;  
@@ -24,11 +36,19 @@ h1 {
   font-family: 'Arvo', serif;
   font-size: 2rem;
   font-weight: 700;
+  padding: 0rem 2%;
 }
 nav {
-	background-color: #B9CFA7;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b9cfa7+6,a2b290+100 */
+  background: rgb(185,207,167); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(185,207,167,1) 6%, rgba(162,178,144,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(185,207,167,1) 6%,rgba(162,178,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(185,207,167,1) 6%,rgba(162,178,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9cfa7', endColorstr='#a2b290',GradientType=0 ); /* IE6-9 */
+
+	/*background-color: #B9CFA7;*/
 	text-align: center;
-  box-shadow: 0 2px 15px gray;
+  /*box-shadow: 0 2px 15px gray;*/
 }
 nav button {
   margin: .2rem 2%;
@@ -85,10 +105,6 @@ h2, h3, h4, h5 {
   color: #426F68;
   font-family: 'Arvo', serif;
   padding: 1rem
-}
-h3 {
-  border-bottom: 1px solid #273C49;
-  padding-bottom: 1.5rem
 }
 a {
   color: white;

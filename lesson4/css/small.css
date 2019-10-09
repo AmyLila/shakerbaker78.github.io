@@ -1,5 +1,4 @@
-header,
-footer {
+header {
   text-align: center;
   background-color: #426F68;
   color: #E3E1CE;
@@ -8,7 +7,7 @@ footer {
 }
 header {
   display:flex; 
-  flex-flow:row wrap; 
+  flex-flow:row; 
   align-items:center; 
   justify-content:center;
 }
@@ -26,15 +25,14 @@ header {
   padding-bottom: 1rem;
 }
 header img {
-    max-width: 100px;  
+    max-width: 100px;
+    justify-content: flex-end;  
 } 
-#logocap {
-  text-align: center;
-}
+
 h1 {
   color: #E3E1CE;
   font-family: 'Arvo', serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   padding: 0rem 2%;
 }
@@ -83,88 +81,63 @@ nav ul li a:hover {
 nav ul li .active {
 	color:#6D1A36;
 }
-main {
-  max-width: 100%;
-  padding-top: 1rem;
+main, footer, .cloud {
+  max-width: 1080px; 
+  margin: 0 auto !important; 
 }
 .h2h3 {
   text-align: center;
   font-weight: 600;
-}
-.fl {
-  display:flex; 
-  flex-flow:row wrap; 
-  align-items:center; 
-  justify-content:space-evenly;
-}
-footer, header {
-  padding-top: .25rem;
-  padding-bottom: .25rem;
 }
 h2, h3, h4, h5 {
   color: #426F68;
   font-family: 'Arvo', serif;
   padding: 1rem
 }
+.prestontop {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.weathersum {
+  position: absolute;
+  background: rgba(250, 248, 248, 0.75);
+  border-radius: 10px ;
+  top: 30px;
+  left: 30px;
+  max-width: 48%;
+}
+.prestonmid, .prestonbottom {
+  display:flex; 
+  flex-flow:row-wrap; 
+  align-items:center; 
+  justify-content:center;
+}
+.leftcol, .rightcol {
+  width:48%;
+  flex:1 1 100%;
+  margin:.5em;
+}
+#middlesectionpic, #bottomsectionpic {
+  width:450px;
+  padding:5px;
+  box-shadow:8px 8px 8px #8c615a;
+  border-radius:15px;}  
 a {
   color: white;
 } 
-ul, ol {
-  color: #273C49;
-  font-family: 'Open Sans', sans-serif;
-}
-.footertext {
-  color: white;
-}
-#headercolor {
-  background-color: #426F68;
-  border: #273C49 1px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px gray;
-  margin: 1rem;
-}
-#navigation {
-  background-color: #B9CFA7;
-  border: #273C49 1px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px gray;
-  margin: 1rem;
-}
-#hd {
-  background-color: white;
-  border: #273C49 1px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px gray;
-  margin: 1rem;
-}
-#ph {
-  background-color: white;
-  border: #273C49 1px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px gray;
-  margin: 1rem;
-}
-.lt {
-  color: white;
-}
-.dk {
-  color: #273C49;
-}
-.med {
-  color: #426F68;
-}
-#typepic {
-  border: #273C49 1px;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px gray;
-  margin: 1rem;
-}
-ol li {
-  padding: 0.5rem;}
 p {
   color: #273C49;
   font-size: 1rem;
   line-height: 1.5rem;
   font-family: 'Open Sans', sans-serif;
   padding: 1rem;
+}
+footer {
+  text-align: center;
+  background-color: #426F68;
+  color: #E3E1CE;
+}
+.footertext {
+  color: white;
 }

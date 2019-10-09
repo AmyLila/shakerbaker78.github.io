@@ -5,25 +5,12 @@
     margin-left: 1.5em; 
 } 
 h1 {
-  padding-left: 3rem;
   font-size: 2rem;
   font-weight: 700;
-}
-.headings {
-	display: flex;
-  flex-direction: column;
-  align-items:center; 
-  justify-content:space-around;
-}
-.ltheader {
-  margin-left: 5rem;
 }
 nav button {display:none;}
 .hide{
   display: flex;
-  /*flex-flow:row wrap; 
-  align-items:center; 
-  justify-content:space-around;*/
 }
 nav ul li { flex: 1 1 100%; }
 nav ul li a {border:none;}

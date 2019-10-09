@@ -18,7 +18,9 @@ h1 {
 }
 .headings {
 	display: flex;
-	flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .ltheader {
   color: #E3E1CE;
@@ -31,7 +33,7 @@ h1 {
 }
 header img {
     max-width: 100px;
-    justify-content: center;  
+  
 } 
 nav {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b9cfa7+6,a2b290+100 */

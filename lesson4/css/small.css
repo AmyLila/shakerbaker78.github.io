@@ -2,7 +2,6 @@ header {
   text-align: center;
   background-color: #426F68;
   color: #E3E1CE;
-  max-width: 100%;
   margin: 0 auto;
   display:flex; 
   flex-direction: row;

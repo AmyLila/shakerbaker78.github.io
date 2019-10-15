@@ -79,7 +79,7 @@ nav ul li a:hover {
 nav ul li .active {
 	color:#6D1A36;
 }
-main, footer, .cloud {
+main, footer, .cloud, .hero {
   max-width: 1080px; 
   margin: 0 auto; 
 }
@@ -89,14 +89,17 @@ main, footer, .cloud {
   font-weight: 600;
 }
 h2, h3, h4, h5 {
-  color: #426F68;
+  color: #273C49;
   font-family: 'Arvo', serif;
-  padding: 1rem
+  padding: 1rem;
+}
+h3 {
+  margin: 0;
 }
 .prestontop {
   position: relative;
   text-align: center;
-  color: white;
+  color: #273C49;
 }
 .weathersum {
   position: absolute;
@@ -105,6 +108,14 @@ h2, h3, h4, h5 {
   top: 30px;
   left: 30px;
   max-width: 48%;
+}
+.summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style:none;
+  padding: .5rem;
+  margin: 0 0 1rem 0;
+  line-height: 1.5rem;
 }
 .prestonmid {
   border:2px solid #273C49;

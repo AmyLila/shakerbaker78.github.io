@@ -169,6 +169,9 @@ main, footer  {
 #middlesectionpic {
   max-width: 100%;
 }
+#presart {
+  margin-left: 1rem;
+}
 
 a {
   color: white;

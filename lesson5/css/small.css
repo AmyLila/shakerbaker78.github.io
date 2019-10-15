@@ -166,13 +166,21 @@ main, footer  {
   flex-basis: 100%;
   flex: 1;
 }
-#middlesectionpic {
+#middlesectionpic, #bottomsectionpic {
   max-width: 100%;
 }
 #presart {
   margin-left: 1rem;
 }
-
+.prestonbottom {
+  background-color: #426F68;
+}
+.rightcol1, .leftcol1 {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-basis: 100%;
+  flex: 1;
+}
 a {
   color: white;
 } 

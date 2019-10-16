@@ -159,10 +159,9 @@ main, footer  {
   flex-direction:column;
   align-items:stretch; 
   justify-content:stretch;
+  max-width: 100%;
 }
 .rightcol, .leftcol {
-  display: flex;
-  flex-direction: column;
   flex-basis: 100%;
   flex: 1;
 }
@@ -175,12 +174,7 @@ main, footer  {
 .prestonbottom {
   background-color: #426F68;
 }
-.rightcol1, .leftcol1 {
-  display: flex;
-  flex-direction: column-reverse;
-  flex-basis: 100%;
-  flex: 1;
-}
+
 a {
   color: white;
 } 

@@ -23,8 +23,14 @@ nav ul li a {border:none;}
 .leftcol, .rightcol {
   flex:1 1 100%;
 }
+.leftcol1, .rightcol1 {
+  flex:1 1 100%;
+  flex-direction:row-reverse;
+}
+
 #middlesectionpic, #bottomsectionpic {
-  width:450px;
+  max-width: 100%;
   padding:5px;
   border-radius:15px;}  
 }
+

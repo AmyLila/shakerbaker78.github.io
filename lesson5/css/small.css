@@ -1,13 +1,11 @@
 #pancake {
   color: #273C49;
   font-size: 1rem;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cde57e+0,b9cfa7+100 */
-background: rgb(205,229,126); /* Old browsers */
-background: -moz-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%, rgba(185,207,167,1) 100%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-text-align: center;
+  /*background: rgb(205,229,126);
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
+  background: radial-gradient(ellipse at center,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 );*/
+  text-align: center;
 }
 header, footer {
   text-align: center;
@@ -98,9 +96,6 @@ main, footer  {
   max-width: 1080px; 
   margin: 0 auto; 
 }
-.cloud, .hero {
-  max-width:100%;
-}
 .h2h3 {
   text-align: center;
   font-weight: 600;
@@ -110,6 +105,10 @@ main, footer  {
   position: relative;
   text-align: center;
   color: #273C49;
+}
+.herocontainer {
+  max-height:18rem;
+  overflow: hidden;
 }
 .weathersum {
   position: absolute;
@@ -138,29 +137,21 @@ main, footer  {
 #fiveday{
   display:none;
 }
-
 .forecasthead {
   text-align: center;
   color:white;
 }
 .prestonmid {
-  border:2px solid #273C49;
-  background-color:#273C49;
-}
-.prestonmid, .prestonbottom {
   display:flex; 
   flex-direction:column;
   align-items:stretch; 
   justify-content:stretch;
   max-width: 100%;
+  background-color: #273C49;
 }
-.rightcol, .leftcol {
-  flex-basis: 100%;
-  flex: 1;
-}
-#middlesectionpic, #bottomsectionpic {
+
+#middlesectionpic{
   max-width: 100%;
-  border-radius: 0.5rem
 }
 #presart, #contact{
   margin-left: 1rem;
@@ -168,11 +159,19 @@ main, footer  {
 .prestonbottom {
   background-color: #426F68;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction:column-reverse;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
 }
+#map {
+  display: none;
+}
+
 #contact {
   display: flex;
   flex-direction: row;
+  text-align: start;
 }
 a {
   color: white;

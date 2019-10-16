@@ -14,6 +14,13 @@ nav button {display:none;}
 }
 nav ul li { flex: 1 1 100%; }
 nav ul li a {border:none;}
+.herocontainer {
+max-width: 100%;
+max-height:none;
+}
+.hero {
+max-width: 100%;
+}
 #fiveday{
   display: block;
   background-color: #426F68;
@@ -43,8 +50,18 @@ nav ul li a {border:none;}
   align-items:center; 
   justify-content:center;
 }
-.leftcol, .rightcol {
-  flex:1 1 100%;
+
+.rightcol, .leftcol {
+  flex-basis: 90%;
+  flex: 1;
+}
+#map {
+  display: block;
+}
+#middlesectionpic, #bottomsectionpic {
+  max-width: 100%;
+  border-radius: 0.5rem;
+  padding:1rem;
 }
 #contact {
   display: flex;

@@ -167,8 +167,9 @@ main, footer  {
 }
 #middlesectionpic, #bottomsectionpic {
   max-width: 100%;
+  border-radius: 0.5rem
 }
-#presart {
+#presart , #contact{
   margin-left: 1rem;
 }
 .prestonbottom {

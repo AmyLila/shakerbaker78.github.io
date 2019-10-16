@@ -28,9 +28,5 @@ nav ul li a {border:none;}
   flex-direction:row-reverse;
 }
 
-#middlesectionpic, #bottomsectionpic {
-  max-width: 100%;
-  padding:5px;
-  border-radius:15px;}  
 }
 

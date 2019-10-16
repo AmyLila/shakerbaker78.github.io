@@ -1,3 +1,14 @@
+#pancake {
+  color: #273C49;
+  font-size: 1rem;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cde57e+0,b9cfa7+100 */
+background: rgb(205,229,126); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%, rgba(185,207,167,1) 100%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+text-align: center;
+}
 header, footer {
   text-align: center;
   background-color: #273C49;

@@ -12,8 +12,8 @@ function loadDate(){
     document.getElementById("year").innerHTML = year; 
     document.getElementById("lastModified").innerHTML = day+", "+dateNumber+" "+month+" "+year;
 
-    if (day == "Friday") {
-        document.getElementById("pancake").innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.";
+    if (day == "Wednesday") {
+        document.getElementById("pancake").innerHTML = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
     }
     }
 

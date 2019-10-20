@@ -50,6 +50,9 @@ max-width: 100%;
   align-items:center; 
   justify-content:center;
 }
+.prestonmid img{
+  float: right;
+}
 
 .rightcol, .leftcol {
   flex-basis: 90%;
@@ -59,7 +62,6 @@ max-width: 100%;
   display: block;
 }
 #middlesectionpic, #bottomsectionpic {
-  max-width: 100%;
   border-radius: 0.5rem;
   margin:1rem;
 }

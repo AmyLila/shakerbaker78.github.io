@@ -61,7 +61,7 @@ max-width: 100%;
 #middlesectionpic, #bottomsectionpic {
   max-width: 100%;
   border-radius: 0.5rem;
-  padding:1rem;
+  margin:1rem;
 }
 #contact {
   display: flex;

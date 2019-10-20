@@ -21,6 +21,7 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0.4rem;
+  font-family: 'Arvo', serif;
 }
 h1, h2, h3, h4, h5 {
   color: white;
@@ -150,7 +151,7 @@ main, footer  {
   background-color: #273C49;
 }
 
-#middlesectionpic{
+#middlesectionpic, #bottomsectionpic {
   max-width: 100%;
 }
 #presart, #contact{

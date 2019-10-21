@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Amy Baker CIT 230 | Preston Idaho </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Preston Idaho Community Page for Amy Baker in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/middle.css">
+      <link rel="stylesheet" href="css/large.css">
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Arvo%7COpen+Sans:300&display=swap" rel="stylesheet">
+  </head> 
+  <body onload="loadDate()">
+    <h1 id="pancake"></h1>
+    <header>
+      <picture><img class="logo" src="images/whitelogo-02.png" alt="picture of clouds"></picture>
+      <section class="headings">
+          <h1>East Idaho Weather</h1>
+          <div class="ltheader">helping you prepare for adventure in all weather</div>
+      </section> 
+   </header>
+   <nav>
+     <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="#">Home</a></li>
+        <li><a href="preston-4.html" class="active">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+  </nav>
+   <main>
+      <section class="h2h3">
+        <h2 class="h2h3">Preston Idaho</h2>
+      </section>
+      <section class="prestontop">
+        <div class="weathersum">
+          <h3 class="dk">Weather Summary</h3>
+          <ul class="summary">
+            <li class="weatherleft">Currently:</li>
+            <li class="weatherright">Windy</li>
+            <li class="weatherleft">Temperature:</li>
+            <li class="weatherright">60 &#8457;</li>
+            <li class="weatherleft">Humidity:</li>
+            <li class="weatherright">20&percnt;</li>
+            <li class="weatherleft">Percipitation:</li>
+            <li class="weatherright">.5&QUOT;</li>
+            <li class="weatherleft">Wind Speed:</li>
+            <li class="weatherright">25 MPH</li>
+          </ul> 
+        </div>  
+        <div class="herocontainer"><img class="hero" src="images/prestonhero.jpg" alt="picture of Preston"></div>   
+      </section>
+      <section id="fiveday">
+          <h3 class="forecasthead">Five Day Forcast</h3>
+          <section class="days">
+              <div id="dayone">
+                  <h4 class="lt">Monday</h4>
+                  <p class="lt">68 &#8457; <br>Sunny</p>
+              </div>
+            <div id="daytwo">
+                <h4 class="lt">Tuesday</h4>
+                <p class="lt">68 &#8457; <br>Sunny</p>
+            </div>
+            <div id="daythree">
+                <h4 class="lt">Wednesday</h4>
+                <p class="lt">68 &#8457; <br>Sunny</p>
+            </div>
+            <div id="dayfour">
+                <h4 class="lt">Thursday</h4>
+                <p class="lt">68 &#8457; <br>Sunny</p>
+            </div>
+            <div id="dayfive">
+                <h4 class="lt">Friday</h4>
+                <p class="lt">68 &#8457; <br>Sunny</p>
+            </div>
+          </section>
+      </section>
+      <section class="prestonmid">
+        <div class="leftcol" id="presart">
+          <h3>It's Such a Good Feeling</h3>
+          <h4>Fred Rogers</h4>
+          <p>It's such a good feeling
+            To know you're alive.
+            It's such a happy feeling:
+            You're growing inside.
+            And when you wake up ready to say,
+            "I think I'll make a snappy new day."
+            It's such a good feeling,
+            A very good feeling,
+            The feeling you know
+            You're alive.
+            </p>
+            <p>
+              It's such a good feeling
+              To know you're in tune.
+              It's such a happy feeling
+              To find you're in bloom.
+              And when you wake up ready to say
+              "I think I'll make a snappy new day,"
+              It's such a good feeling,
+              A very good feeling,
+              The feeling you know that we're friends.</p>
+          </div>    
+        <picture class = "rightcol"> 
+          <img class="pumpkin" id="middlesectionpic" src="images/pumpkin.jpg" alt="picture of pumpkins">
+        </picture>
+      </section>
+      <section class="prestonbottom">
+        <picture class="leftcol" id="map"><img id="bottomsectionpic" src="images/map.jpg" alt="picture of clouds"></picture>
+        <div class="rightcol" id="contact">
+            <div><h2>Contact Information</h2></div>
+            <div><h3>Amy Baker</h3></div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p class="footertext"> &copy; <span id="year"> </span> | East Idaho Weather | Amy Baker<br>
+        <span id="lastModified"> </span> </p>
+      </div>
+    </footer>
+  </body>
+</html>

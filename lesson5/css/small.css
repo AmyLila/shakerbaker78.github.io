@@ -1,12 +1,18 @@
-#pancake {
+.show {
   color: #273C49;
   font-size: 1rem;
-  /*background: rgb(205,229,126);
+  background: rgb(205,229,126);
   background: -webkit-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
   background: radial-gradient(ellipse at center,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 );*/
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 );
   text-align: center;
+  display:block;
 }
+.hidepancake{
+  visibility: hidden;
+  display:none;
+}
+
 header, footer {
   text-align: center;
   background-color: #273C49;

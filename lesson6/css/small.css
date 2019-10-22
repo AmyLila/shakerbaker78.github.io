@@ -4,13 +4,14 @@
   background: radial-gradient(ellipse at center,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 );
   text-align: center;
-}
-#pancake h1 {
   color: #273C49;
   font-size: 1.5rem;
   font: weight 700;
   padding:1rem;
+  font-family: 'Arvo', serif;
+  visibility: hidden;
 }
+
 header, footer {
   text-align: center;
   background-color: #273C49;

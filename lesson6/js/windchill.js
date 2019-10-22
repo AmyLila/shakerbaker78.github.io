@@ -4,7 +4,12 @@ function calcWindChill() {
     var speed = parseFloat(document.getElementById('windspeed').textContent);
     console.log(tempF, speed);
     var F = windChill(tempF, speed);
-    document.getElementById('windchill').innerHTML = F.toFixed(1) + "&#8457;";
+    if (tempF <= 50 && speed>=3.0){
+		document.getElementById('windchill').innerHTML = F.toFixed(1) + "&#8457;";
+	}
+	else {
+		document.getElementById('windchill').innerHTML = "N/A";
+	}
     }
     
     function windChill(tempF, speed) {

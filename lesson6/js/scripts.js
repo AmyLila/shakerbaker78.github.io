@@ -12,12 +12,13 @@ function loadDate(){
     document.getElementById("year").innerHTML = year; 
     document.getElementById("lastModified").innerHTML = day+", "+dateNumber+" "+month+" "+year;
 
-    if (day == "Friday") {
-        document.getElementById("pancake").innerHTML = "Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.";
-    }
-    }
-
+    if (day == "Tuesday") {
+        document.getElementById("pancake").style.visibility = "visible";}
+    else () {
+        document.getElementById("pancake").style.display = "none";
+    }    
+}
 function toggleMenu (){
     console.log(document.getElementById("primaryNav").classList);
     document.getElementById("primaryNav").classList.toggle("hide");
-}    
+}   

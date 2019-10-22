@@ -37,7 +37,7 @@
         <h2 class="h2h3">Preston Idaho</h2>
       </section>
       <section class="prestontop">
-        <div class="weathersum">
+        <div onload="calcWindChill()" class="weathersum">
           <h3 class="dk">Weather Summary</h3>
           <ul class="summary">
             <li class="weatherleft">Currently:</li>
@@ -50,8 +50,8 @@
             <li class="weatherright">.5&QUOT;</li>
             <li class="weatherleft">Wind Speed:</li>
             <li class="weatherright"><span id="windspeed">25</span> MPH</li>
-            <li class="weatherleft">Wind Chill</li>
-            <li class="weatherright" id=""></li>
+            <li class="weatherleft">Wind Chill:</li>
+            <li class="weatherright" id='windchill'></li>
           </ul> 
         </div>  
         <div class="herocontainer"><img class="hero" src="images/prestonhero.jpg" alt="picture of Preston"></div>   

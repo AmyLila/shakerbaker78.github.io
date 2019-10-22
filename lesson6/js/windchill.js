@@ -3,7 +3,7 @@ function calcWindChill() {
     var tempF = parseFloat(document.getElementById('temp').value);
     var speed = parseFloat(document.getElementById('windspeed').value);
     var F = windChill(tempF, speed);
-    document.getElementById('outputDiv').innerHTML = F;
+    document.getElementById('windchill').innerHTML = F + "&#8457;";
     }
     
     function windChill(tempF, speed) {

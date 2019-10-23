@@ -36,7 +36,7 @@
       <section class="h2h3">
         <h2 class="h2h3">Preston Idaho</h2>
       </section>
-      <section class="prestontop">
+      <section class="prestontop" class="clearfix">
         <div class="weathersum">
           <h3 class="dk">Weather Summary</h3>
           <ul class="summary">
@@ -54,7 +54,18 @@
             <li class="weatherright" id='windchill'></li>
           </ul> 
         </div>  
-        <div class="herocontainer"><img class="hero" src="images/prestonhero.jpg" alt="picture of Preston"></div>   
+        <div id="herocontainer" class="clearfix">
+            <figure class="hero">
+                <img src="images/franklinoriginal.jpg" alt="Franklin" sizes="100vw"
+                     srcset="images/franklinoriginal400.jpg 400w,
+                     images/franklinoriginal600.jpg 600w,
+                     images/franklinoriginal1000.jpg 1000w,
+                     images/franklinoriginal1400.jpg 1400w,
+                     images/franklinoriginal1800.jpg 1800w,
+                     images/franklinoriginal2200.jpg 2200w, 
+                     images/franklinoriginal2400.jpg 2400w,">
+            </figure>
+        </div>   
       </section>
       <section id="fiveday">
           <h3 class="forecasthead">Five Day Forcast</h3>

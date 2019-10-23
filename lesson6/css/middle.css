@@ -14,13 +14,11 @@ nav button {display:none;}
 }
 nav ul li { flex: 1 1 100%; }
 nav ul li a {border:none;}
-.herocontainer {
+#herocontainer {
 max-width: 100%;
 max-height:none;
 }
-.hero {
-max-width: 100%;
-}
+
 #fiveday{
   display: block;
   background-color: #426F68;

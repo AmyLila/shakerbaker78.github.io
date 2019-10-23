@@ -113,10 +113,20 @@ main, footer  {
   text-align: center;
   color: #273C49;
 }
-.herocontainer {
+#herocontainer {
   max-height:18rem;
   overflow: hidden;
+  margin:0;
+
 }
+.hero{
+  width:100%;
+  margin: 0;
+  padding:0;
+}
+.hero img{
+  max-width: 100%;
+  }
 .weathersum {
   position: absolute;
   background: rgba(250, 248, 248, 0.75);
@@ -193,5 +203,10 @@ p {
   font-family: 'Open Sans', sans-serif;
   padding: 1rem;
   margin:0;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 

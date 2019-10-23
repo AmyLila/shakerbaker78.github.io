@@ -144,6 +144,9 @@ main, footer  {
 #fiveday{
   display:none;
 }
+#fiveday img{
+  width:50%;
+}
 .forecasthead {
   text-align: center;
   color:white;

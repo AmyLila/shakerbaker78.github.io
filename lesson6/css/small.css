@@ -162,12 +162,15 @@ main, footer  {
   color:white;
 }
 .prestonmid {
-  display:flex; 
-  flex-direction:column;
-  align-items:stretch; 
-  justify-content:stretch;
-  max-width: 100%;
   background-color: #273C49;
+  display: flex;
+  flex-direction:column-reverse;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.pumpkin {
+  overflow: hidden;
 }
 
 #middlesectionpic, #bottomsectionpic {
@@ -176,7 +179,7 @@ main, footer  {
 #presart, #contact{
   margin-left: 1rem;
 }
-.prestonbottom {
+.prestonbottom{
   background-color: #426F68;
   display: flex;
   flex-direction:column-reverse;

@@ -43,17 +43,28 @@ max-height:none;
   flex: 1;
   align-items: center;
 }
-.prestonmid, .prestonbottom {
+.prestonbottom {
   display:flex; 
   flex-direction:row;
   align-items:center; 
   justify-content:center;
 }
-.prestonmid img{
-  float: right;
+.prestonmid{
+  display:inline-block;
+}
+.pumpkin {
+  max-width:50%;
+  margin: 2%;
+  float:right;
+}
+#middlesectionpic{
+  width:100%;
+  border-radius: 0.5rem;
+  overflow: hidden;
 }
 #presart{
   padding:.5rem 1.5rem;
+
 }
 .rightcol, .leftcol {
   flex-basis: 90%;
@@ -62,7 +73,7 @@ max-height:none;
 #map {
   display: block;
 }
-#middlesectionpic, #bottomsectionpic {
+#bottomsectionpic {
   border-radius: 0.5rem;
   margin:1rem;
 }

@@ -196,8 +196,9 @@ main, footer  {
   flex-direction: row;
   text-align: start;
 }
-a {
-  color: white;
+.social li {
+  display:inline-block;}
+.social li a {color: white;
 } 
 p {
   color:white;

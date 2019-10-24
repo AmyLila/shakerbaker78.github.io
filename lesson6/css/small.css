@@ -174,7 +174,7 @@ main, footer  {
   overflow: hidden;
 }
 
-#middlesectionpic, #bottomsectionpic {
+#middlesectionpic {
   max-width: 100%;
 }
 #presart, #contact{

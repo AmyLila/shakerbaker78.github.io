@@ -23,7 +23,7 @@ nav ul li a {border:none;}
     grid-auto-rows: 100px;   
 }
 .hero{
-  grid-column:span 5;  z-index: -1;
+  grid-column:span 5; z-index: -1;
   margin:0;
 }
 .hero img{

@@ -114,31 +114,32 @@ main, footer  {
   color: #273C49;
 }
 #herocontainer {
-  max-height:18rem;
   overflow: hidden;
-  margin:0;
-
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 100px;   
 }
 .hero{
-  width:100%;
-  margin: 0;
-  padding:0;
+  grid-column:span 5; grid-row:span 3; z-index: -1;
+  margin:0;
 }
 .hero img{
-  max-width: 100%;
+  height: 100%;
   }
 .weathersum {
   position: absolute;
   background: rgba(250, 248, 248, 0.75);
   border-radius: 10px ;
-  top: 30px;
-  left: 30px;
-  max-width: 48%;
+  grid-column:span 3; grid-row:span 3; z-index: 1;
+  margin:1rem;
+ 
 }
 .dk {color:#273C49;}
 .summary {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-gap:0.5rem 1rem;
   list-style:none;
   padding: .5rem;
   margin: 0 0 1rem 0;
@@ -179,26 +180,31 @@ main, footer  {
 #presart, #contact{
   margin-left: 1rem;
 }
-.prestonbottom{
+.contactgrid{
   background-color: #426F68;
-  display: flex;
-  flex-direction:column-reverse;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   align-items: center;
-  justify-content: center;
-  max-width: 100%;
+  justify-items: center;
+  text-align: center;
 }
-#map {
+.griditem1 {
   display: none;
 }
-
-#contact {
-  display: flex;
-  flex-direction: row;
-  text-align: start;
+.griditem2, .griditem3, .griditem4 {
+  display:block;
+  width: 100%;
+}
+.social{
+  padding:1rem;
+  margin:0;
 }
 .social li {
-  display:inline-block;}
-.social li a {color: white;
+  display:inline-block;
+}
+.social li a {
+  color: white;
+  padding:.2rem;
 } 
 p {
   color:white;
@@ -208,9 +214,5 @@ p {
   padding: 1rem;
   margin:0;
 }
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 

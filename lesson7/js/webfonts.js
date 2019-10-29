@@ -1,4 +1,5 @@
-WebFont.load({
+
+  WebFont.load({
     google: {
       families: ['Arvo', 'Open+Sans']
     }

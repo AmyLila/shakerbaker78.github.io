@@ -215,7 +215,7 @@ p {
   margin:0;
 }
 
-body img[data-src] {
+/* body img[data-src] {
   filter: blur(0rem);
   transition: filter 1s;
 }
@@ -223,4 +223,4 @@ body img[data-src] {
 body img {
   filter: blur(5em);
   
-}
+} */

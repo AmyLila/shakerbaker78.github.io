@@ -1,8 +1,13 @@
-/* body img[data-src] {
-  filter: blur(0.2em);
-} */
-  
+body{
+  max-width:90%;
+  margin:auto;
+}
+body img[data-src] {
+  filter: blur(0rem);
+  transition: filter 1s;
+}
+
 body img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-  }
+  filter: blur(5em);
+  
+}

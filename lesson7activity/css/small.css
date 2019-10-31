@@ -10,5 +10,5 @@ img[data-src] {
 img {
   grid-column: 1 / 1;
   filter: blur(0em);
-  transition: filter 3s;
+  transition: filter .5s;
 }

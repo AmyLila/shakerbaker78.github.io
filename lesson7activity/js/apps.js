@@ -1,10 +1,13 @@
-const imagesToLoad = document.querySelectorAll("[data-src]");
+const imagesToLoad = document.querySelectorAll("img[data-src]");
 console.log(imagesToLoad)
 
 function preloadImage(img){
   const src = img.getAttribute("data-src");
   if (!src) {
     return;  
+  }
+  img.onload = () => {
+    img.removeAttribute("data-src")
   }
   img.src=src;
 }

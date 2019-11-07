@@ -1,97 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Amy Baker CIT 230 | Weather Gallery </title>
+    <title>Amy Baker CIT 230 | Table Build </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Weather Gallery page for Amy Baker in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+    <meta name="description" content="Table Build Activity for Amy Baker in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
       <link rel="stylesheet" href="css/normalize.css">
-      <link rel="stylesheet" href="css/small.css">
-      <link rel="stylesheet" href="css/middle.css">
-      <link rel="stylesheet" href="css/large.css">
-    <script src="js/scripts.js"></script>
-    <!--<link href="https://fonts.googleapis.com/css?family=Arvo%7COpen+Sans:300&display=swap" rel="stylesheet">-->
-  </head> 
-  <body onload="loadDate()">
-    <h1 id="pancake">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h1>
-    <header>
-      <picture><img class="logo" src="images/whitelogo-02.png" alt="East Idaho Weather Logo"></picture>
-      <section class="headings">
-          <h1>East Idaho Weather</h1>
-          <div class="ltheader">helping you prepare for adventure in all weather</div>
-      </section> 
-   </header>
-   <nav>
-      <button onclick="toggleMenu()">&#9776;</button>
-     <ul id="primaryNav" class="hide">
-         <li><a href="https://shakerbaker78.github.io.">Home</a></li>
-         <li><a href="https://shakerbaker78.github.io./lesson6/preston-6.html">Preston</a></li>
-         <li><a href="#">Soda Springs</a></li>
-         <li><a href="#">Fish Haven</a></li>
-         <li><a href="#">Storm Center</a></li>
-         <li><a href="https://shakerbaker78.github.io./lesson7/gallery-7.html" class="active">Gallery</a></li>
-       </ul>
-   </nav>
+      <link rel="stylesheet" href="css/table.css">
+      <script src="js/scripts.js"></script>
+   </head> 
+   <body onload="loadDate()">
    <main>
-      <section class="h2h3">
-        <h2 class="h2h3">Weather Gallery</h2>
+      <section>
+        <h2>Table Build Activity</h2>
       </section>
-      <section class="grid-container">
-            <figure class="griditem1">
-                <img src="images/blue-clouds-placeholder.jpg" data-src="images/blue-clouds.jpg" alt="blue clouds">
-                <figcaption>Storm Clouds</figcaption>
-            </figure>
- 
-            <figure class="griditem2">
-                <img src="images/blue-orange-clouds-placeholder.jpg" data-src="images/blue-orange-clouds.jpg" alt="blue and orange clouds">
-                <figcaption>Stormy Sunset</figcaption>
-            </figure>
- 
-            <figure class="griditem3">
-                <img src="images/dark-clouds-placeholder.jpg" data-src="images/dark-clouds.jpg" alt="dark storm clouds">
-                <figcaption>Dark Storm Clouds</figcaption>
-            </figure>
- 
-            <figure class="griditem4">
-                <img src="images/funnel-clouds-placeholder.jpg" data-src="images/funnel-clouds.jpg" alt="giant storm cloud">
-                <figcaption>Giant Storm Cloud</figcaption>
-            </figure>
- 
-            <figure class="griditem5">
-                <img src="images/lightning-pink-placeholder.jpg" data-src="images/lightning-pink.jpg" alt="lightning with a pink sky">
-                <figcaption>Lightning</figcaption>
-            </figure>
- 
-            <figure class="griditem6">
-                <img src="images/lightning-placeholder.jpg" data-src="images/lightning.jpg" alt="lightning">
-                <figcaption>Lightning</figcaption>
-            </figure>
- 
-            <figure class="griditem7">
-                <img src="images/pink-clouds-placeholder.jpg" data-src="images/pink-clouds.jpg" alt="pink clouds">
-                <figcaption>Pink Clouds</figcaption>
-            </figure>
- 
-            <figure class="griditem8">
-                <img src="images/snow-placeholder.jpg" data-src="images/snow.jpg" alt="snow">
-                <figcaption>Snow</figcaption>
-            </figure>
- 
-            <figure class="griditem9">
-                <img src="images/umbrella-placeholder.jpg" data-src="images/umbrella.jpg" alt="bright umbrellas">
-                <figcaption>umbrellas</figcaption>
-            </figure>
- 
-      </section>
+      <table>
+        <tr>
+            <th colspan="3"><h3>ACME Wildwest</h3></th>
+        </tr>
+        <tr>
+            <th>Period</th>
+            <th>Sales</th>
+            <th>Sales Goals</th>
+        </tr>
+        <tr>
+            <td>August</td>
+            <td>3590</td>
+            <td>4000</td>
+        </tr>
+        <tr>
+            <td>September</td>
+            <td>4420</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>October</td>
+            <td>4870</td>
+            <td>5000</td>
+        </tr>
+        <tr>
+            <td>November</td>
+            <td>8610</td>
+            <td>7500</td>
+        </tr>
+        <tr>
+            <td>Black Friday</td>
+            <td colspan="2">3200</td>
+        </tr>
+        <tr>
+            <td>December</td>
+            <td>6820</td>
+            <td>7500</td>
+        </tr>
+        <tr>
+            <td colspan="3">
+                Compiled 12.20.2020 by bRauls<br>
+            </td>
+        </tr>
+        
+      </table>
     </main>
-    <footer>
-      <div>
-        <p class="footertext"> &copy; <span id="year"> </span> | East Idaho Weather | Amy Baker<br>
-        <span id="lastModified"> </span> </p>
-      </div>
-    </footer>
     <script src="js/apps.js" defer></script>  
-   
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfonts.js"></script>
   </body>

@@ -24,21 +24,29 @@ form {
   grid-template-columns:1fr;
   justify-items:center;
 }
-form div{
-  width:80%;
-  display: grid;
-  grid-template-columns:1fr;
-  justify-items:center;
+.griditem{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
 }
-form input.submitbutton{
+
+form input.submitbutton, .griditem {
   grid-column: span 1;
+  
 }
-form label.top input, form label.top select, .textarea {
-  grid-column: span 1;
+
+form label.top, form label.top input, form label.top select, #comments, .danger {
+  flex:1;
+  width:100%;
+  font-size: 1rem;
+  padding:.5rem;
+  margin:auto;
 }
 form label.sbs{
-  grid-column: span 1;
-}
+  flex:1;
+  width:100%;
+  margin:.3rem auto;
+} 
 
 
 }

@@ -124,20 +124,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273c49', end
 h2{
   font-weight: 600;
 }
-form fieldset {
-  margin:auto;
-  padding:.5rem 2%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border:1px solid #273C49;
-  border-radius: 10px;
-}
-form legend{
-  color:#273C49;
-  margin: 0 1rem;
-  padding: .5rem;
-  font-family: 'Arvo', serif;
-  /* background-color: rgba(255, 255, 255, 0.8) */
-}
+
 .white{
   color:white;
 }
@@ -149,9 +136,8 @@ form label.top , form div {
   padding-top: 1rem;
   color: white;
   font-size: .8rem;
-  
 }
-form label.top input, form label.top select, .textarea {
+form label.top input, form label.top select, #comments {
   -webkit-appearance: none;
   display: block;
   font-size:1rem;
@@ -171,7 +157,7 @@ form label.sbs{
   border:solid 1px rgba(255, 255, 255, 0.3);
   padding:.75rem;
   color:#273C49;
-  width:50%;
+  width:90%;
   max-width: 20rem;
   background-color: rgba(255, 255, 255, 0.3);
   margin:.5rem;
@@ -193,8 +179,8 @@ background: -moz-linear-gradient(top,  rgba(39,60,73,1) 0%, rgba(66,111,104,1) 9
 background: -webkit-linear-gradient(top,  rgba(39,60,73,1) 0%,rgba(66,111,104,1) 99%,rgba(66,111,104,1) 99%,rgba(66,111,104,1) 99%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  rgba(39,60,73,1) 0%,rgba(66,111,104,1) 99%,rgba(66,111,104,1) 99%,rgba(66,111,104,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273c49', endColorstr='#426f68',GradientType=0 ); /* IE6-9 */
-
 }
+
 form label.top input:required {
   border-left:#6D1A36 solid 6px;
 }
@@ -204,13 +190,19 @@ form label.top input:required:valid{
 
 }
 form label .danger {
-	display: flex;
-  align-items: center;
+	/* display: flex;
+  align-items: center; */
   padding-top: 1rem;
   color: white;
   font-size: .8rem;
 }
+.severity{
+  display: flex;
+  align-items: center;
+
+}
 #tickmarks{
+  
   color:white;
 }
 p {

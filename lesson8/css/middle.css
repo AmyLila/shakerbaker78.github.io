@@ -15,7 +15,30 @@ nav button {display:none;}
 nav ul li { flex: 1 1 100%; }
 nav ul li a {border:none;}
 
-
+.h2h3,form{
+  width:80%;
+  margin:auto;
+}
+form {
+  display: grid;
+  grid-template-columns:1fr;
+  justify-items:center;
+}
+form div{
+  width:80%;
+  display: grid;
+  grid-template-columns:1fr;
+  justify-items:center;
+}
+form input.submitbutton{
+  grid-column: span 1;
+}
+form label.top input, form label.top select, .textarea {
+  grid-column: span 1;
+}
+form label.sbs{
+  grid-column: span 1;
+}
 
 
 }

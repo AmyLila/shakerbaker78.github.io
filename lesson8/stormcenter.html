@@ -28,25 +28,24 @@
          <li><a href="https://shakerbaker78.github.io./lesson6/preston-6.html">Preston</a></li>
          <li><a href="#">Soda Springs</a></li>
          <li><a href="#">Fish Haven</a></li>
-         <li><a href="#">Storm Center</a></li>
+         <li><a href="https://shakerbaker78.github.io./lesson8/stormcenter.html">Storm Center</a></li>
          <li><a href="https://shakerbaker78.github.io./lesson7/gallery-7.html" class="active">Gallery</a></li>
        </ul>
    </nav>
    <main>
       <section class="h2h3">
         <h2 class="h2h3">Report Weather</h2>
-        <p>Experiencing Unusual Weather? We'd love to hear about it; Report a storm or unusual weather event in your travel area here.</p>
+        <p>Experiencing Unusual Weather? We'd love to hear about it;<br> Report a storm or unusual weather event in your travel area here.</p>
       </section>
-<form method="GET" action="thanks.html">
-    <div>
-        <legend class="white">Your Information</legend>
-        <label class="top">Full Name*<input type="text" id="name" name="fullName" pattern="[A-Z a-z]{5,}" required></label> 
-        <label class="top">Email<input type="email" name="email" placeholder="stormwatcher@gmail.com"></label>
-        <label class="top">Phone Number*<input type="tel" name="phone" placeholder="2085551234" required></label> 
-        <label class="top">Zip Code*<input type="number" name="zip" pattern="[0-9]{5,}" required> </label> 
+      
+    <form method="GET" action="thanks.html">
+      <div>
+          <label class="top">Full Name*<input type="text" id="name" name="fullName" pattern="[A-Z a-z]{5,}" required></label> 
+          <label class="top">Email<input type="email" name="email" placeholder="stormwatcher@gmail.com"></label>
+          <label class="top">Phone Number*<input type="tel" name="phone" placeholder="2085551234" required></label> 
+          <label class="top">Zip Code*<input type="number" name="zip" pattern="[0-9]{5,}" required> </label> 
       </div>
-      <div>  
-          <legend class="white">Storm Information</legend>   
+      <div>    
         <label class="top">Storm Date<input type="date" name="stormDate">  </label>
         <label class="top">Storm Type <input list="stormType" id="storm" name="storm">
           <datalist id="stormType">
@@ -88,7 +87,6 @@
         <label class="sbs"><input type="radio" name="audience" value="no">No</label>
     </div>
     <div class="dk">
-        <legend>Additional Comments</legend>
         <label class="dk">Enter any additional information here <textarea class="textarea" id="comments" name="comments" placeholder="Type your comments here..." wrap="hard"></textarea></label>
     </div>
     <input type="submit" value="Report A Storm" class="submitbutton">

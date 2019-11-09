@@ -33,7 +33,9 @@ imagesToLoad.forEach(image=>{
   imgObserver.observe(image);
 });
 
-
+function adjustRating(rating) {
+  document.getElementById("ratingvalue").innerHTML = rating;
+}
 // const loadImages = (image) => {
 //   image.setAttribute('src', image.getAttribute('data-src'));
 //   image.onload = () => {image.removeAttribute('data-src');};

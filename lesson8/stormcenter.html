@@ -56,10 +56,18 @@
                 <option value="Tornado">Tornado</option>
             </select>
              </label>
-          <div class="severity">   
+        <label class="top">Storm Region
+            <select name="region"> , , and .
+                <option value="">Select Region ... &#9662;</option>
+                <option value="Preston">Preston</option>
+                <option value="sodaSprings">Soda Springs</option>
+                <option value="fishHaven">Fish Haven</option>
+            </select>
+        </label>
+        <div class="severity sbs">   
             <label class="danger" for="rating">Storm Severity Rating: &nbsp;&nbsp;&nbsp;
               <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-              <span id="ratingvalue"></span>
+              <span id="ratingvalue">5</span>
             </label>
               <datalist id="tickmarks">
                 <option value="0">
@@ -75,14 +83,6 @@
                 <option value="10">
               </datalist>
           </div> 
-        <label class="top">Storm Region
-            <select name="region"> , , and .
-                <option value="">Select Region ... &#9662;</option>
-                <option value="Preston">Preston</option>
-                <option value="sodaSprings">Soda Springs</option>
-                <option value="fishHaven">Fish Haven</option>
-            </select>
-        </label>
         <div class="dk">User In Danger</div>
             <label class="sbs"><input type="radio" name="audience" value="yes">Yes</label>
             <label class="sbs"><input type="radio" name="audience" value="maybe">Maybe</label>

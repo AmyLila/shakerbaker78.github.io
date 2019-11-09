@@ -34,32 +34,19 @@
    </nav>
    <main>
       <section class="h2h3">
-        <h2 class="h2h3">Weather Gallery</h2>
+        <h2 class="h2h3">Report Weather</h2>
+        <p>Experiencing Unusual Weather? We'd love to hear about it; Report a storm or unusual weather event in your travel area here.</p>
       </section>
-      <!-- full name using input of type text and is required and only accepts alpha characters with a minimum of five characters using a regular expression pattern
-email using input of type email and use a placeholder to provide a demo email
-phone number using input of type tel and is required
-zip code using input of type number and is required
-storm date using input of type date
-storm type using input with a list attribute referencing a datalist of suggestions that include "Flash Flood," "Hail," "Hurricane," "Thunderstorm," and "Tornado."
-storm severity using type range (1 to 10) with a corresponding label that indicates the current range value from 1 to 10.
-Hint: See the Pen HTML Form example objects (Links to an external site.)
-storm region using select with drop-down options of "Preston", "Soda Springs", and "Fish Haven".
-Add a first option with the text "Select Region ..." that is shown by default but not selectable (disabled).
-The rest of the options should have relevant value attributes.
-user in-danger level using input of type radio with options and values of "yes," "maybe," and "no."
-additional information or comments using a textarea
-form submission button using input of type submit -->
 <form method="GET" action="thanks.html">
-    <fieldset>
-        <legend>Informant Information</legend>
+    <div>
+        <legend class="white">Your Information</legend>
         <label class="top">Full Name*<input type="text" id="name" name="fullName" pattern="[A-Z a-z]{5,}" required></label> 
         <label class="top">Email<input type="email" name="email" placeholder="stormwatcher@gmail.com"></label>
         <label class="top">Phone Number*<input type="tel" name="phone" placeholder="2085551234" required></label> 
         <label class="top">Zip Code<input type="number" name="zip" pattern="[0-9]{5,}" required> </label> 
-      </fieldset>
-      <fieldset>  
-          <legend>Storm Information</legend>   
+      </div>
+      <div>  
+          <legend class="white">Storm Information</legend>   
         <label class="top">Storm Date<input type="date" name="stormDate">  </label>
         <label class="top">Storm Type <input list="stormType" id="storm" name="storm">
           <datalist id="stormType">
@@ -75,19 +62,19 @@ form submission button using input of type submit -->
           <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
           <span id="ratingvalue">5</span>
         </label>
-      <datalist id="tickmarks">
-        <option value="0">
-        <option value="1">
-        <option value="2">
-        <option value="3">
-        <option value="4">
-        <option value="5">
-        <option value="6">
-        <option value="7">
-        <option value="8">
-        <option value="9">
-        <option value="10">
-      </datalist>
+          <datalist id="tickmarks">
+            <option value="0">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+          </datalist>
         <label class="top">Storm Region
             <select name="region"> , , and .
                 <option value="">Select Region ... &#9662;</option>
@@ -96,15 +83,15 @@ form submission button using input of type submit -->
                 <option value="fishHaven">Fish Haven</option>
             </select>
         </label>
-        <div>User In Danger</div>
+        <div class="dk">User In Danger</div>
         <label class="sbs"><input type="radio" name="audience" value="yes">Yes</label>
         <label class="sbs"><input type="radio" name="audience" value="maybe">Maybe</label>
         <label class="sbs"><input type="radio" name="audience" value="no">No</label>
-    </fieldset>
-    <fieldset>
+    </div>
+    <div class="dk">
         <legend>Additional Comments</legend>
-        <label class="top">Enter any additional information here <textarea class="textarea" id="comments" name="comments" placeholder="Type your comments here..." wrap="hard"></textarea></label>
-    </fieldset>
+        <label class="dk">Enter any additional information here <textarea class="textarea" id="comments" name="comments" placeholder="Type your comments here..." wrap="hard"></textarea></label>
+    </div>
     <input type="submit" value="Report A Storm" class="submitbutton">
   </form>
     </main>

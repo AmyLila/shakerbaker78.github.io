@@ -43,7 +43,7 @@
           <label class="top">Full Name*<input type="text" id="name" name="fullName" pattern="[A-Z a-z]{5,}" required></label> 
           <label class="top">Email<input type="email" name="email" placeholder="stormwatcher@gmail.com"></label>
           <label class="top">Phone Number*<input type="tel" name="phone" placeholder="2085551234" required></label> 
-          <label class="top">Zip Code*<input type="number" name="zip" pattern="[0-9]{5,}" required> </label> 
+          <label class="top">Zip Code*<input type="number" name="zip" required> </label> 
       </div>
       <div class="griditem">    
         <label class="top">Storm Date<input type="date" name="stormDate">  </label>
@@ -54,10 +54,10 @@
                 <option value="Hurricane">Hurricane</option>
                 <option value="Thunderstorm">Thunderstorm</option>
                 <option value="Tornado">Tornado</option>
-            </select>
-             </label>
+            </datalist>
+        </label>
         <label class="top">Storm Region
-            <select name="region"> , , and .
+            <select name="region">
                 <option value="">Select Region ... &#9662;</option>
                 <option value="Preston">Preston</option>
                 <option value="sodaSprings">Soda Springs</option>
@@ -87,10 +87,9 @@
             <label class="sbs"><input type="radio" name="audience" value="yes">Yes</label>
             <label class="sbs"><input type="radio" name="audience" value="maybe">Maybe</label>
             <label class="sbs"><input type="radio" name="audience" value="no">No</label>
-        </div>
-      </div>    
+        </div>  
     <div class="dk griditem">
-        <label class="dk">Enter any additional information here <textarea class="textarea" id="comments" name="comments" placeholder="Type your comments here..." wrap="hard"></textarea></label>
+        <label class="dk">Enter any additional information here <textarea class="textarea" id="comments" name="comments" placeholder="Type your comments here..." cols="50" wrap="hard"></textarea></label>
     </div>
     <input type="submit" value="Report A Storm" class="submitbutton">
   </form>

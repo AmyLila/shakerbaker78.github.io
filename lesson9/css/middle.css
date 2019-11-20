@@ -1,0 +1,54 @@
+@media (min-width: 32.5em){
+  header img {
+    max-width: 150px;
+    padding-left:.5em;
+    margin-left: 1.5em; 
+} 
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+nav button {display:none;}
+.hide{
+  display: flex;
+}
+nav ul li { flex: 1 1 100%; }
+nav ul li a {border:none;}
+
+.h2h3,form{
+  width:80%;
+  margin:auto;
+}
+form {
+  display: grid;
+  grid-template-columns:1fr;
+  justify-items:center;
+}
+.griditem{
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+form input.submitbutton, .griditem {
+  grid-column: span 1;
+  
+}
+
+form label.top, form label.top input, form label.top select, #comments, .danger {
+  flex:1;
+  width:100%;
+  font-size: 1rem;
+  padding:.5rem;
+  margin:auto;
+  max-width:100%;
+}
+form label.sbs{
+  flex:1;
+  width:100%;
+  margin:.3rem auto;
+} 
+
+
+}
+

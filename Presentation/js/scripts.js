@@ -1,23 +1,31 @@
 $(function () {
-    // Fade out element over 2000ms
-    $(".red-box").fadeOut(2000);
+
+    var galleryImage = $(".turkey").find("img").first();
   
-    // Fade back in over 1000ms
-    $(".red-box").fadeIn(1000);
+    var images = [
+      "images/turkey-01.png",
+      "images/turkey-02.png",
+      "images/turkey-03.png",
+      "images/turkey-04.png",
+      "images/turkey-05.png",
+      
+    ];
+
+    var i = 0;
   
-    // Fade element to specific opacity (here 50%)
-    $(".blue-box").fadeTo(1000, 0.5);
+    setInterval(function() {
+
+      i = (i + 1) % images.length; 
+ 
+      galleryImage.fadeOut(function() {
+        $(this).attr("src", images[i],);
+        $(this).fadeIn();
+      });
   
-    // Note that the blue box animation starts right away, whereas the second
-    // red box animation waits until the first animation finished.
-    // This is because each element has its own animation queue which is
-    // executed one after the other. So while the red box is still "busy" with
-    // its first animation, the second animation waits in the queue.
+      console.log(galleryImage.attr("src"));
   
-    // Fade element in or out, depending on current status
-    $(".blue-box").fadeToggle();
-    $(".blue-box").fadeToggle();
+    }, 2000);
+
   
-    // Notice that fadeToggle fades back to the blue box's previous opacity,
-    // thus only back to 50% opacity.
+  
   });

@@ -26,6 +26,8 @@ $(function () {
   
     }, 2000);
 
-  
+    $("h2").animate({
+        fontSize:"4rem"
+    }, 5000);
   
   });

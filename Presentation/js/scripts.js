@@ -1,4 +1,5 @@
 $(function () {
+    var thanksText = $(".thanks");
 
     var galleryImage = $(".turkey").find("img").first();
   
@@ -26,8 +27,12 @@ $(function () {
   
     }, 2000);
 
+    console.log(thanksText.css("color"));
+    thanksText.css("color", "#FAAF04")
+
     $("h2").animate({
         fontSize:"4rem"
     }, 5000);
+
   
   });

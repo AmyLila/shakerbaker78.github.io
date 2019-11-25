@@ -22,9 +22,7 @@ $(function () {
         $(this).attr("src", images[i],);
         $(this).fadeIn();
       });
-  
       console.log(galleryImage.attr("src"));
-  
     }, 2000);
 
     console.log(thanksText.css("color"));

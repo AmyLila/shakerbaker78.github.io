@@ -15,40 +15,29 @@ nav button {display:none;}
 nav ul li { flex: 1 1 100%; }
 nav ul li a {border:none;}
 
-.h2h3,form{
+.h2h3{
   width:80%;
   margin:auto;
 }
-form {
+.towns{
+  width:100%;
+}
+.town-data {
+  width:90%;
+  margin:0 auto;
   display: grid;
-  grid-template-columns:1fr;
+  grid-template-columns:1fr 1fr 1fr;
   justify-items:center;
 }
-.griditem{
+.town-data section{
   display:flex;
   flex-direction: column;
   justify-content:space-around;
 }
-
-form input.submitbutton, .griditem {
-  grid-column: span 1;
-  
+img{
+  width: 90%;
+  text-align: center;
 }
-
-form label.top, form label.top input, form label.top select, #comments, .danger {
-  flex:1;
-  width:100%;
-  font-size: 1rem;
-  padding:.5rem;
-  margin:auto;
-  max-width:100%;
-}
-form label.sbs{
-  flex:1;
-  width:100%;
-  margin:.3rem auto;
-} 
-
 
 }
 

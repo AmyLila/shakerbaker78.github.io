@@ -36,7 +36,7 @@ fetch(requestURL)
             card.appendChild(pop);
 
             let rainFall = document.createElement('p');
-            rainFall.textContent = "Annual Rain Fall: " +  towns[i].currentPopulation;
+            rainFall.textContent = "Annual Rain Fall: " +  towns[i].averageRainfall;
             card.appendChild(rainFall);
 
             let image = document.createElement('img');

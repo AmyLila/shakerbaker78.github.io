@@ -25,3 +25,30 @@ function toggleMenu (){
     console.log(document.getElementById("primaryNav").classList);
     document.getElementById("primaryNav").classList.toggle("hide");
 }    
+
+//jQuery Slider
+$(function () {
+
+    var galleryImage = $(".heroContainer").find("img").first();
+  
+    var images = [
+      "fish-haven-hero.jpg",
+      "sodahero.jpg"
+      
+    ];
+
+    var i = 0;
+  
+    setInterval(function() {
+
+      i = (i + 1) % images.length; 
+ 
+      galleryImage.fadeOut(function() {
+        $(this).attr("src", images[i],);
+        $(this).fadeIn();
+      });
+      console.log(galleryImage.attr("src"));
+    }, 2000);
+
+   
+  });

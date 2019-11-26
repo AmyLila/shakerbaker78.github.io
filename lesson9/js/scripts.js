@@ -32,8 +32,8 @@ $(function () {
     var galleryImage = $(".heroContainer").find("img").first();
   
     var images = [
-      "fish-haven-hero.jpg",
-      "sodahero.jpg"
+      "images/fish-haven-hero.jpg",
+      "images/sodahero.jpg"
       
     ];
 
@@ -48,7 +48,7 @@ $(function () {
         $(this).fadeIn();
       });
       console.log(galleryImage.attr("src"));
-    }, 2000);
+    }, 4000);
 
    
   });

@@ -121,6 +121,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273c49', end
   text-align: center;
   color: white;
 }
+.heroContainer{
+  display: none;
+}
 h2{
   font-weight: 600;
   text-align: center;
@@ -142,19 +145,20 @@ h4{
 .towns{
   width:100%;
 }
-.towns section{
-  background-color: rgba(0, 0, 0, 0.3);
-  margin: .5rem;
-  padding: 1rem;
-  border-radius: 5px;
-  border: solid 3px rgba(0, 0, 0, 0.5)
-}
+
 .town-data {
   width:100%;
   margin:0 auto;
   display: grid;
   grid-template-columns:1fr;
   justify-items:center;
+}
+.towns section{
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: .5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: solid 3px rgba(0, 0, 0, 0.5)
 }
 .town-data section{
   width:90%;

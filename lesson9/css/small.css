@@ -123,34 +123,53 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273c49', end
 }
 h2{
   font-weight: 600;
+  text-align: center;
+  padding:0 0 .5rem 0;
+}
+h3{
+  font-weight: 600;
+  text-align: center;
+  padding:0 0 .5rem 0;
+  font-size: 1.7rem;
+}
+h4{
+  font-weight: 600;
+  text-align: center;
+  padding:0 0 .5rem 0;
+  font-size: 1.3rem;
 }
 
-.white{
-  color:white;
-}
-.dk, .textarea{
-  color:#273C49;
-}
 .towns{
   width:100%;
 }
+.towns section{
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: .5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: solid 3px rgba(0, 0, 0, 0.5)
+}
 .town-data {
-  width:90%;
+  width:100%;
   margin:0 auto;
   display: grid;
-  grid-template-columns:1fr 1fr 1fr;
+  grid-template-columns:1fr;
   justify-items:center;
 }
 .town-data section{
+  width:90%;
   display:flex;
   flex-direction: column;
   justify-content:space-around;
 }
+.town-data section p {
+  text-align: center;
+}
 img{
-  width: 90%;
+  width: 100%;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 5px 10px 10px #273C49;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
 }
 .logo{
   box-shadow: none;
@@ -160,7 +179,7 @@ p {
   font-size: 1rem;
   line-height: 1.5rem;
   font-family: 'Open Sans', sans-serif;
-  padding: 1rem;
+  padding: 0 0 0.5rem 0;
   margin:0;
 }
 

@@ -30,7 +30,9 @@ h2 {
 }
 .town-data {
   width:90%;
-  grid-template-columns:1fr 1fr 1fr;
+  flex-direction:row;
+  justify-content:space-around;
+}
 }
 
 .town-data section{

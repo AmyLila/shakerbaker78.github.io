@@ -5,5 +5,14 @@
   h1 {
     font-size: 2.5rem;
   }
- 
+  .town-data {
+    width:90%;
+    grid-template-columns:1fr 1fr 1fr;
+  }
+  
+  .town-data section{
+    width:80%;
+  
+  
+  }
 }

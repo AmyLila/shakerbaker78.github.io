@@ -1,0 +1,218 @@
+.show {
+  color: #273C49;
+  font-size: 1rem;
+  background: rgb(205,229,126);
+  background: -webkit-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
+  background: radial-gradient(ellipse at center,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 );
+  text-align: center;
+  display:block;
+}
+.hidepancake{
+  visibility: hidden;
+  display: none;
+}
+
+header, footer {
+  text-align: center;
+  background-color: #273C49;
+  color: white;
+  margin: 0 auto;
+  display:flex; 
+  flex-direction: row;
+  align-items:center; 
+  justify-content:center;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0.4rem;
+  font-family: 'Arvo', serif;
+}
+h1, h2, h3, h4, h5 {
+  color: white;
+  font-family: 'Arvo', serif;
+  padding: 1rem;
+  margin:0;
+}
+.headings {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ltheader {
+  color: white;
+  text-align: center;
+  border: none;
+  font-style: italic;
+  letter-spacing: 1pt;
+  font-size: .9rem;
+  padding-bottom: 1rem;
+}
+header img {
+    max-width: 100px;
+  
+} 
+nav {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b9cfa7+6,a2b290+100 */
+  background: rgb(185,207,167); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(185,207,167,1) 6%, rgba(162,178,144,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(185,207,167,1) 6%,rgba(162,178,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(185,207,167,1) 6%,rgba(162,178,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9cfa7', endColorstr='#a2b290',GradientType=0 ); /* IE6-9 */
+
+	/*background-color: #B9CFA7;*/
+	text-align: center;
+  /*box-shadow: 0 2px 15px gray;*/
+}
+nav button {
+  margin: .2rem 2%;
+  background-color: transparent;
+  border: none;
+  color: #273C49;
+  font-size: 1.6rem;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.hide {
+  display: none;
+}
+nav li a {
+	display: block;
+	color: #273C49;
+	text-align: center;
+	padding: 0.9rem 2%;
+	text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+nav ul li a:hover {
+	background-color: #426F68;
+	color: white;
+}
+nav ul li .active {
+	color:#6D1A36;
+}
+main, footer  {
+  max-width: 1080px; 
+  margin: 0 auto; 
+}
+.h2h3 {
+  text-align: center;
+  font-weight: 600;
+  color: #273C49
+}
+.prestontop {
+  position: relative;
+  text-align: center;
+  color: #273C49;
+}
+#herocontainer {
+  overflow: hidden;
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: 100px;   
+}
+.hero{
+  grid-column:span 5; grid-row:span 3; z-index: -1;
+  margin:0;
+}
+.hero img{
+  height: 100%;
+  }
+.weathersum {
+  position: absolute;
+  background: rgba(250, 248, 248, 0.75);
+  border-radius: 10px ;
+  grid-column:span 3; grid-row:span 3; z-index: 1;
+  margin:1rem;
+ 
+}
+.dk {color:#273C49;}
+.summary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:0.5rem 1rem;
+  list-style:none;
+  padding: .5rem;
+  margin: 0 0 1rem 0;
+  line-height: 1.5rem;
+}
+.weatherleft {
+  text-align: end;
+}
+.weatherright{
+  text-align: start;
+  margin-left: 1rem;
+}
+#fiveday{
+  display:none;
+}
+#fiveday img{
+  width:50%;
+}
+.forecasthead {
+  text-align: center;
+  color:white;
+}
+.prestonmid {
+  background-color: #273C49;
+  display: flex;
+  flex-direction:column-reverse;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.pumpkin {
+  overflow: hidden;
+}
+
+#middlesectionpic {
+  max-width: 100%;
+}
+#presart, #contact{
+  margin-left: 1rem;
+}
+.contactgrid{
+  background-color: #426F68;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.griditem1 {
+  display: none;
+}
+.griditem2, .griditem3, .griditem4 {
+  display:block;
+  width: 100%;
+}
+.social{
+  padding:1rem;
+  margin:0;
+}
+.social li {
+  display:inline-block;
+}
+.social li a {
+  color: white;
+  padding:.2rem;
+} 
+p {
+  color:white;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
+  padding: 1rem;
+  margin:0;
+}
+
+

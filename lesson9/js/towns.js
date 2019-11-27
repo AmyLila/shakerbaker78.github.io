@@ -17,32 +17,46 @@ fetch(requestURL)
           
             let card = document.createElement('section');
             let townInfo = document.createElement('div');
-            let townPicture = document.createElement('div');
-            
             let name = document.createElement('h3');
-            name.textContent = towns[i].name;
-            card.appendChild(name);
-
             let motto = document.createElement('h4');
-            motto.textContent = towns[i].motto;
-            card.appendChild(motto);
-
             let founded = document.createElement('p');
-            founded.textContent = "Year Founded: " + towns[i].yearFounded;
-            card.appendChild(founded);
-
             let pop = document.createElement('p');
-            pop.textContent = "Population: " +  towns[i].currentPopulation;
-            card.appendChild(pop);
-
             let rainFall = document.createElement('p');
-            rainFall.textContent = "Annual Rain Fall: " +  towns[i].averageRainfall;
-            card.appendChild(rainFall);
-
+            let townPicture = document.createElement('div');
             let image = document.createElement('img');
+            
+            
+            
+            // townInfo.className = "town";
+
+            name.textContent = towns[i].name;
+            townInfo.appendChild(name);
+
+            
+            motto.textContent = towns[i].motto;
+            townInfo.appendChild(motto);
+
+            
+            founded.textContent = "Year Founded: " + towns[i].yearFounded;
+            townInfo.appendChild(founded);
+
+            
+            pop.textContent = "Population: " +  towns[i].currentPopulation;
+            townInfo.appendChild(pop);
+
+            
+            rainFall.textContent = "Annual Rain Fall: " +  towns[i].averageRainfall;
+            townInfo.appendChild(rainFall);
+
+            // townPicture.className = "pic";
+            
+            
             image.setAttribute('src', "images/" + towns[i].photo);
             image.setAttribute('alt', 'picture of ' + towns[i].name + ', Idaho');
-            card.appendChild(image);
+            townPicture.appendChild(image);
+
+            card.appendChild(townInfo);
+            card.appendChild(townPicture);
            
             document.querySelector('div.town-data').appendChild(card);
         }

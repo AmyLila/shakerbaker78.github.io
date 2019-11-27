@@ -28,17 +28,17 @@ h2 {
   text-align: center;
   padding: .5rem 0;
 }
-.town-data {
-  width:90%;
-  flex-direction:row;
-  justify-content:space-around;
-}
-}
 
 .town-data section{
-  width:80%;
-
-
+  width:90%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-content: center;
+}
+.town-data section:nth-child(even) {
+  flex-direction:row-reverse;
+ 
 }
 
 }

@@ -12,7 +12,12 @@
   
   .town-data section{
     width:80%;
+      flex-direction: column;
+    }
   
-  
-  }
+    .town-data section:nth-child(even) {
+      flex-direction:column;
+     
+    }
+
 }

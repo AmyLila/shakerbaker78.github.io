@@ -19,5 +19,6 @@
       flex-direction:column;
      
     }
-
+    .weatherStory {
+      width:87%;}
 }

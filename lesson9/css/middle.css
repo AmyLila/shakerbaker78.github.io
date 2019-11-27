@@ -21,6 +21,7 @@ nav ul li a {border:none;}
 }
 
 .h2h3{
+  
   width:80%;
   margin:auto;
 }
@@ -47,7 +48,7 @@ h2 {
 
  /* Article CSS */
 .weatherStory {
-  width:87%;
+  width:94%;
   position: relative;
   margin:1rem auto;
   display: grid;

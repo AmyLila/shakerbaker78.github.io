@@ -195,3 +195,15 @@ p {
 .weatherText{
   margin:1rem auto .2rem auto;
 }
+
+.wireframes{
+  width:80%;
+  display:grid;
+  grid-template-columns: 1fr, 1fr, 1fr;
+  margin:auto;
+}
+.wireframehome{
+  grid-column: span 3;
+  margin:1rem auto;
+  
+}

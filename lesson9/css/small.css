@@ -176,6 +176,9 @@ img{
   border-radius: 5px;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
 }
+.motto{
+  font-style: italic; 
+}
 .logo{
   box-shadow: none;
 }

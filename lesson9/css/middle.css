@@ -17,6 +17,7 @@ nav ul li a {border:none;}
 
 .heroContainer{
   display: block;
+  margin: 1rem auto;
 }
 
 .h2h3{

@@ -34,6 +34,7 @@ fetch(requestURL)
 
             
             motto.textContent = towns[i].motto;
+            motto.className = "motto";
             townInfo.appendChild(motto);
 
             

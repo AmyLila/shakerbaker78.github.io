@@ -190,4 +190,6 @@ p {
   padding: 0 0 0.5rem 0;
   margin:.5rem;
 }
-
+.weatherText{
+  margin:1rem auto .2rem auto;
+}

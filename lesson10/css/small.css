@@ -216,3 +216,6 @@ p {
 }
 
 
+.test p, .test h2{
+  color:black;
+}

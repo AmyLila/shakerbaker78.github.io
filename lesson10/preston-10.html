@@ -41,13 +41,11 @@
           <h3 class="dk">Weather Summary</h3>
           <ul class="summary">
             <li class="weatherleft">Currently:</li>
-            <li class="weatherright">Windy</li>
+            <li class="weatherright"><span id="current">windy</span></li>
             <li class="weatherleft">Temperature:</li>
             <li class="weatherright"><span id="temp">18</span> &#8457;</li>
             <li class="weatherleft">Humidity:</li>
-            <li class="weatherright">20&percnt;</li>
-            <li class="weatherleft">Percipitation:</li>
-            <li class="weatherright">.5&QUOT;</li>
+            <li class="weatherright"><span id="humid">20</span>&percnt;</li>
             <li class="weatherleft">Wind Speed:</li>
             <li class="weatherright"><span id="windspeed">35</span> MPH</li>
             <li class="weatherleft">Wind Chill:</li>
@@ -144,11 +142,11 @@
     <footer>
       <div>
         <p class="footertext"> &copy; <span id="year"> </span> | East Idaho Weather | Amy Baker<br>
-        <span id="lastModified"> </span> </p>
+        <span id="lastModified"> </span><br><a href="https://openweathermap.org" target="blank">Weather Information provided by OpenWeatherMap</a></p>
       </div>
     </footer>
+    <script src="js/weatherapi.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/webfonts.js"></script>
-    <script src="js/windchill.js"></script>
   </body>
 </html>

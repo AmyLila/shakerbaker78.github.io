@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Amy Baker CIT 230 | Preston Idaho </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Preston Idaho Community Page for Amy Baker in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/middle.css">
+      <link rel="stylesheet" href="css/large.css">
+    <script src="js/scripts.js"></script>
+    <!--<link href="https://fonts.googleapis.com/css?family=Arvo%7COpen+Sans:300&display=swap" rel="stylesheet">-->
+  </head> 
+  <body onload="loadDate()">
+    <h1 id="pancake">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h1>
+    <header>
+      <picture><img class="logo" src="images/whitelogo-02.png" alt="East Idaho Weather Logo"></picture>
+      <section class="headings">
+          <h1>East Idaho Weather</h1>
+          <div class="ltheader">helping you prepare for adventure in all weather</div>
+      </section> 
+   </header>
+   <nav>
+     <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="https://shakerbaker78.github.io./lesson9/index.html">Home</a></li>
+        <li><a href="https://shakerbaker78.github.io./lesson10/preston-10.html" class="active">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="https://shakerbaker78.github.io./lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="https://shakerbaker78.github.io./lesson7/gallery-7.html">Gallery</a></li>
+      </ul>
+  </nav>
+   <main>
+      <section class="h2h3">
+        <h2 class="h2h3">Preston Idaho</h2>
+      </section>
+      <section class="prestontop">
+        <div class="weathersum">
+          <h3 class="dk">Weather Summary</h3>
+          <ul class="summary">
+            <li class="weatherleft">Currently:</li>
+            <li class="weatherright"><span id="current">windy</span></li>
+            <li class="weatherleft">Temperature:</li>
+            <li class="weatherright"><span id="temp">18</span> &#8457;</li>
+            <li class="weatherleft">Humidity:</li>
+            <li class="weatherright"><span id="humid">20</span>&percnt;</li>
+            <li class="weatherleft">Wind Speed:</li>
+            <li class="weatherright"><span id="windspeed">35</span> MPH</li>
+            <li class="weatherleft">Wind Chill:</li>
+            <li class="weatherright" id='windchill'></li>
+          </ul> 
+        </div>  
+        <div id="herocontainer">
+            <figure class="hero">
+                <img src="images/prestonheromed.jpg" alt="Franklin" sizes="100vw"
+                     srcset="images/prestonherosmall.jpg 400w,
+                     images/prestonheromed.jpg 800w,
+                     images/prestonherolarge.jpg 1088w">
+            </figure>
+        </div>   
+      </section>
+      <section id="fiveday">
+          <h3 class="forecasthead">Five Day Forcast</h3>
+          <ol class="days">
+              <li id="dayone">
+                  <h4 class="lt">Monday</h4>
+                  <img class="weathericon" src="images/sunicon.png" alt="sun icon">
+                  <p class="lt">68 &#8457; <br>Sunny</p>
+              </li>
+            <li id="daytwo">
+                <h4 class="lt">Tuesday</h4>
+                <img class="weathericon" src="images/sunicon.png" alt="sun icon">
+                <p class="lt">68 &#8457; <br>Sunny</p>
+            </li>
+            <li id="daythree">
+                <h4 class="lt">Wednesday</h4>
+                <img class="weathericon" src="images/sunicon.png" alt="sun icon">
+                <p class="lt">68 &#8457; <br>Sunny</p>
+            </li>
+            <li id="dayfour">
+                <h4 class="lt">Thursday</h4>
+                <img class="weathericon" src="images/sunicon.png" alt="sun icon">
+                <p class="lt">68 &#8457; <br>Sunny</p>
+            </li>
+            <li id="dayfive">
+                <h4 class="lt">Friday</h4>
+                <img class="weathericon" src="images/sunicon.png" alt="sun icon">
+                <p class="lt">68 &#8457; <br>Sunny</p>
+            </li>
+          </ol>
+      </section>
+      <section class="prestonmid">
+          <div class = "pumpkin"> 
+              <img id="middlesectionpic" src="images/pumpkin.jpg" alt="picture of pumpkins">
+          </div>
+        <div  id="presart">
+          <h3>It's Such a Good Feeling</h3>
+          <h4>Fred Rogers</h4>
+          <p>It's such a good feeling
+            To know you're alive.
+            It's such a happy feeling:
+            You're growing inside.
+            And when you wake up ready to say,
+            "I think I'll make a snappy new day."
+            It's such a good feeling,
+            A very good feeling,
+            The feeling you know
+            You're alive.
+            </p>
+            <p>
+              It's such a good feeling
+              To know you're in tune.
+              It's such a happy feeling
+              To find you're in bloom.
+              And when you wake up ready to say
+              "I think I'll make a snappy new day,"
+              It's such a good feeling,
+              A very good feeling,
+              The feeling you know that we're friends.</p>
+          </div>    
+      </section>
+      <section class="contactgrid">
+        <picture class="griditem1" id="map"><img src="images/map.jpg" alt="picture of map"></picture>
+        <div class="griditem2">
+          <h2>Contact Information</h2></div>
+        <div class="griditem3">
+          <h3>East Idaho Weather</h3>
+          <p>999 Center St <br> Pocatello, ID 83202</p>
+          <ul class="social">
+            <li><a href="https://www.facebook.com" target="_blank">
+                <img src="images/social/facebook-light.png" alt="FaceBook Logo"></a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">
+                <img src="images/social/linkedin-light.png" alt="linkedIn Logo"></a></li>
+            <li><a href="https://twitter.com" target="_blank">
+                <img src="images/social/twitter-light.png" alt="twitter Logo"></a></li>
+          </ul>  
+      </div>  
+      </section>
+    </main>
+    <footer>
+      <div>
+        <p class="footertext"> &copy; <span id="year"> </span> | East Idaho Weather | Amy Baker<br>
+        <span id="lastModified"> </span><br><a href="https://openweathermap.org" target="blank">Weather Information provided by OpenWeatherMap</a></p>
+      </div>
+    </footer>
+    <script src="js/weatherapi.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+  </body>
+</html>

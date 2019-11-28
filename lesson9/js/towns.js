@@ -28,7 +28,6 @@ fetch(requestURL)
             
             
             townInfo.className = "town";
-
             name.textContent = towns[i].name;
             townInfo.appendChild(name);
 

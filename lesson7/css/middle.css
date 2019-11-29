@@ -15,7 +15,7 @@ nav button {display:none;}
 nav ul li { flex: 1 1 100%; }
 nav ul li a {border:none;}
 
-.grid-container {
+.gallery-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: dense;

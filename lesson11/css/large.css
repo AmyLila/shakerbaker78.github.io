@@ -12,48 +12,47 @@
 }
 
 /* Image Gallery */
-body figure {
-  overflow:hidden;
-  box-shadow: 5px 10px 10px 10px #273C49;
+.gallery-grid-container figure {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
 }
-.grid-container {
+.gallery-grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.griditem1{
+.gallery-griditem1{
   grid-row: span 2;
   grid-column: span 1;
 }
-.griditem2{
+.gallery-griditem2{
   grid-column: span 1;
   grid-row: span 1;
 }
-.griditem3{
+.gallery-griditem3{
   grid-column: span 1;
   grid-row: span 2;
 }
-.griditem4{
+.gallery-griditem4{
   grid-column: span 1;
   grid-row: span 1;
 }
-.griditem5{
+.gallery-griditem5{
   grid-row: span 2;
   grid-column: span 1;
 }
-.griditem6{
+.gallery-griditem6{
   grid-row: span 2;
   grid-column: span 1;
 }
-.griditem7{
+.gallery-griditem7{
   grid-row: span 2;
   grid-column: 1;
 }
-.griditem8{
+.gallery-griditem8{
   grid-row: span 2;
   grid-column: span 1;
 
 }
-.griditem9{
+.gallery-griditem9{
   grid-row: span 1;
   grid-column: span 1;
 }

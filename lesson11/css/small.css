@@ -108,6 +108,9 @@ main, footer  {
   font-weight: 600;
   color: #273C49
 }
+.h2h3 h2{
+  padding:1rem 0 0 0;
+}
 .prestontop {
   position: relative;
   text-align: center;
@@ -306,7 +309,7 @@ form label.top input:required:valid{
   box-shadow: none;
   max-width:300px;
 }
-
+/* end thanks page */
 p , footer a{
   color:white;
   font-size: 1rem;
@@ -327,22 +330,31 @@ footer a:hover {
 }
 
 /* Image Gallery */
-body figure:hover {
+
+.gallery-grid-container figure {
   overflow:hidden;
-  box-shadow: 5px 10px 10px 10px #273C49;
+  border-radius: 5px;
+  margin:1.5rem;
 }
-figcaption{
+.gallery-grid-container figure:hover {
+  /* overflow:hidden; */
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
+}
+
+.gallery-grid-container figcaption{
   padding:1rem;
+  text-align: center;
 }
-body img[data-src] {
+.gallery-grid-container img[data-src] {
   filter: blur(0.5em);
 }
-body img {
+.gallery-grid-container img {
   display: block;
   filter: blur(0em);
   transition: filter .5s;
   overflow: hidden;
   width:100%;
+  box-shadow: none;
 }
 
 /* main */
@@ -412,7 +424,7 @@ h4{
 .town-data section p {
   text-align: center;
 }
-img{
+.homeMain img{
   width: 100%;
   text-align: center;
   border-radius: 5px;

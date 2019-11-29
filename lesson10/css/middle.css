@@ -92,7 +92,6 @@ nav ul li a {border:none;}
   .griditem1 {
   display: block;
   margin: 2rem 0 2rem 2rem;
-  grid-row: span 2;
 }
 .griditem1 img {
   width:80%;
@@ -100,7 +99,7 @@ nav ul li a {border:none;}
   overflow:hidden;
   box-shadow: 5px 10px 10px 10px #273C49;
 }
-.griditem2, .griditem3 {
+.griditem2 {
   grid-column: span 1;
   padding:0;
   

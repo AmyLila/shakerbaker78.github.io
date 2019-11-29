@@ -302,6 +302,10 @@ form label.top input:required:valid{
   justify-content:center;
   padding:20% 1rem;
 }
+.thanks img{
+  box-shadow: none;
+  max-width:300px;
+}
 
 p , footer a{
   color:white;

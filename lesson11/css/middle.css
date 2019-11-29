@@ -178,6 +178,10 @@ form label.sbs{
 
 
 /* main */
+.homeHeroContainer{
+  display: block;
+  margin: 1rem auto;
+}
 .town-data section{
   width:90%;
   display:flex;

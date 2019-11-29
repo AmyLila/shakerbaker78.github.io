@@ -3,7 +3,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-    console.log(jsObject);
+    // console.log(jsObject);
 
     document.getElementById("current").textContent = jsObject.weather[0].description;
     document.getElementById("temp").textContent = jsObject.main.temp;
@@ -17,7 +17,7 @@ fetch(apiURL)
         var tempF = jsObject.main.temp;
         var speed = jsObject.wind.speed;
         
-        console.log(tempF, speed);
+        // console.log(tempF, speed);
         var F = windChill(tempF, speed);
         if (tempF <= 50 && speed>=3.0){
             document.getElementById('windchill').innerHTML = F.toFixed(1) + "&#8457;";
@@ -41,16 +41,14 @@ fetch(apiURL)
  fetch(forcastURL)
      .then((response) => response.json())
      .then((jsObject) => {
-     console.log(jsObject);
+    //  console.log(jsObject);
 
 
      let day = 0;
   for (let i = 0; i < jsObject.list.length; i++) {
 
     if (jsObject.list[i].dt_txt.includes('18:00:00')) {
-      console.log(jsObject.list[i].dt_txt);
-      console.log(jsObject.list[i].main.temp.toFixed(0));
-      console.log(jsObject.list[i].weather[0].icon);
+      
 
       const li = document.createElement('li');
       li.className = "dayone";
@@ -59,7 +57,7 @@ fetch(apiURL)
       let dayShort= new Date(jsObject.list[i].dt_txt);
       let weekDay = {weekday: 'short'};
       let forecastDay = dayShort.toLocaleDateString('en-US', weekDay);
-      console.log(forecastDay);
+    //   console.log(forecastDay);
       
       const h4 = document.createElement("h4");
       h4.className = "dayShort";
@@ -68,7 +66,7 @@ fetch(apiURL)
 
 
       let imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
-      console.log(imagesrc);
+    //   console.log(imagesrc);
       
       const image = document.createElement("img");
       image.className ="weathericon";
@@ -78,7 +76,7 @@ fetch(apiURL)
 
 
       let forecastTemp= (jsObject.list[i].main.temp.toFixed(0));
-      console.log(forecastTemp);
+    //   console.log(forecastTemp);
       
       const h5 = document.createElement("h5");
       h5.textContent=forecastTemp+ ' °F';
@@ -86,7 +84,7 @@ fetch(apiURL)
 
 
       let desc = jsObject.list[i].weather[0].description;
-      console.log(desc);
+    //   console.log(desc);
 
       const h6 = document.createElement("h6");
       h6.textContent=desc;

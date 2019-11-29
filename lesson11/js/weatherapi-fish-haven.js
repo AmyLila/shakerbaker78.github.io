@@ -35,7 +35,7 @@ fetch(apiURL)
  
 });
 
- // Forcast
+ // Forcast Preston
 
  const forcastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e49b9555dc54df76f65cc2c7338a5181&units=imperial";
  fetch(forcastURL)

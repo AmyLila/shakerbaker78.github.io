@@ -95,7 +95,7 @@ nav ul li a {border:none;}
   grid-row: span 2;
 }
 .griditem1 img {
-  width:100%;
+  width:80%;
   border-radius: 30px;
   overflow:hidden;
   box-shadow: 5px 10px 10px 10px #273C49;

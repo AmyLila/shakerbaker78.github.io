@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Amy Baker CIT 230 | Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home page for Amy Baker in CIT 230: Web Frontend Development at Brigham Young University - Idaho">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/small.css">
+      <link rel="stylesheet" href="css/middle.css">
+      <link rel="stylesheet" href="css/large.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>  
+    <script src="js/scripts.js"></script>
+    <!--<link href="https://fonts.googleapis.com/css?family=Arvo%7COpen+Sans:300&display=swap" rel="stylesheet">-->
+  </head> 
+  <body onload="loadDate()">
+    <h1 id="pancake">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h1>
+    <header>
+      <picture><img class="logo" src="images/whitelogo-02.png" alt="East Idaho Weather Logo"></picture>
+      <section class="headings">
+          <h1>East Idaho Weather</h1>
+          <div class="ltheader">helping you prepare for adventure in all weather</div>
+      </section> 
+   </header>
+   <nav>
+      <button onclick="toggleMenu()">&#9776;</button>
+      <ul id="primaryNav" class="hide">
+         <li><a href="https://shakerbaker78.github.io./lesson9/index.html" class="active">Home</a></li>
+         <li><a href="https://shakerbaker78.github.io./lesson10/preston-10.html">Preston</a></li>
+         <li><a href="#">Soda Springs</a></li>
+         <li><a href="#">Fish Haven</a></li>
+         <li><a href="https://shakerbaker78.github.io./lesson8/stormcenter.html" >Storm Center</a></li>
+         <li><a href="https://shakerbaker78.github.io./lesson7/gallery-7.html">Gallery</a></li>
+       </ul>
+   </nav>
+   <main>
+      <section class="h2h3">
+        <h2 class="h2h3">Report Weather</h2>
+      </section>
+      <div class="heroContainer"><img src="images/prestonhero.jpg" alt="Picture of a barn with mountains behind it."></div>
+      <div class="towns">
+        <h2>Town Information</h2>
+        <div class="town-data"></div>
+      </div> 
+      <section class="weatherStory">
+          <div class="weatherText">
+            <h2>
+                Royality to visit Idaho this Thanksgiving
+            </h2>
+            <p>The Snow Queen is making an appearance this Thanksgiving, and you're in a front-row seat my darlings! She'll be coming round with a dusting of snow, perhaps a few inches if you do something nice for her. If you happen to hear the ringing of sleighbells or tinkling laughter whilst giving thanks around your table, take a look outside and you may be surprised to find someone looking back. But! If you don't get the chance to look into the queen's icy eyes, at least appreciate her delicate frost patterns and crisp snow scuffings. She may just give you an even better gift come Christmas. </p>
+          </div>
+          <img src="images/snow.jpg" alt="Picture of a barn with snowy mountains behind it." class="weatherPic">
+      </section> 
+
+    </main>
+    <footer>
+      <div>
+        <p class="footertext"> &copy; <span id="year"> </span> | East Idaho Weather | Amy Baker<br>
+        <span id="lastModified"> </span><br>Weather Information provided by OpenWeatherMap</p>
+      </div>
+    </footer>
+    <script src="js/towns.js" defer></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+  </body>
+</html>

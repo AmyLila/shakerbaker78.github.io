@@ -138,6 +138,9 @@ main, footer  {
   margin:1rem;
  
 }
+.lt{
+  color:white;
+}
 .dk {color:#273C49;}
 .summary {
   display: grid;

@@ -100,7 +100,7 @@ nav ul li a:hover {
 nav ul li .active {
 	color:#6D1A36;
 }
-main, footer  {
+main, footer {
   max-width: 1080px; 
   margin: 0 auto; 
 }
@@ -216,12 +216,27 @@ main, footer  {
 
 
 /* Form */
+.gradientMain{
+  max-width: 1080px; 
+  margin:auto;
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#273c49+0,426f68+51,b9cfa7+99 */
+background: rgb(39,60,73); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(39,60,73,1) 0%, rgba(66,111,104,1) 51%, rgba(185,207,167,1) 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(39,60,73,1) 0%,rgba(66,111,104,1) 51%,rgba(185,207,167,1) 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(39,60,73,1) 0%,rgba(66,111,104,1) 51%,rgba(185,207,167,1) 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#273c49', endColorstr='#b9cfa7',GradientType=0 ); /* IE6-9 */
+
+  /* background-color: #426F68; */
+  
+}
 
 form label.top , form div {
   display: block;
   padding-top: 1rem;
   color: white;
   font-size: .8rem;
+  margin:2%;
 }
 form label.top input, form label.top select, #comments {
   -webkit-appearance: none;
@@ -367,7 +382,7 @@ footer a:hover {
 
 /* main */
 
-.homeMain, .gradientMain{
+.homeMain{
   max-width: 100%;
   margin:auto;
   padding:1rem;

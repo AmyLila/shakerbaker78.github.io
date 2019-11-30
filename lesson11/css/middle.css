@@ -14,7 +14,8 @@ nav button {display:none;}
 }
 nav ul li { flex: 1 1 100%; }
 nav ul li a {border:none;
-line-height:1rem;}
+line-height:1rem;
+font-size:1.3rem;}
 
 #herocontainer {
   overflow: hidden;
@@ -109,8 +110,8 @@ line-height:1rem;}
 /* form */
 form {
   display: grid;
-  grid-template-columns:1fr;
-  justify-items:center;
+  grid-template-columns:1fr 40% 1fr;
+  align-items: flex-start;
 }
 .griditem{
   display:flex;
@@ -119,7 +120,8 @@ form {
 }
 
 form input.submitbutton, .griditem {
-  grid-column: span 1;
+  /* grid-column: span 1; */
+    grid-column: 2
   
 }
 

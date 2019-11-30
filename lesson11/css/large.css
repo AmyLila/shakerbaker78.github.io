@@ -5,6 +5,8 @@
   h1 {
     font-size: 2.5rem;
   }
+  nav ul li a {
+    line-height:1rem;}
 
   /* form */
   form label.sbs {

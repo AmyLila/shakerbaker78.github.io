@@ -36,9 +36,7 @@ $(function () {
   
     var images = [
       "images/fish-haven-large.jpg",
-      "images/sodahero.jpg"
-      
-    ];
+      "images/sodahero.jpg"];
 
     var i = 0;
   

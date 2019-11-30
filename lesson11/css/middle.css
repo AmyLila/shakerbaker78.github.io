@@ -30,7 +30,7 @@ nav ul li a {border:none;}
   }
 #fiveday{
   display: grid;
-  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  /* grid-template-rows: repeat(auto-fit, minmax(100px, 1fr)); */
   background-color: #426F68;
   align-items: center;
 }
@@ -67,7 +67,7 @@ nav ul li a {border:none;}
   display:inline-block;
 }
 .pumpkin {
-  max-width:50%;
+  max-width:40%;
   margin: 2%;
   float:right;
 }
@@ -97,7 +97,7 @@ nav ul li a {border:none;}
   width:80%;
   border-radius: 30px;
   overflow:hidden;
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7);
+  /* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.7); */
 }
 .griditem2 {
   grid-column: span 1;

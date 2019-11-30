@@ -33,23 +33,3 @@ imagesToLoad.forEach(image=>{
   imgObserver.observe(image);
 });
 
-
-// const loadImages = (image) => {
-//   image.setAttribute('src', image.getAttribute('data-src'));
-//   image.onload = () => {image.removeAttribute('data-src');};
-// };
-
-//   if('IntersectionObserver' in window) {
-//     const imgObserver = new IntersectionObserver((items, observer) => {
-//       items.forEach((item) => {
-//        });
-//     }, imageOptions);
-     
-//     imagesToLoad.forEach((img) => {
-//       imgObserver.observe(img);
-//     });
-//   } else {
-//     imagesToLoad.forEach((img) => {
-//       loadImages(img);
-//     });
-//   }

@@ -35,7 +35,7 @@ $(function () {
     var galleryImage = $(".homeHeroContainer").find("img").first();
   
     var images = [
-      "images/fish-haven-hero.jpg",
+      "images/fish-haven-large.jpg",
       "images/sodahero.jpg"
       
     ];

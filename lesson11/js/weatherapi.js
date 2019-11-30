@@ -101,3 +101,30 @@ fetch(apiURL)
  
  });    
 
+// Current Events Preston
+ 
+
+const eventsURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(eventsURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.table(jsonObject); //temporary checking for valid response and data parsing
+    const towns = jsonObject['towns'];
+
+    for (let i = 0; i < towns.length; i++ ) {     
+       if (towns[i].name == "Preston")
+          {    
+          for (let e = 0; e <= 2; e++ ){
+            const townName = document.createElement('li');
+            townName.className = "event";
+            townName.textContent = towns[i].events[e];
+            document.querySelector('ol.events').appendChild(townName);
+          }
+            
+       
+           
+        }
+    }
+  });

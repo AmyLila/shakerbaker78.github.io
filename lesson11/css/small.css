@@ -169,6 +169,28 @@ main, footer {
   text-align: center;
   color:white;
 }
+.events-container{
+  text-align: center;
+  background-color: #426F68;
+  color: white;
+  margin: 0 auto;
+  display:flex; 
+  flex-direction: column;
+  align-items:center; 
+  justify-content:center;
+}
+.event-head{
+  padding:1rem 0 0 0;
+}
+.events{
+  padding:.2rem;
+
+}
+.event{
+  list-style-type: none;
+  padding:1rem;
+}
+
 .prestonmid {
   background-color: #273C49;
   display: flex;

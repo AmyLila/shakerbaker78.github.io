@@ -1,5 +1,5 @@
-// Weather Summary
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=e49b9555dc54df76f65cc2c7338a5181&units=imperial";
+// Weather Summary Fish Haven location lat=42.0369&lon=-111.3964
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0369&lon=-111.3964&appid=e49b9555dc54df76f65cc2c7338a5181&units=imperial";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -37,7 +37,7 @@ fetch(apiURL)
 
  // Forcast Preston
 
- const forcastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e49b9555dc54df76f65cc2c7338a5181&units=imperial";
+ const forcastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=42.0369&lon=-111.3964&appid=e49b9555dc54df76f65cc2c7338a5181&units=imperial";
  fetch(forcastURL)
      .then((response) => response.json())
      .then((jsObject) => {

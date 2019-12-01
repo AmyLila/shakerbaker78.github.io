@@ -116,7 +116,7 @@ fetch(eventsURL)
     for (let i = 0; i < towns.length; i++ ) {     
        if (towns[i].name == "Fish Haven")
           {    
-          for (let e = 0; e <= 2; e++ ){
+          for (let e = 0; e <= 3; e++ ){
             const townName = document.createElement('li');
             townName.className = "event";
             townName.textContent = towns[i].events[e];

@@ -8,7 +8,8 @@
     font-size: 2rem;
     font-weight: 700;
   }
-  nav button {display:none;}
+nav button {display:none;}
+
   .hide{
     display: flex;
   }

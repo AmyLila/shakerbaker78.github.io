@@ -1,0 +1,34 @@
+.show {
+    color: #273C49;
+    font-size: 1rem;
+    background: rgb(205,229,126);
+    background: -webkit-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
+    background: radial-gradient(ellipse at center,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 );
+    text-align: center;
+    display:block;
+  }
+
+
+  header, footer {
+    text-align: center;
+    background-color: #273C49;
+    color: white;
+    margin: 0 auto;
+    display:flex; 
+    flex-direction: row;
+    align-items:center; 
+    justify-content:center;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.4rem;
+    font-family: 'Arvo', serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: white;
+    font-family: 'Arvo', serif;
+    padding: 1rem;
+    margin:0;
+  }

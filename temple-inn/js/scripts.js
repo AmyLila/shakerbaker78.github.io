@@ -11,8 +11,12 @@ $(function () {
 
     var galleryImage = $(".homeHeroContainer").find("img").first();
     var altText = [
-      "barn under a night sky",
-      "barn in an autum forest"];
+      "Rome Italy Temple",
+      "Salt Lake City Temple",
+      "Bern Switzerland Temple",
+      "Newport Beach California Temple",
+      "Nauvoo Temple"
+    ];
   
     var images = [
         "images/rome-temple-low-res.jpg",
@@ -38,7 +42,7 @@ $(function () {
         $(this).fadeIn();
       });
       console.log(galleryImage.attr("src"));
-    }, 4000);
+    }, 6000);
 
    
   });

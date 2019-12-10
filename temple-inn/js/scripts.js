@@ -15,8 +15,11 @@ $(function () {
       "barn in an autum forest"];
   
     var images = [
-      "images/fish-haven-large.jpg",
-      "images/sodahero.jpg"];
+        "images/rome-temple-low-res.jpg",
+        "images/slc-temple-low-res.jpg", 
+        "images/bern-switzerland-temple-lds-low-res.jpg",
+        "images/newport-beach-california-temple-low-res.jpg"
+    ];
 
     var i = 0;
     

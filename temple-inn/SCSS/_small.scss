@@ -8,7 +8,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 html{
-    font-family:  'Source Sans Pro', sans-serif;
+    font-family:$bodycopy;
   }
 
 header{
@@ -37,7 +37,6 @@ header{
 }
   .show {
       color: $navy;
-      grid-area: menu;
       font-size: 1rem;
       text-align: center;
       display:block;
@@ -45,13 +44,16 @@ header{
 
 .cta-button{
     grid-area: button;
+    
+}    
+.cta-button button{
     margin:1rem 1rem 0 1rem;
     background-color:$buttoncolor;
     color:$navy;
     padding:.5rem;
     border-radius: 10px;
-}    
- 
+    font-family: $bodycopy;
+} 
 header img {
       max-width: 150px;
     
@@ -102,11 +104,11 @@ header img {
       font-size: 1.5rem;
       font-weight: 700;
       margin: 0.4rem;
-      font-family: 'Abril Fatface', cursive;
+      font-family:$headings;
     }
     h1, h2, h3, h4, h5, h6 {
       color:$cream;
-      font-family: 'Abril Fatface', cursive;
+      font-family:$headings;
       padding: 1rem;
       margin:0;
     }
@@ -114,8 +116,8 @@ header img {
  footer {
         text-align: center;
         background-image:url("../images/temple-background-texture-02.jpg");
-        background-color: #f4f5e3;
-        color: white;
+        background-color: $cream;
+        color: $navy;
         margin: 0 auto;
         display:flex; 
         flex-direction: row;

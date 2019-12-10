@@ -403,7 +403,7 @@ html {
 
 /* body rules */
 html {
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: "Source Sans Pro", sans-serif; }
 
 header {
   text-align: center;
@@ -427,18 +427,20 @@ header {
 
 .show {
   color: #3a435e;
-  grid-area: menu;
   font-size: 1rem;
   text-align: center;
   display: block; }
 
 .cta-button {
-  grid-area: button;
+  grid-area: button; }
+
+.cta-button button {
   margin: 1rem 1rem 0 1rem;
   background-color: #7fffd4;
   color: #3a435e;
   padding: .5rem;
-  border-radius: 10px; }
+  border-radius: 10px;
+  font-family: "Source Sans Pro", sans-serif; }
 
 header img {
   max-width: 150px; }
@@ -487,19 +489,19 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0.4rem;
-  font-family: 'Abril Fatface', cursive; }
+  font-family: "Abril Fatface", cursive; }
 
 h1, h2, h3, h4, h5, h6 {
   color: #FBFBF2;
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   padding: 1rem;
   margin: 0; }
 
 footer {
   text-align: center;
   background-image: url("../images/temple-background-texture-02.jpg");
-  background-color: #f4f5e3;
-  color: white;
+  background-color: #FBFBF2;
+  color: #3a435e;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -513,20 +515,25 @@ footer {
   clear: both; }
 
 @media only screen and (min-width: 560px) {
+  header {
+    grid-template-columns: 250px 1fr; }
+
   .smalllogo {
     display: none; }
 
   .logo {
-    display: block; }
+    display: block;
+    margin: 3%;
+    grid-area: logo; }
 
   header img {
-    max-width: 350px;
-    padding-left: .5em;
-    margin-left: 1.5em; }
+    max-width: 100%; }
 
-  h1 {
-    font-size: 2rem;
-    font-weight: 700; }
+  .cta-button button {
+    padding: .5rem 2rem; }
+
+  nav {
+    grid-area: menu; }
 
   nav button {
     display: none; }
@@ -534,13 +541,20 @@ footer {
   .hide {
     display: flex; }
 
+  nav ul {
+    padding: 1rem; }
+
   nav ul li {
     flex: 1 1 100%; }
 
   nav ul li a {
     border: none;
     line-height: 1rem;
-    font-size: 1.3rem; } }
+    font-size: 1.3rem; }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header img {

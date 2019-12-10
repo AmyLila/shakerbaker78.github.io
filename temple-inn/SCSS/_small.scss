@@ -29,6 +29,7 @@ header{
   .smalllogo{
     padding:1rem;
     grid-area: logo;
+    margin-left: 2%;
 }
 
 .logo{
@@ -64,7 +65,7 @@ header img {
     background-color: transparent;
     border: none;
     color: $navy;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   nav ul {
       list-style-type: none;

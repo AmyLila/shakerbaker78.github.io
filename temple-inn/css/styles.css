@@ -405,6 +405,12 @@ html {
 html {
   font-family: 'Source Sans Pro', sans-serif; }
 
+.smalllogo {
+  padding: 1rem; }
+
+.logo {
+  display: none; }
+
 .show {
   color: #273C49;
   font-size: 1rem;
@@ -502,6 +508,12 @@ h1, h2, h3, h4, h5, h6 {
   clear: both; }
 
 @media only screen and (min-width: 560px) {
+  .smalllogo {
+    display: none; }
+
+  .logo {
+    display: block; }
+
   header img {
     max-width: 350px;
     padding-left: .5em;

@@ -9,24 +9,39 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 html{
     font-family:  'Source Sans Pro', sans-serif;
-//   }
-//   .smalllogo{
-//     display:none;
-// }
+  }
+
+header{
+    display: grid;
+    grid-gap: 10px; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+       "logo button"
+       "logo menu"; 
+
+}  
+  .smalllogo{
+    padding:1rem;
+    grid-area: logo;
+}
+
 .logo{
     display:none;
 }
   .show {
-      color: #273C49;
+      color: $navy;
+      grid-area: menu;
       font-size: 1rem;
-      background: rgb(205,229,126);
-      background: -webkit-radial-gradient(center, ellipse cover,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
-      background: radial-gradient(ellipse at center,  rgba(205,229,126,1) 0%,rgba(185,207,167,1) 100%); 
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 );
       text-align: center;
       display:block;
     }
-  
+header button{
+    grid-area: button;
+    background-color:$buttoncolor;
+    color:$navy;
+    padding:1rem;
+    border-radius: 5px;
+}  
   
     header, footer {
       text-align: center;

@@ -405,49 +405,43 @@ html {
 html {
   font-family: 'Source Sans Pro', sans-serif; }
 
+header {
+  text-align: center;
+  background-image: url("../images/temple-background-texture-02.jpg");
+  background-color: #FBFBF2;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "logo button" "logo menu"; }
+
 .smalllogo {
-  padding: 1rem; }
+  padding: 1rem;
+  grid-area: logo; }
 
 .logo {
   display: none; }
 
 .show {
-  color: #273C49;
+  color: #3a435e;
+  grid-area: menu;
   font-size: 1rem;
-  background: #cde57e;
-  background: -webkit-radial-gradient(center, ellipse cover, #cde57e 0%, #b9cfa7 100%);
-  background: radial-gradient(ellipse at center, #cde57e 0%, #b9cfa7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cde57e', endColorstr='#b9cfa7',GradientType=1 );
   text-align: center;
   display: block; }
 
-header, footer {
-  text-align: center;
-  background-image: url("../images/temple-background-texture-02.jpg");
-  background-color: #f4f5e3;
-  color: white;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; }
+header button {
+  grid-area: button;
+  background-color: #7fffd4;
+  color: #3a435e;
+  padding: 1rem;
+  border-radius: 10px; }
 
 header img {
-  max-width: 100px; }
+  max-width: 150px; }
 
 nav {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b9cfa7+6,a2b290+100 */
-  background: #b9cfa7;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #b9cfa7 6%, #a2b290 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #b9cfa7 6%, #a2b290 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #b9cfa7 6%, #a2b290 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9cfa7', endColorstr='#a2b290',GradientType=0 );
-  /* IE6-9 */
-  /*background-color: #B9CFA7;*/
   text-align: center;
   /*box-shadow: 0 2px 15px gray;*/ }
 
@@ -455,7 +449,7 @@ nav button {
   margin: 1.5rem 2%;
   background-color: transparent;
   border: none;
-  color: #273C49;
+  color: #3a435e;
   font-size: 1.6rem; }
 
 nav ul {
@@ -500,6 +494,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Abril Fatface', cursive;
   padding: 1rem;
   margin: 0; }
+
+footer {
+  text-align: center;
+  background-image: url("../images/temple-background-texture-02.jpg");
+  background-color: #f4f5e3;
+  color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

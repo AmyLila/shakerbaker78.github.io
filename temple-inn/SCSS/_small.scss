@@ -12,6 +12,12 @@ html{
   }
 
 header{
+    text-align: center;
+    background-image:url("../images/temple-background-texture-02.jpg");
+    background-color: $cream;
+    margin: 0 auto;
+    align-items:center; 
+    justify-content:center;
     display: grid;
     grid-gap: 10px; 
     grid-template-columns: 1fr 1fr;
@@ -40,34 +46,15 @@ header button{
     background-color:$buttoncolor;
     color:$navy;
     padding:1rem;
-    border-radius: 5px;
+    border-radius: 10px;
 }  
-  
-    header, footer {
-      text-align: center;
-      background-image:url("../images/temple-background-texture-02.jpg");
-      background-color: #f4f5e3;
-      color: white;
-      margin: 0 auto;
-      display:flex; 
-      flex-direction: row;
-      align-items:center; 
-      justify-content:center;
-    }
-  
+ 
     header img {
-      max-width: 100px;
+      max-width: 150px;
     
   } 
   nav {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b9cfa7+6,a2b290+100 */
-    background: rgb(185,207,167); /* Old browsers */
-    background: -moz-linear-gradient(top,  rgba(185,207,167,1) 6%, rgba(162,178,144,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  rgba(185,207,167,1) 6%,rgba(162,178,144,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  rgba(185,207,167,1) 6%,rgba(162,178,144,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b9cfa7', endColorstr='#a2b290',GradientType=0 ); /* IE6-9 */
-  
-      /*background-color: #B9CFA7;*/
+
       text-align: center;
     /*box-shadow: 0 2px 15px gray;*/
   }
@@ -75,7 +62,7 @@ header button{
     margin: 1.5rem 2%;
     background-color: transparent;
     border: none;
-    color: #273C49;
+    color: $navy;
     font-size: 1.6rem;
   }
   nav ul {
@@ -123,6 +110,18 @@ header button{
       padding: 1rem;
       margin:0;
     }
+
+ footer {
+        text-align: center;
+        background-image:url("../images/temple-background-texture-02.jpg");
+        background-color: #f4f5e3;
+        color: white;
+        margin: 0 auto;
+        display:flex; 
+        flex-direction: row;
+        align-items:center; 
+        justify-content:center;    
+ }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

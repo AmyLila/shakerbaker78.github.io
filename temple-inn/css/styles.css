@@ -406,6 +406,7 @@ html {
   font-family: "Source Sans Pro", sans-serif; }
 
 header {
+  max-width: 100%;
   text-align: center;
   background-image: url("../images/temple-background-texture-02.jpg");
   background-color: #FBFBF2;
@@ -440,7 +441,8 @@ header {
   color: #3a435e;
   padding: .5rem;
   border-radius: 10px;
-  font-family: "Source Sans Pro", sans-serif; }
+  font-family: "Abril Fatface", cursive;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
 
 header img {
   max-width: 150px; }
@@ -453,7 +455,8 @@ nav button {
   background-color: transparent;
   border: none;
   color: #3a435e;
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  padding: .2rem 2rem; }
 
 nav ul {
   list-style-type: none;
@@ -476,10 +479,11 @@ nav li a {
   border-top: 1px solid rgba(0, 0, 0, 0.3); }
 
 nav ul li a:hover {
-  background-color: rgba(225, 225, 225, 0.3); }
+  background-color: rgba(225, 225, 225, 0.5); }
 
 nav ul li .active {
-  color: #7fffd4; }
+  color: #7fffd4;
+  background-color: rgba(0, 0, 0, 0.2); }
 
 main, footer {
   max-width: 1080px;
@@ -516,21 +520,25 @@ footer {
 
 @media only screen and (min-width: 560px) {
   header {
-    grid-template-columns: 250px 1fr; }
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: "logo menu" "logo button"; }
 
   .smalllogo {
     display: none; }
 
   .logo {
     display: block;
-    margin: 3%;
+    margin: 0 0 0 5%;
     grid-area: logo; }
 
   header img {
     max-width: 100%; }
 
   .cta-button button {
-    padding: .5rem 2rem; }
+    padding: .5rem 2rem;
+    margin: 0 0 1rem 0;
+    line-height: 1.5rem;
+    font-size: 1.2rem; }
 
   nav {
     grid-area: menu; }
@@ -542,13 +550,15 @@ footer {
     display: flex; }
 
   nav ul {
-    padding: 1rem; }
+    padding: 1rem;
+    border-radius: 10px; }
 
   nav ul li {
     flex: 1 1 100%; }
 
   nav ul li a {
-    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     line-height: 1rem;
     font-size: 1.3rem; }
 
@@ -557,12 +567,23 @@ footer {
     font-weight: 700; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
-  header img {
-    max-width: 200px; }
+  header {
+    grid-template-columns: 250px 1fr 250px;
+    grid-template-areas: "logo menu button";
+    grid-gap: 5px; }
 
-  h1 {
-    font-size: 2.5rem; }
+  .logo {
+    margin: 5%; }
+
+  .cta-button button {
+    padding: .5rem 2rem;
+    margin: 0 5%;
+    font-size: 1rem; }
 
   nav ul li a {
-    line-height: 1rem; } }
+    line-height: 1rem;
+    font-size: .8rem; }
+
+  h1 {
+    font-size: 2.5rem; } }
 /* end of media query */

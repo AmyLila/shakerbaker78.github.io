@@ -12,6 +12,7 @@ html{
   }
 
 header{
+  max-width: 100%;
     text-align: center;
     background-image:url("../images/temple-background-texture-02.jpg");
     background-color: $cream;
@@ -53,6 +54,8 @@ header{
     padding:.5rem;
     border-radius: 10px;
     font-family:$headings;
+    border:1px solid rgba(0, 0, 0, 0.3);
+    
 } 
 header img {
       max-width: 150px;
@@ -68,6 +71,7 @@ header img {
     border: none;
     color: $navy;
     font-size: 2.5rem;
+    padding: .2rem 2rem;
   }
   nav ul {
       list-style-type: none;
@@ -90,10 +94,11 @@ header img {
     border-top: 1px solid rgba(0, 0, 0, 0.3);
   }
   nav ul li a:hover {
-      background-color: rgba(225, 225, 225, 0.3);
+      background-color: rgba(225, 225, 225, 0.5);
   }
   nav ul li .active {
       color:$buttoncolor;
+      background-color: rgba(0, 0, 0, 0.2);
   }
   main, footer {
     max-width: 1080px; 

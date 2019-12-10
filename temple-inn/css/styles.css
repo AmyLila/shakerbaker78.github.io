@@ -487,11 +487,11 @@ h1 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 0.4rem;
-  font-family: 'Arvo', serif; }
+  font-family: 'Abril Fatface', cursive; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: white;
-  font-family: 'Arvo', serif;
+  color: #FBFBF2;
+  font-family: 'Abril Fatface', cursive;
   padding: 1rem;
   margin: 0; }
 

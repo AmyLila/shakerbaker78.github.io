@@ -1,7 +1,6 @@
 {
     "temples" : [
   
-   
     {
         "name": "Rome Italy Temple",
         "photo": "images/rome-temple-low-res.jpg",
@@ -9,6 +8,16 @@
         "address2": "Rome RM",
         "address3": "Italy",
         "phone": "(39) 06-9480-5050",
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "Patron housing available",
+          "Distribution center nearby"
+        ],
+        "ordance-schedule": "Ordinance schedules vary by day.",
+        "session-schedule": "Endowment sessions every hour and a half; check the temple website for daily sessions in English.",
+        "announced":"4 October 2008",
+        "groundbreaking":"23 October 2010",
         "dedicated": "10 March 2019",
         "link":"https://www.churchofjesuschrist.org/temples/details/rome-italy-temple?lang=eng",
         "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rome-italy/2019/1280x800/5-Rome-Temple-2160345.jpg",
@@ -24,7 +33,6 @@
       },
 
 
-
     {
       "name": "Nauvoo Illinois Temple",
       "photo": "images/nauvoo-temple-low-res.jpg.jpg",
@@ -32,6 +40,16 @@
       "address2": "Nauvoo IL 62354",
       "address3": "United States",
       "phone": "(1) 217-453-6252",
+      "services": [
+        "Clothing rental available",
+        "No cafeteria available",
+        "No patron housing available",
+        "No distribution center nearby"
+      ],
+      "ordance-schedule": "Ordinance schedules vary by day.",
+      "session-schedule": "Endowment sessions every hour.",
+      "announced":"4 April 1999",
+      "groundbreaking":"24 October 1999",
       "dedicated": "27 June 2002",
       "link":"https://www.churchofjesuschrist.org/temples/details/nauvoo-illinois-temple?lang=eng",
       "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/nauvoo-illinois/1280x800/nauvoo-temple-756499-wallpaper.jpg",
@@ -56,6 +74,16 @@
       "address2": "Salt Lake City UT 84150-9709",
       "address3": "United States",
       "phone": "(1) 801-240-2640",
+      "services": [
+        "Clothing rental available",
+        "Cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "ordance-schedule": "Ordinance schedules vary by day.",
+      "session-schedule": "Endowment sessions every hour.",
+      "announced":"28 July 1847",
+      "groundbreaking":"14 February 1853",
       "dedicated": "6 April 1893",
       "link":"https://www.churchofjesuschrist.org/temples/details/salt-lake-temple?lang=eng",
       "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/salt-lake-city-utah/2018/1280x800/slctemple7.jpg",
@@ -73,6 +101,16 @@
         "address2": "Newport Beach CA 92660-9118",
         "address3": "United States",
         "phone": "(1) 949-644-1820",
+        "services": [
+          "No clothing rental available",
+          "No cafeteria available",
+          "No patron housing available",
+          "No distribution center nearby"
+        ],
+        "ordance-schedule": "Ordinance schedules vary by day.",
+        "session-schedule": "Endowment sessions every hour and a half.",
+        "announced":"21 April 2001",
+        "groundbreaking":"15 August 2003",
         "dedicated": "28 August 2005",
         "link":"https://www.churchofjesuschrist.org/temples/details/newport-beach-california-temple?lang=eng",
         "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/newport-beach-california/1280x800/newport-beach-california-temple-1169298-wallpaper.jpg",
@@ -98,7 +136,18 @@
         "address2": "CH-3052 Zollikofen",
         "address3": "Switzerland",
         "phone": "(41) 31-915-5252",
+        "services": [
+          "Clothing rental available",
+          "No cafeteria available",
+          "Patron housing available",
+          "Distribution center nearby"
+        ],
+        "ordance-schedule": "Ordinance schedules vary by day.",
+        "session-schedule": "Endowment sessions every 75 minutes.",
+        "announced":"1 July 1952",
+        "groundbreaking":"5 August 1953",
         "dedicated": "11 September 1955",
+        "Rededicated": "23 October 1992",
         "link":"https://www.churchofjesuschrist.org/temples/details/bern-switzerland-temple?lang=eng",
         "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/1280x800/bern-switzerland-temple-lds-784290-wallpaper.jpg",
         "closures" : [

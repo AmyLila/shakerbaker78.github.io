@@ -1,27 +1,6 @@
 {
     "temples" : [
-    {
-      "name": "Bern Switzerland Temple",
-      "photo": "images/bern-switzerland-temple-lds-low-res.jpg",
-      "address1": "Tempelstrasse 2" ,
-      "address2": "CH-3052 Zollikofen",
-      "address3": "Switzerland",
-      "phone": "(41) 31-915-5252",
-      "dedicated": "11 September 1955",
-      "link":"https://www.churchofjesuschrist.org/temples/details/bern-switzerland-temple?lang=eng",
-      "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/1280x800/bern-switzerland-temple-lds-784290-wallpaper.jpg",
-      "closures" : [
-          "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
-          "Tuesday, 31 December 2019 - Thursday, 2 January 2020",
-          "Monday, 6 January 2020 - Monday, 20 January 2020",
-          "Monday, 18 May 2020 - Monday, 13 July 2020",
-          "Thursday, 24 December 2020 - Saturday, 26 December 2020",
-          "Thursday, 31 December 2020"
-
-      ]
-    },
-   
-   
+  
    
     {
         "name": "Rome Italy Temple",
@@ -111,9 +90,10 @@
   
         ]
       },
+  
       {
         "name": "Bern Switzerland Temple",
-        "photo": "images/rome-temple-low-res.jpg.jpg",
+        "photo": "images/bern-switzerland-temple-lds-low-res.jpg",
         "address1": "Tempelstrasse 2" ,
         "address2": "CH-3052 Zollikofen",
         "address3": "Switzerland",
@@ -130,31 +110,9 @@
             "Thursday, 31 December 2020"
   
         ]
-      },
-
-
-    {
-      "name": "Bern Switzerland Temple",
-      "photo": "images/rome-temple-low-res.jpg.jpg",
-      "address1": "Tempelstrasse 2" ,
-      "address2": "CH-3052 Zollikofen",
-      "address3": "Switzerland",
-      "phone": "(41) 31-915-5252",
-      "dedicated": "11 September 1955",
-      "link":"https://www.churchofjesuschrist.org/temples/details/bern-switzerland-temple?lang=eng",
-      "imageurl": "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/bern-switzerland/1280x800/bern-switzerland-temple-lds-784290-wallpaper.jpg",
-      "closures" : [
-          "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
-          "Tuesday, 31 December 2019 - Thursday, 2 January 2020",
-          "Monday, 6 January 2020 - Monday, 20 January 2020",
-          "Monday, 18 May 2020 - Monday, 13 July 2020",
-          "Thursday, 24 December 2020 - Saturday, 26 December 2020",
-          "Thursday, 31 December 2020"
-
-      ]
-    }
-  
-
+      }
+     
+   
 
 ]
 }

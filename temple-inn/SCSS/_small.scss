@@ -139,14 +139,28 @@ main, footer {
   padding:0;
 }
 .templeInfoShort {
-  background: rgba(250, 248, 248, 0.75);
+  background: rgba(250, 248, 248, 0.5);
   border-radius: 10px ;
   margin:1rem;
- 
 }
 .templeleft{
   font-family:$headings;
   // color:$navy;
+}
+.templeright{
+  padding:0 0 2% 0;
+}
+.templeright a{
+  text-decoration: none;
+  color:$navy;
+}
+.templeright a:hover{
+  background-color: $navy;
+  color:$cream;
+}
+.templeright a:visited{
+  color:$buttoncolor;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .homeHeroImage img {
   max-width: 100%;

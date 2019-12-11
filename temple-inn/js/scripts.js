@@ -9,7 +9,7 @@ function toggleMenu (){
 // Home Page Slider
 $(function () {
 
-    var galleryImage = $(".homeHeroContainer").find("img").first();
+    var galleryImage = $(".homeHeroImage").find("img").first();
     var altText = [
       "Rome Italy Temple",
       "Salt Lake City Temple",
@@ -19,7 +19,7 @@ $(function () {
     ];
   
     var images = [
-        "images/rome-temple-low-res.jpg",
+        "images/rome-temple.jpg",
         "images/slc-temple-low-res.jpg", 
         "images/bern-switzerland-temple-lds-low-res.jpg",
         "images/newport-beach-california-temple-low-res.jpg",

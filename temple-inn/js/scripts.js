@@ -82,8 +82,8 @@ fetch(templeURL)
 // ------------------ show/hide Navigation ------------------------
 
 function toggleTemple (){
-  console.log(document.getElementById("hideInfo").classList);
-  document.getElementById("primaryNav").classList.toggle("hide");
+  console.log(document.getElementById("templeDropDown").classList);
+  document.getElementById("templeDropDown").classList.toggle("hideInfo");
 
 }
 

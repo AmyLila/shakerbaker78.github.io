@@ -60,13 +60,18 @@ h1 {
     display:block;
     // flex-direction: column-reverse;
   }
-  .templeTitle{
+.templeTitle{
     padding:1rem 1rem .3rem 1rem;
   } 
 .templeInfoShort {
     position: absolute;
-    margin:2rem;
-
-       
+    margin:2rem;     
  }  
+.templeInfoShort button{
+    display: none;
+} 
+ .hideInfo{
+    display:block;
+
+  } 
 //-------------------------- End Hero --------------------------------------------------        

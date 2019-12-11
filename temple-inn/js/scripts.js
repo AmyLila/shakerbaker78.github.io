@@ -80,49 +80,4 @@ fetch(templeURL)
 }
 });
 
-  
-            
-//             const li = document.createElement('li');
-    // li.className = "dayone";
-
-
-    // const h4 = document.createElement("h4");
-    //   h4.className = "dayShort";
-    //   h4.textContent=forecastDay;
-    //   li.appendChild(h4);
-//             name.textContent = temples[i].name;
-//             townInfo.appendChild(name);
-
-            
-//             motto.textContent = temples[i].motto;
-//             motto.className = "motto";
-//             townInfo.appendChild(motto);
-
-            
-//             founded.textContent = "Year Founded: " + temples[i].yearFounded;
-//             townInfo.appendChild(founded);
-
-            
-//             pop.textContent = "Population: " +  temples[i].currentPopulation;
-//             townInfo.appendChild(pop);
-
-            
-//             rainFall.textContent = "Annual Rain Fall: " +  temples[i].averageRainfall;
-//             townInfo.appendChild(rainFall);
-
-//             // townPicture.className = "pic";
-            
-            
-//             image.setAttribute('src', "images/" + temples[i].photo);
-//             image.setAttribute('alt', 'picture of ' + temples[i].name + ', Idaho');
-//             townPicture.appendChild(image);
-
-//             card.appendChild(townInfo);
-//             card.appendChild(townPicture);
-           
-//             document.querySelector('div.town-data').appendChild(card);
-//         }
-//       }
-//   });
-
 

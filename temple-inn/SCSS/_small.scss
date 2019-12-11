@@ -11,6 +11,10 @@ html{
     font-family:$bodycopy;
   }
 
+
+  // ----------------- Header -------------------------------------------------
+
+
 header{
   max-width: 100%;
     text-align: center;
@@ -61,6 +65,8 @@ header img {
       max-width: 150px;
     
   } 
+
+// ----------- Navigation -------------------
   nav {
 
       text-align: center;
@@ -100,23 +106,34 @@ header img {
       color:$buttoncolor;
       background-color: rgba(0, 0, 0, 0.2);
   }
-  main, footer {
+// ---------------- End Header ------------------------------
+
+// ----------------- Main -----------------------------------
+main, footer {
     max-width: 1080px; 
     margin: 0 auto; 
   }
-  
-    h1 {
+   h1 {
       font-size: 1.5rem;
       font-weight: 700;
       margin: 0.4rem;
       font-family:$headings;
     }
-    h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6 {
       color:$cream;
       font-family:$headings;
       padding: 1rem;
       margin:0;
     }
+
+// -------------------- Home Page Hero Image and Text -------------------------------
+.homeHeroImage img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
+
 
  footer {
         text-align: center;

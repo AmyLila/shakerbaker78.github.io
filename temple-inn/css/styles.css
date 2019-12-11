@@ -501,6 +501,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem;
   margin: 0; }
 
+.homeHeroImage img {
+  max-width: 100%;
+  overflow: hidden; }
+
 footer {
   text-align: center;
   background-image: url("../images/temple-background-texture-02.jpg");

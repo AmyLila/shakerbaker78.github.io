@@ -70,21 +70,17 @@ fetch(templeURL)
     document.getElementById("address2").textContent = temple[i].address2;
     document.getElementById("address3").textContent = temple[i].address3;
     document.getElementById("phone").textContent = temple[i].phone;
-    document.getElementById("link").textContent = temple[i].link;
 
+    var linkTest = document.getElementById("link");
+    linkTest.href= "temple[i].link";
+                
+   
 
-    
-    
-    const linkTest = document.createElement('a');
-    linkTest.id="link";
-    linkTest.setAttribute ('href', temple[i].link)
-    document.querySelector('.link').appendChild(linkTest);
  }
 }
 });
 
-     
-            
+  
             
 //             const li = document.createElement('li');
     // li.className = "dayone";

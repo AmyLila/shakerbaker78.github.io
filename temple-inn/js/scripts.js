@@ -1,4 +1,4 @@
-// show/hide Navigation 
+// ------------------ show/hide Navigation ------------------------
 
 function toggleMenu (){
     console.log(document.getElementById("primaryNav").classList);
@@ -6,7 +6,7 @@ function toggleMenu (){
 
 
 }
-// Home Page Slider
+// ------------------- Home Page Slider ----------------------------
 // $(function () {
 
 //     var galleryImage = $(".homeHeroImage").find("img").first();
@@ -46,3 +46,18 @@ function toggleMenu (){
 
    
 //   });
+
+//--------------------- Temple Information -----------------------------
+
+//----------------------Home Page Info ----------------------------------
+
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=e49b9555dc54df76f65cc2c7338a5181&units=imperial";
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+    // console.log(jsObject);
+
+    document.getElementById("current").textContent = jsObject.weather[0].description;
+    document.getElementById("temp").textContent = jsObject.main.temp;
+    document.getElementById("humid").textContent = jsObject.main.humidity;
+    document.getElementById("windspeed").textContent = jsObject.wind.speed;

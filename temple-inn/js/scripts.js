@@ -57,7 +57,7 @@ fetch(apiURL)
     .then((jsObject) => {
     console.log(jsObject);
 
-    document.getElementById("name").textContent = jsObject.weather[0].description;
+    document.getElementById("name").textContent = jsObject.name;
     document.getElementById("temp").textContent = jsObject.main.temp;
     document.getElementById("humid").textContent = jsObject.main.humidity;
     document.getElementById("windspeed").textContent = jsObject.wind.speed;

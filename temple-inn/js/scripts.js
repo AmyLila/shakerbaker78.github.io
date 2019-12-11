@@ -57,40 +57,43 @@ fetch(templeURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject); //temporary checking for valid response and data parsing
+    console.log(jsonObject); //temporary checking for valid response and data parsing
     const temple = jsonObject['temples'];
 
-    for (let i = 0; i < temples.length; i++ ) {
-                  if (temples[i].name == "Rome Italy Temple")
+    for (let i = 0; i < temple.length; i++ ) {
+                  if (temple[i].name == "Rome Italy Temple")
                   {  
+                    console.log(temple[i].name)
+    document.getElementById("name").textContent = temple[i].name;
+    document.getElementById("dedicated").textContent = temple[i].dedicated;
+    document.getElementById("address1").textContent = temple[i].address1;
+    document.getElementById("address2").textContent = temple[i].address2;
+    document.getElementById("address3").textContent = temple[i].address3;
+    document.getElementById("phone").textContent = temple[i].phone;
+    document.getElementById("link").textContent = temple[i].link;
 
-    document.getElementById("name").textContent = jsObject.name;
-    document.getElementById("temp").textContent = jsObject.main.temp;
-    document.getElementById("humid").textContent = jsObject.main.humidity;
-    document.getElementById("windspeed").textContent = jsObject.wind.speed;
- });
 
+    
+    
+    const linkTest = document.createElement('a');
+    linkTest.id="link";
+    linkTest.setAttribute ('href', temple[i].link)
+    document.querySelector('.link').appendChild(linkTest);
+ }
+}
+});
 
-
-//         for (let i = 0; i < temples.length; i++ ) {
-//           if (temples[i].name == "Fish Haven" ||
-//               temples[i].name == "Preston" ||
-//               temples[i].name == "Soda Springs")
-//           {    
-          
-//             let card = document.createElement('section');
-//             let townInfo = document.createElement('div');
-//             let name = document.createElement('h3');
-//             let motto = document.createElement('h4');
-//             let founded = document.createElement('p');
-//             let pop = document.createElement('p');
-//             let rainFall = document.createElement('p');
-//             let townPicture = document.createElement('div');
-//             let image = document.createElement('img');
+     
             
             
-            
-//             townInfo.className = "town";
+//             const li = document.createElement('li');
+    // li.className = "dayone";
+
+
+    // const h4 = document.createElement("h4");
+    //   h4.className = "dayShort";
+    //   h4.textContent=forecastDay;
+    //   li.appendChild(h4);
 //             name.textContent = temples[i].name;
 //             townInfo.appendChild(name);
 

@@ -72,7 +72,7 @@ fetch(templeURL)
     document.getElementById("phone").textContent = temple[i].phone;
 
     var linkTest = document.getElementById("link");
-    linkTest.href= "temple[i].link";
+    linkTest.href= temple[i].link;
                 
    
 

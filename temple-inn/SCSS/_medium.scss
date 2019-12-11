@@ -1,4 +1,4 @@
-
+// ----------------- Header -------------------------------------------------
 header{
     grid-template-columns: 250px 1fr;
     grid-template-areas:
@@ -24,7 +24,7 @@ header img {
         line-height: 1.5rem;
         font-size: 1.2rem;
     }     
-
+// ----------- Navigation -------------------
 nav{
     grid-area: menu;
 }
@@ -44,8 +44,28 @@ nav ul li a {
     font-size:1.3rem;
     
 }
+// ---------------- End Header ------------------------------
 
+// ----------------- Main -----------------------------------
 h1 {
         font-size: 2rem;
         font-weight: 700;
       }    
+
+
+// -------------------- Home Page Hero Image and Text -------------------------------
+
+.homeHeroContainer {
+
+    display:block;
+    // flex-direction: column-reverse;
+  }
+  .templeTitle{
+    padding:1rem 1rem .3rem 1rem;
+  } 
+.templeInfoShort {
+    position: absolute;
+    margin:2rem;
+
+       
+    }      

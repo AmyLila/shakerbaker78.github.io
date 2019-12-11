@@ -14,7 +14,7 @@ function toggleMenu (){
 //       "Rome Italy Temple",
 //       "Salt Lake City Temple",
 //       "Bern Switzerland Temple",
-//       "Newport Beach California Temple",
+//       "Newport Beach, California Temple",
 //       "Nauvoo Temple"
 //     ];
   

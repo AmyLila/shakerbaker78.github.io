@@ -19,7 +19,7 @@ $(function () {
     ];
   
     var images = [
-        "images/rome-temple.jpg",
+        "images/rome-temple-low-res.jpg",
         "images/slc-temple-low-res.jpg", 
         "images/bern-switzerland-temple-lds-low-res.jpg",
         "images/newport-beach-california-temple-low-res.jpg",

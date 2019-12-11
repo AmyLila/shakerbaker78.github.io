@@ -4,7 +4,6 @@ function toggleMenu (){
     console.log(document.getElementById("primaryNav").classList);
     document.getElementById("primaryNav").classList.toggle("hide");
 
-
 }
 // ------------------- Home Page Slider ----------------------------
 // $(function () {
@@ -79,5 +78,13 @@ fetch(templeURL)
  }
 }
 });
+
+// ------------------ show/hide Navigation ------------------------
+
+function toggleTemple (){
+  console.log(document.getElementById("hideInfo").classList);
+  document.getElementById("primaryNav").classList.toggle("hide");
+
+}
 
 

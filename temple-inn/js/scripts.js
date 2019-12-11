@@ -51,13 +51,14 @@ function toggleMenu (){
 
 //----------------------Home Page Info ----------------------------------
 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=e49b9555dc54df76f65cc2c7338a5181&units=imperial";
+const apiURL = "https://shakerbaker78.github.io./temple-inn/data/temple-info.json";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-    // console.log(jsObject);
+    console.log(jsObject);
 
-    document.getElementById("current").textContent = jsObject.weather[0].description;
+    document.getElementById("name").textContent = jsObject.weather[0].description;
     document.getElementById("temp").textContent = jsObject.main.temp;
     document.getElementById("humid").textContent = jsObject.main.humidity;
     document.getElementById("windspeed").textContent = jsObject.wind.speed;
+ });

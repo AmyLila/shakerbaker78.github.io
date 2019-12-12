@@ -130,6 +130,7 @@ main, footer {
       font-family:$headings;
       padding:1rem;
       margin:0;
+      font-weight: normal;
     }
 
 // -------------------- Home Page Hero Image and Text -------------------------------
@@ -207,7 +208,7 @@ main, footer {
 .linkSection div{
   max-width: 100%;
   background-color: $cream;
-  margin:1rem auto 0 auto; 
+  margin:1rem auto; 
 }
 .linkSection div:hover{
   box-shadow: $shadow;
@@ -246,8 +247,37 @@ main, footer {
   box-shadow:$shadow;
 }
 
-
-
+// ----------------------------- Home Page Contact Section----------------------------------
+.contactgrid{
+  background-color: $navy;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.homeContact1, .homeContact2 {
+  display:block;
+  width: 100%;
+  color:$cream;
+}
+.lt{
+  color:$cream;
+  text-decoration: none;
+  padding: 1rem 0 0 0;
+  
+}
+.social{
+  padding:1rem;
+  margin:0;
+}
+.social li {
+  display:inline-block;
+}
+.social li a {
+  color: white;
+  padding:.2rem;
+} 
 
 
 

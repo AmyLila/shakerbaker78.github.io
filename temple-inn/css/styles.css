@@ -573,7 +573,7 @@ h1, h2, h3, h4, h5, h6 {
 .linkSection div {
   max-width: 100%;
   background-color: #FBFBF2;
-  margin: 1rem auto 0 auto; }
+  margin: 1rem auto; }
 
 .linkSection div:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
@@ -605,6 +605,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta-button-full button:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
+
+.contactgrid {
+  background-color: #3a435e;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  align-items: center;
+  justify-items: center;
+  text-align: center; }
+
+.homeContact1, .homeContact2 {
+  display: block;
+  width: 100%;
+  color: #FBFBF2; }
+
+.lt {
+  color: #FBFBF2;
+  text-decoration: none;
+  padding: 1rem 0 0 0;
+  font-weight: normal; }
+
+.social {
+  padding: 1rem;
+  margin: 0; }
+
+.social li {
+  display: inline-block; }
+
+.social li a {
+  color: white;
+  padding: .2rem; }
 
 footer {
   text-align: center;
@@ -688,10 +718,7 @@ footer {
     display: block; }
 
   .linkSection {
-    grid-template-columns: 1fr 1fr; }
-
-  .linkSection div {
-    margin: 1rem auto; } }
+    grid-template-columns: 1fr 1fr; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {

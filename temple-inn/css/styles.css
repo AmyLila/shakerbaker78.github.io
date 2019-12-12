@@ -783,7 +783,6 @@ footer {
     grid-template-columns: 1fr  1fr 1fr 1fr;
     grid-gap: 10px; }
 
-  .homeHide {
-    line-height: 1rem;
+  #footerNav li a {
     font-size: .9rem; } }
 /* end of media query */

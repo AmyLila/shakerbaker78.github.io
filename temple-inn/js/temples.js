@@ -19,7 +19,24 @@ fetch(templeURL)
         h2.className = "templeName";   
      
     let button = document.createElement('button');
-        button.setAttribute('onclick', 'toggle()')    
+        button.setAttribute('onclick', 'toggle()');
+    
+    let ulInfo = document.createElement ('ul');
+        ulInfo.className = "hideInfo";
+        ulInfo.id = "dropDown" + i;
+        console.log(ulInfo.id);
+        
+    let address = document.createElement ('h4')
+    let address1 = document.createElement ('p')
+
+    let phone = document.createElement ('h4')
+    let phone1 = document.createElement ('p')
+
+
+        
+
+
+        // The temple page describes the details for at least four temples of your choice providing information about the address, telephone, email, services, history, ordinance schedule, session schedule, temple closure schedule (from a JSON source), and summary—current weather information obtained from a third party API.     
       
 
 

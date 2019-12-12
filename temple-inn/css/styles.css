@@ -561,6 +561,35 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2.5rem;
   padding: .2rem 2rem; }
 
+.mapBackground {
+  background-image: url("../images/temple-background-texture-02.jpg"); }
+
+.linkSection {
+  display: grid; }
+
+.linkSection div {
+  max-width: 100%;
+  background-color: #FBFBF2;
+  margin: 1rem auto 0 auto; }
+
+.linkSection div:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
+
+.linkSection div a {
+  text-decoration: none; }
+
+.linkSection img {
+  max-width: 100%; }
+
+.linkSection div a h2, .linkSection div a p {
+  padding-left: 1rem; }
+
+.linkSection div a p {
+  color: #7fffd4; }
+
+.linkSection div a p:hover {
+  color: #3a435e; }
+
 footer {
   text-align: center;
   background-image: url("../images/temple-background-texture-02.jpg");
@@ -621,9 +650,6 @@ footer {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     line-height: 1rem;
     font-size: 1.3rem; }
-
-  .services a:hover, .hideDropDown:hover {
-    display: block; }
 
   h1 {
     font-size: 2rem;

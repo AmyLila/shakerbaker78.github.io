@@ -669,7 +669,10 @@ footer {
     display: none; }
 
   .hideInfo {
-    display: block; } }
+    display: block; }
+
+  .linkSection {
+    grid-template-columns: 1fr 1fr; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {
@@ -690,5 +693,9 @@ footer {
     font-size: .8rem; }
 
   h1 {
-    font-size: 2.5rem; } }
+    font-size: 2.5rem; }
+
+  .linkSection {
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    grid-gap: 10px; } }
 /* end of media query */

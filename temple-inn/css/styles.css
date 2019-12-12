@@ -444,6 +444,9 @@ header {
   font-family: "Abril Fatface", cursive;
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
+.cta-button button:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
+
 header img {
   max-width: 150px; }
 
@@ -590,9 +593,6 @@ h1, h2, h3, h4, h5, h6 {
 .linkSection div a p:hover {
   color: #3a435e; }
 
-.cta-button-full {
-  margin: auto; }
-
 .cta-button-full button {
   width: 100%;
   margin: 1rem auto;
@@ -602,6 +602,9 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   font-family: "Abril Fatface", cursive;
   border: 1px solid rgba(0, 0, 0, 0.3); }
+
+.cta-button-full button:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
 
 footer {
   text-align: center;
@@ -685,7 +688,10 @@ footer {
     display: block; }
 
   .linkSection {
-    grid-template-columns: 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr; }
+
+  .linkSection div {
+    margin: 1rem auto; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {

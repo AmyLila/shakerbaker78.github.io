@@ -61,6 +61,9 @@ header{
     border:1px solid rgba(0, 0, 0, 0.3);
     
 } 
+.cta-button button:hover{
+  box-shadow: $shadow;
+}
 header img {
       max-width: 150px;
     
@@ -204,11 +207,10 @@ main, footer {
 .linkSection div{
   max-width: 100%;
   background-color: $cream;
-  margin:1rem auto 0 auto;
-  
+  margin:1rem auto 0 auto; 
 }
 .linkSection div:hover{
-  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: $shadow;
 }
 .linkSection div a{
   text-decoration: none;
@@ -228,9 +230,8 @@ main, footer {
 }
 
 // -----------------------------End Home Page Link Section----------------------------------
-.cta-button-full{
-  margin:auto;
-}
+
+// ----------------------------- Home Page Button Section----------------------------------
 .cta-button-full button{
   width: 100%;
   margin:1rem auto;
@@ -241,6 +242,10 @@ main, footer {
   font-family:$headings;
   border:1px solid rgba(0, 0, 0, 0.3);
 }
+.cta-button-full button:hover{
+  box-shadow:$shadow;
+}
+
 
 
 

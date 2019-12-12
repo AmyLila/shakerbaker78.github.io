@@ -590,6 +590,19 @@ h1, h2, h3, h4, h5, h6 {
 .linkSection div a p:hover {
   color: #3a435e; }
 
+.cta-button-full {
+  margin: auto; }
+
+.cta-button-full button {
+  width: 100%;
+  margin: 1rem auto;
+  background-color: #7fffd4;
+  color: #3a435e;
+  padding: .5rem;
+  border-radius: 10px;
+  font-family: "Abril Fatface", cursive;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+
 footer {
   text-align: center;
   background-image: url("../images/temple-background-texture-02.jpg");

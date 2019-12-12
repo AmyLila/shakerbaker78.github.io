@@ -573,7 +573,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .linkSection div {
   max-width: 100%;
-  background-color: #FBFBF2;
+  background-color: white;
   margin: 1rem auto; }
 
 .linkSection div:hover {

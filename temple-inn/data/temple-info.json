@@ -8,6 +8,7 @@
         "address2": "Rome RM",
         "address3": "Italy",
         "phone": "(39) 06-9480-5050",
+        "email": "rome@lds.org",
         "services": [
           "Clothing rental available",
           "No cafeteria available",
@@ -40,6 +41,7 @@
       "address2": "Nauvoo IL 62354",
       "address3": "United States",
       "phone": "(1) 217-453-6252",
+      "email": "nauvoo@lds.org",
       "services": [
         "Clothing rental available",
         "No cafeteria available",
@@ -74,6 +76,7 @@
       "address2": "Salt Lake City UT 84150-9709",
       "address3": "United States",
       "phone": "(1) 801-240-2640",
+      "email": "slc@lds.org",
       "services": [
         "Clothing rental available",
         "Cafeteria available",
@@ -101,6 +104,7 @@
         "address2": "Newport Beach CA 92660-9118",
         "address3": "United States",
         "phone": "(1) 949-644-1820",
+        "email": "newport@lds.org",
         "services": [
           "No clothing rental available",
           "No cafeteria available",
@@ -136,6 +140,7 @@
         "address2": "CH-3052 Zollikofen",
         "address3": "Switzerland",
         "phone": "(41) 31-915-5252",
+        "email": "bern@lds.org",
         "services": [
           "Clothing rental available",
           "No cafeteria available",

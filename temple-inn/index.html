@@ -9,7 +9,7 @@
       <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
       <script src="js/scripts.js"></script> 
   </head> 
-  <body>
+  <body onload="loadDate()">
 <!------------------------------------------ Header ---------------------------------------------------->
     <header>
       <picture class="logo"><img  src="images/logo.png" alt="Temple Inn and Suites Logo"></picture>
@@ -138,12 +138,20 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701322!2d-77.09772048494206!3d38.98325177955756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576127451905!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
       </div>
     </section>
-
+<!-------------------------------- End Contact Section ----------------------------------------------->
     </main>
     <footer>
+        <nav>
+            <ul id="footerNav">
+               <li class="homeHide"><a href="https://shakerbaker78.github.io./temple-inn/index.html" class="active">Home</a></li>
+               <li ><a href="https://shakerbaker78.github.io./temple-inn/reservations.html" class="homeHide">Reservations</a></li>
+               <li><a href="https://shakerbaker78.github.io./temple-inn/contact.html">Contact</a>
+                  </li>
+                <li><a href="https://shakerbaker78.github.io./temple-inn/references.html">References</a></li>
+              </ul>
+          </nav>
       <div>
-        <p class="footertext"> &copy; <span id="year"> </span> | East Idaho Weather | Amy Baker<br>
-        <span id="lastModified"> </span><br>Weather Information provided by OpenWeatherMap</p>
+        <p class="footertext"> &copy; <span id="year"> </span> Amy Baker</p>
       </div>
     </footer> 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>

@@ -486,7 +486,7 @@ nav ul li a:hover {
 
 nav ul li .active {
   color: #7fffd4;
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0.4); }
 
 .hideDropDown {
   display: none; }
@@ -660,9 +660,24 @@ footer {
   color: #3a435e;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: center; }
+
+.homeHide {
+  display: none; }
+
+#footerNav {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem 1rem .5rem 1rem; }
+
+#footerNav li a {
+  padding: .5rem 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  line-height: 1rem;
+  font-size: 1.3rem; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -738,7 +753,10 @@ footer {
     grid-template-columns: 1fr 1fr; }
 
   .homeContact1 p {
-    margin: .2rem 0 1rem 0; } }
+    margin: .2rem 0 1rem 0; }
+
+  .homeHide {
+    display: block; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {
@@ -756,12 +774,16 @@ footer {
 
   nav ul li a {
     line-height: 1rem;
-    font-size: .8rem; }
+    font-size: .9rem; }
 
   h1 {
     font-size: 2.5rem; }
 
   .linkSection {
     grid-template-columns: 1fr  1fr 1fr 1fr;
-    grid-gap: 10px; } }
+    grid-gap: 10px; }
+
+  .homeHide {
+    line-height: 1rem;
+    font-size: .9rem; } }
 /* end of media query */

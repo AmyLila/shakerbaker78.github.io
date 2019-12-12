@@ -107,7 +107,7 @@ header img {
   }
   nav ul li .active {
       color:$buttoncolor;
-      background-color: rgba(0, 0, 0, 0.2);
+      background-color: rgba(0, 0, 0, 0.4);
   }
 .hideDropDown{
   display: none;
@@ -297,10 +297,7 @@ main, footer {
   width:100%;
 } 
 
-
-
-
-
+//----------------------------------- End Contact Section-------------------------------------------------
 
  footer {
         text-align: center;
@@ -309,11 +306,26 @@ main, footer {
         color: $navy;
         margin: 0 auto;
         display:flex; 
-        flex-direction: row;
+        flex-direction: column;
         align-items:center; 
         justify-content:center;    
  }
+.homeHide{
+  display:none;
+} 
+ #footerNav{
+  display: flex;
+  flex-direction: row;
+  padding:1.5rem 1rem .5rem 1rem;
+  }
 
+#footerNav li a {
+  padding:.5rem 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  line-height:1rem;
+  font-size:1.3rem;  
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";

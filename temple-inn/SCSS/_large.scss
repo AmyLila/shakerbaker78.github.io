@@ -18,7 +18,7 @@ header{
 // ----------- Navigation -------------------    
 nav ul li a {
     line-height:1rem;
-    font-size: .8rem;
+    font-size: .9rem;
     }
 // ---------------- End Header ------------------------------
 
@@ -34,4 +34,9 @@ h1 {
   grid-template-columns: 1fr  1fr 1fr 1fr;
   grid-gap:10px;
 } 
-// -----------------------------End Home Page Link Section----------------------------------
+// -----------------------------Footer Navigation----------------------------------
+.homeHide{
+  line-height:1rem;
+  font-size: .9rem;
+} 
+

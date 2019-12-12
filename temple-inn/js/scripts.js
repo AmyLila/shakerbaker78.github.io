@@ -1,10 +1,17 @@
 // ------------------ show/hide Navigation ------------------------
 
 function toggleMenu (){
-    console.log(document.getElementById("primaryNav").classList);
     document.getElementById("primaryNav").classList.toggle("hide");
 
 }
+// ------------------ show/hide Secondary Navigation ------------------------
+function toggleDropDown (){
+  document.getElementById("dropDown").classList.toggle("hideDropDown");
+}
+function mouseDropDown (){
+  document.getElementById("dropDown").classList.toggle("hideDropDown");
+}
+
 // ------------------- Home Page Slider ----------------------------
 // $(function () {
 

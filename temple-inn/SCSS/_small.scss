@@ -224,10 +224,15 @@ main, footer {
  padding-left: 1rem;
 }
 .linkSection div a p{
-  color:$buttoncolor;
+  color:$navy;
+  text-shadow: $shadow;
+  margin: 0;
+  padding: 1rem;
+  // text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .linkSection div a p:hover{
-  color:$navy;
+  color:$buttoncolor;
+  background-color: $navy;
 }
 
 // -----------------------------End Home Page Link Section----------------------------------

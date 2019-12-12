@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Temple Inn & Suites | Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Home page Temple Inn and Suites">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
+      <script src="js/scripts.js"></script> 
+  </head> 
+  <body>
+    <header>
+      <picture class="logo"><img  src="images/logo.png" alt="Temple Inn and Suites Logo"></picture>
+      <picture class="smalllogo"><img  src="images/small-logo.png" alt="Temple Inn and Suites Logo"></picture>
+      <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+           <li><a href="https://shakerbaker78.github.io./temple-inn/index.html" class="active">Home</a></li>
+           <li><a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reservations</a></li>
+           <li><a href="https://shakerbaker78.github.io./temple-inn/services.html">Services</a></li>
+           <li><a href="https://shakerbaker78.github.io./temple-inn/temples.html">Temples</a></li>
+         </ul>
+     </nav>
+     <section class="cta-button">
+      <button>Reserve Your Room</button>
+     </section> 
+
+   </header>
+   
+   <main>
+     <section class="homeHeroContainer">
+        <div class="templeInfoShort">
+            <h2 class="templeTitle"><span id="name">Rome</span></h2>
+            <button onclick="toggleTemple()">&#9662;</button>
+            <ul id="templeDropDown" class=" hideInfo">
+              <li class="templeleft">Dedicated</li>
+              <li class="templeright"><span id="dedicated">date</span>
+                          <br>&bull; &bull; &bull;</li>
+              <li class="templeleft">Address</li>
+              <li class="templeright"><span id="address1"></span>
+                          <br><span id="address2"></span><br>
+                          <span id="address3"></span>
+                          <br>&bull; &bull; &bull;</li>
+              <li class="templeleft">Telephone</li>
+              <li class="templeright"><span id="phone">20</span>
+                          <br>&bull; &bull; &bull;</li>
+              <li class="templeleft">Temple Website</li>
+              <li class="templeright"><a id="link" target="blank" >Link</a></li>
+            </ul> 
+          </div> 
+        <div class="homeHeroImage"><img src="images/rome-temple-low-res.jpg" alt="Picture of a the Rome Italy Temple."></div>
+    </section>
+
+    <section >
+        <h2>Temples Page</h2>
+          
+    </section> 
+
+    </main>
+    <footer>
+      <div>
+        <p class="footertext"> &copy; <span id="year"> </span> | East Idaho Weather | Amy Baker<br>
+        <span id="lastModified"> </span><br>Weather Information provided by OpenWeatherMap</p>
+      </div>
+    </footer> 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+  </body>
+</html>

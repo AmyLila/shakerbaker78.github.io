@@ -35,8 +35,7 @@ h1 {
   grid-gap:10px;
 } 
 // -----------------------------Footer Navigation----------------------------------
-.homeHide{
-  line-height:1rem;
-  font-size: .9rem;
-} 
+#footerNav li a {
+  font-size:.9rem;  
+}
 

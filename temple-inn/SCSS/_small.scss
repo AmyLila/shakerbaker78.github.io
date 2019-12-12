@@ -263,9 +263,23 @@ main, footer {
 }
 .lt{
   color:$cream;
-  text-decoration: none;
   padding: 1rem 0 0 0;
   
+}
+.homeContact1 a {
+  text-decoration: none;
+}
+.homeContact1 a h2:hover {
+  color:$buttoncolor;
+}
+
+.homeContact1 h3 {
+  color:$cream;
+  padding:2%;
+  margin: .5rem 0 0 0;
+}
+.homeContact1 p {
+  margin: .2rem 0;
 }
 .social{
   padding:1rem;
@@ -277,6 +291,10 @@ main, footer {
 .social li a {
   color: white;
   padding:.2rem;
+}
+.homeContact3 iframe{
+  padding:1rem;
+  width:100%;
 } 
 
 

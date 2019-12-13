@@ -157,17 +157,88 @@ fetch(templesURL)
     document.querySelector('section.templeHeroContainer').appendChild(divClosure);
 
 //------------------------------ Forcast --------------------------------------------
-if (temple[i].name == "Rome Italy Temple" ||
-              temple[i].name == "Nauvoo Illinois Temple" ||
-              temple[i].name == "Salt Lake City Temple" ||
-              temple[i].name == "Preston" ||
-              temple[i].name == "Soda Springs")
-          { 
+// if (temple[i].name == "Rome Italy Temple" ||
+//               temple[i].name == "Nauvoo Illinois Temple" ||
+//               temple[i].name == "Salt Lake City Temple" ||
+//               temple[i].name == "Newport Beach California Temple" ||
+//               temple[i].name == "Bern Switzerland Temple")
+//           { 
+
+            const forcastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=e49b9555dc54df76f65cc2c7338a5181&units=imperial";
+            fetch(forcastURL)
+                .then((response) => response.json())
+                .then((jsObject) => {
+               //  console.log(jsObject);
+           
+           let divForcast = document.createElement('div');
+           divForcast.className = "templeForcast";
+
+                let day = 0;
+             for (let i = 0; i < jsObject.list.length; i++) {
+           
+               if (jsObject.list[i].dt_txt.includes('18:00:00')) {
+                 
+                let olDays= document.createElement('ol')
+                divForcast.appendChild(olDays)
+
+
+                 const li = document.createElement('li');
+                 li.className = "dayone";
+                 olDays.appendChild(li);
+                 
+           
+                 let dayShort= new Date(jsObject.list[i].dt_txt);
+                 let weekDay = {weekday: 'short'};
+                 let forecastDay = dayShort.toLocaleDateString('en-US', weekDay);
+               //   console.log(forecastDay);
+                 
+                 const h4 = document.createElement("h4");
+                 h4.className = "dayShort";
+                 h4.textContent=forecastDay;
+                 li.appendChild(h4);
+           
+           
+                 let imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';
+               //   console.log(imagesrc);
+                 
+                 const image = document.createElement("img");
+                 image.className ="weathericon";
+                 image.setAttribute('src', imagesrc);
+                 image.setAttribute('alt', "weather icon");
+                 li.appendChild(image);
+           
+           
+                 let forecastTemp= (jsObject.list[i].main.temp.toFixed(0));
+               //   console.log(forecastTemp);
+                 
+                 const h5 = document.createElement("h5");
+                 h5.textContent=forecastTemp+ ' °F';
+                 li.appendChild(h5);
+           
+           
+                 let desc = jsObject.list[i].weather[0].description;
+               //   console.log(desc);
+           
+                 const h6 = document.createElement("h6");
+                 h6.textContent=desc;
+                 li.appendChild(h6);
+           
+           
+                  
+                  document.querySelector('section.templeHeroContainer').appendChild(divForcast);
+           
+           
+               }
+             }
+           
+           
+            
+            });    
 
 
 
 
-          }
+        //  }
     }
   
 

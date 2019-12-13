@@ -6,7 +6,7 @@ fetch(templesURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.log(jsonObject); //temporary checking for valid response and data parsing
+    // console.log(jsonObject); //temporary checking for valid response and data parsing
     const temple = jsonObject['temples'];
 
     for (let i = 0; i < temple.length; i++ ) {
@@ -113,19 +113,19 @@ fetch(templesURL)
      
         let h3Services =document.createElement('h3');
         h3Services.textContent = "Services Offered";
-        divSchedule.appendChild(h3Services);
+        divServices.appendChild(h3Services);
 
         let ulServices = document.createElement ('ul');
             ulServices.className = "ulServices";
+            divServices.appendChild(ulServices);
         
-            
-            for (let s = 0; s <= 4 ; s++ ){
-                let sb = temple[i].services[s];
+            let sb = temple[i].services;
+            for (let s = 0; s < sb.length ; s++ ){
                 const liServices = document.createElement('li');
                 liServices .className = "event";
-                liServices .textContent = sb;
+                liServices .textContent = temple[i].services[s];
                 ulServices.appendChild(liServices );
-                // console.log(sb.length); 
+                console.log(sb.length); 
               }   
 
  //-------------------------- Closures ---------------------------  
@@ -140,13 +140,15 @@ fetch(templesURL)
 
         let ulclosure = document.createElement ('ul');
             ulclosure.className = "ulClosure";
+            divClosure.appendChild(ulclosure);
         
-            for (let e = 0; e <= 10 ; e++ ){
+            let cb = temple[i].closures;
+            for (let e = 0; e < cb.length ; e++ ){
                 const liClosure = document.createElement('li');
                 liClosure .className = "event";
                 liClosure .textContent = temple[i].closures[e];
                 ulclosure.appendChild(liClosure );
-                // console.log(temple[i].closures[e].length); 
+                console.log(cb.length); 
               }   
 
 

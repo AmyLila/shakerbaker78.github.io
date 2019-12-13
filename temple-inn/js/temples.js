@@ -81,7 +81,6 @@ fetch(templesURL)
         document.querySelector('section.templeHeroContainer').appendChild(templeImage);
         
         
-//---------------------- This goes inside the closures section --------------------------------- 
 
  //-------------------------- Sechedule ---------------------------        
         let divSchedule = document.createElement('div');
@@ -149,9 +148,9 @@ fetch(templesURL)
               }   
 
 
-        document.querySelector('section.closures').appendChild(divSchedule);
-        document.querySelector('section.closures').appendChild(divServices);
-        document.querySelector('section.closures').appendChild(divClosure);
+    document.querySelector('section.templeHeroContainer').appendChild(divSchedule);
+    document.querySelector('section.templeHeroContainer').appendChild(divServices);
+    document.querySelector('section.templeHeroContainer').appendChild(divClosure);
 
     }
   

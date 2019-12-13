@@ -15,8 +15,8 @@
           "Patron housing available",
           "Distribution center nearby"
         ],
-        "ordance-schedule": "Ordinance schedules vary by day.",
-        "session-schedule": "Endowment sessions every hour and a half; check the temple website for daily sessions in English.",
+        "ordanceschedule": "Ordinance schedules vary by day.",
+        "sessionschedule": "Endowment sessions every hour and a half; check the temple website for daily sessions in English.",
         "announced":"4 October 2008",
         "groundbreaking":"23 October 2010",
         "dedicated": "10 March 2019",
@@ -36,7 +36,7 @@
 
     {
       "name": "Nauvoo Illinois Temple",
-      "photo": "images/nauvoo-temple-low-res.jpg.jpg",
+      "photo": "images/nauvoo-temple-low-res.jpg",
       "address1": "50 N Wells St",
       "address2": "Nauvoo IL 62354",
       "address3": "United States",
@@ -71,7 +71,7 @@
 
     {
       "name": "Salt Lake Temple",
-      "photo": "images/slc-temple-low-res.jpg.jpg",
+      "photo": "images/slc-temple-low-res.jpg",
       "address1": "50 W North Temple St",
       "address2": "Salt Lake City UT 84150-9709",
       "address3": "United States",
@@ -99,7 +99,7 @@
 
     {
         "name": "Newport Beach California Temple",
-        "photo": "images/newport-beach-california-temple-low-res.jpg.jpg",
+        "photo": "images/newport-beach-california-temple-low-res.jpg",
         "address1": "2300 Bonita Canyon Dr",
         "address2": "Newport Beach CA 92660-9118",
         "address3": "United States",

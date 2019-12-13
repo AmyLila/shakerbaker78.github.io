@@ -12,19 +12,28 @@ fetch(templesURL)
     for (let i = 0; i < temple.length; i++ ) {
                   
        
+
+
+//---------------------- This goes inside the templeHeroContainer section --------------------------       
+    
+let infoContainer = document.createElement('div');
+    infoContainer.className = "infoContainer";
+
+
     let templeTitle =document.createElement('h2');
         templeTitle.className = "templeName"; 
         templeTitle.textContent = temple[i].name;
-        document.querySelector('section.templeHeroContainer').appendChild(templeTitle);
+        infoContainer.appendChild(templeTitle);  
 
-//---------------------- This goes inside the templeHeroContainer section --------------------------       
-    let divInfo = document.createElement('div');
+let divInfo = document.createElement('div');
         divInfo.className = "templeInfoLong";
         divInfo.id= "dropDown" + i;
+        infoContainer.appendChild(divInfo);
         
-        // templeHeroContainer.appendChild(divInfo);  
         console.log(divInfo.id);      
-     
+    
+  
+        
     let button = document.createElement('button');
         button.setAttribute('onclick', 'toggle()');
         button.textContent = "&#9662";
@@ -79,7 +88,7 @@ fetch(templesURL)
         templeImage.setAttribute('alt', temple[i].name);
 
 
-        document.querySelector('section.templeHeroContainer').appendChild(divInfo);
+        document.querySelector('section.templeHeroContainer').appendChild(infoContainer);
         document.querySelector('section.templeHeroContainer').appendChild(templeImage);
         
         

@@ -155,11 +155,11 @@ fetch(templesURL)
               let divForcast = document.createElement('div');
               divForcast.className = "templeForcast";
 
-
+    document.querySelector('section.templeHeroContainer').appendChild(divForcast);
     document.querySelector('section.templeHeroContainer').appendChild(divSchedule);
     document.querySelector('section.templeHeroContainer').appendChild(divServices);
     document.querySelector('section.templeHeroContainer').appendChild(divClosure);
-    document.querySelector('section.templeHeroContainer').appendChild(divForcast);
+    
 //------------------------------ Forcast --------------------------------------------
 if (temple[i].name == "Rome Italy Temple")
           { 
@@ -222,20 +222,10 @@ if (temple[i].name == "Rome Italy Temple")
                  h6.textContent=desc;
                  li.appendChild(h6);
            
-           
-                       
-                  
-           
-           
                }
              }
            
-           
-            
             });    
-
-
-
 
           }
 //-------------------------------------  End Rome Weather ---------------------------------------- 
@@ -302,20 +292,10 @@ if (temple[i].name == "Nauvoo Illinois Temple")
        h6.textContent=desc;
        li.appendChild(h6);
  
- 
-             
-        
- 
- 
      }
    }
  
- 
-  
   });    
-
-
-
 
 }
 //-------------------------------------  End Nauvoo Weather ----------------------------------------   
@@ -381,19 +361,11 @@ if (temple[i].name == "Salt Lake City Temple")
        h6.textContent=desc;
        li.appendChild(h6);
  
- 
-             
-        
- 
- 
      }
    }
  
- 
   
   });    
-
-
 
 
 }
@@ -461,18 +433,11 @@ if (temple[i].name == "Newport Beach California Temple")
        li.appendChild(h6);
  
  
-             
-        
- 
- 
      }
    }
  
- 
   
   });    
-
-
 
 
 }
@@ -539,22 +504,15 @@ if (temple[i].name == "Bern Switzerland Temple")
        li.appendChild(h6);
  
  
-             
-        
- 
- 
      }
    }
- 
  
   
   });    
 
 
-
-
 }
-//-------------------------------------  End Newport Weather ----------------------------------------     
+//-------------------------------------  End Bern Weather ----------------------------------------     
   
    
    

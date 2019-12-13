@@ -340,8 +340,8 @@ main, footer {
 .templeHeroContainer {
   position: relative;
   text-align: center;
-  display:flex;
-  flex-direction: column-reverse;
+  // display:flex;
+  // flex-direction: column-reverse;
   color:$navy;
 }
 .templeName{
@@ -367,7 +367,7 @@ main, footer {
 // .templeright a:visited{
 //   color:$buttoncolor;
 //   background-color: rgba(0, 0, 0, 0.2);
-}
+//}
 .templeHeroContainer img {
   max-width: 100%;
   overflow: hidden;
@@ -375,20 +375,19 @@ main, footer {
 
 // ---------------------- Temple Page ------------------------------------------
 
-#templeDropDown {
-  list-style:none;
-  padding: .5rem;
-  margin: 0 0 1rem 0;
-  line-height: 1.5rem;
-}
+// #templeDropDown {
+//   list-style:none;
+//   padding: .5rem;
+//   margin: 0 0 1rem 0;
+//   line-height: 1.5rem;
+// }
 .hideInfo{
   display:none;
-  list-style:none;
   padding: .5rem;
   margin: 0 0 1rem 0;
   line-height: 1.5rem;
 }
-.templeInfoShort button{
+.templeInfoLong button{
   background-color: transparent;
   border: none;
   color: $navy;

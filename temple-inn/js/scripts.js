@@ -86,11 +86,16 @@ fetch(templeURL)
 }
 });
 
-// ------------------ show/hide Navigation ------------------------
+// ------------------ show/hide temple information ------------------------
 
 function toggleTemple (){
   console.log(document.getElementById("templeDropDown").classList);
   document.getElementById("templeDropDown").classList.toggle("hideInfo");
+
+}
+function toggle (){
+  console.log(document.getElementById("templeDropDown").classList);
+  document.getElementById("dropDown0").classList.toggle("templeInfoLong");
 
 }
 

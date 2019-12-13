@@ -91,3 +91,26 @@ h1 {
 .homeHide{
     display:block;
   }   
+
+
+// -------------------- Temple Page Hero Image and Text -------------------------------
+
+.templeHeroContainer {
+
+    display:block;
+    // flex-direction: column-reverse;
+  }
+.templeName{
+    padding:1rem 1rem .3rem 1rem;
+  } 
+.templeInfoLong {
+    position: absolute;
+    margin:2rem;     
+ }  
+.templeInfoLong button{
+    display: none;
+} 
+ .hideInfo{
+    display:block;
+
+  }   

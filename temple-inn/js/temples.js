@@ -96,10 +96,10 @@ fetch(templesURL)
         divSchedule.appendChild(pSchedule);
 
         let h3ordinance =document.createElement('h3');
-        email1.textContent = "Ordinance Schedule";
+        h3ordinance.textContent = "Ordinance Schedule";
         divSchedule.appendChild(h3ordinance);
         let pordinance = document.createElement('p')
-        email1.textContent = temple[i].ordanceschedule;
+        pordinance.textContent = temple[i].ordanceschedule;
         divSchedule.appendChild(pordinance);
 
 

@@ -48,8 +48,8 @@
         "No patron housing available",
         "No distribution center nearby"
       ],
-      "ordance-schedule": "Ordinance schedules vary by day.",
-      "session-schedule": "Endowment sessions every hour.",
+      "ordanceschedule": "Ordinance schedules vary by day.",
+      "sessionschedule": "Endowment sessions every hour.",
       "announced":"4 April 1999",
       "groundbreaking":"24 October 1999",
       "dedicated": "27 June 2002",
@@ -83,8 +83,8 @@
         "No patron housing available",
         "Distribution center nearby"
       ],
-      "ordance-schedule": "Ordinance schedules vary by day.",
-      "session-schedule": "Endowment sessions every hour.",
+      "ordanceschedule": "Ordinance schedules vary by day.",
+      "sessionschedule": "Endowment sessions every hour.",
       "announced":"28 July 1847",
       "groundbreaking":"14 February 1853",
       "dedicated": "6 April 1893",
@@ -111,8 +111,8 @@
           "No patron housing available",
           "No distribution center nearby"
         ],
-        "ordance-schedule": "Ordinance schedules vary by day.",
-        "session-schedule": "Endowment sessions every hour and a half.",
+        "ordanceschedule": "Ordinance schedules vary by day.",
+        "sessionschedule": "Endowment sessions every hour and a half.",
         "announced":"21 April 2001",
         "groundbreaking":"15 August 2003",
         "dedicated": "28 August 2005",
@@ -147,8 +147,8 @@
           "Patron housing available",
           "Distribution center nearby"
         ],
-        "ordance-schedule": "Ordinance schedules vary by day.",
-        "session-schedule": "Endowment sessions every 75 minutes.",
+        "ordanceschedule": "Ordinance schedules vary by day.",
+        "ssessionschedule": "Endowment sessions every 75 minutes.",
         "announced":"1 July 1952",
         "groundbreaking":"5 August 1953",
         "dedicated": "11 September 1955",

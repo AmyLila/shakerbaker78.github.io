@@ -12,8 +12,10 @@ fetch(templesURL)
     for (let i = 0; i < temple.length; i++ ) {
                   
        
-    let h2 =document.createElement('h2');
-        h2.className = "templeName"; 
+    let templeTitle =document.createElement('h2');
+        templeTitle.className = "templeName"; 
+        templeTitle.textContent = temple[i].name;
+        document.querySelector('section.templeHeroContainer').appendChild(templeTitle);
 
 //---------------------- This goes inside the templeHeroContainer section --------------------------       
     let divInfo = document.createElement('div');

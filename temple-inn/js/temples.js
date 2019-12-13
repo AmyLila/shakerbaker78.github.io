@@ -156,6 +156,18 @@ fetch(templesURL)
     document.querySelector('section.templeHeroContainer').appendChild(divServices);
     document.querySelector('section.templeHeroContainer').appendChild(divClosure);
 
+//------------------------------ Forcast --------------------------------------------
+if (temple[i].name == "Rome Italy Temple" ||
+              temple[i].name == "Nauvoo Illinois Temple" ||
+              temple[i].name == "Salt Lake City Temple" ||
+              temple[i].name == "Preston" ||
+              temple[i].name == "Soda Springs")
+          { 
+
+
+
+
+          }
     }
   
 

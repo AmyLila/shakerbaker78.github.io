@@ -9,6 +9,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 html{
     font-family:$bodycopy;
+    
   }
 
 
@@ -348,7 +349,6 @@ main, footer {
   padding:0;
 }
 
-
 .templeInfoLong p{
   padding:0 0 2% 0;
 }
@@ -369,7 +369,9 @@ main, footer {
   border-radius: 10px ;
   margin:1rem;
 }
-
+.templeName{
+  padding:1rem 0 0 0;
+}
 .infoContainer button{
   background-color: transparent;
   border: none;
@@ -407,7 +409,7 @@ main, footer {
  }
  .templeForcast ol li h4{
    color: $cream;
-   padding:1rem 0 0 0;
+   padding:1rem 1rem 0 1rem;
    font-size: 1rem;
    font-weight: $regularWeight;
  

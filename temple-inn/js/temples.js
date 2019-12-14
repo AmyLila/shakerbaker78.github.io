@@ -35,12 +35,9 @@ let divInfo = document.createElement('div');
         divInfo.id= "dropDown" + i;
         infoContainer.appendChild(divInfo);
         
-        console.log(divInfo.id);      
+        // console.log(divInfo.id);      
     
   
-        
-
-
                           
                 let announced = document.createElement ('h4');
                 announced.textContent = "Announced";
@@ -62,13 +59,23 @@ let divInfo = document.createElement('div');
                 let dedicated1 = document.createElement ('p'); 
                 dedicated1.textContent = temple[i].dedicated;
                 divInfo.appendChild(dedicated1);
-                    
+                 
+                
                 let address = document.createElement ('h4');
                 address.textContent = "Address";
                 divInfo.appendChild(address);
+
                 let address1 = document.createElement ('p');
-                address1.textContent = temple[i].address1 + "<br>" +temple[i].address2 + "<br>" +temple[i].address3;
+                address1.innerHTML = temple[i].address1;
                 divInfo.appendChild(address1);
+
+                let address2 = document.createElement ('p');
+                address2.innerHTML = temple[i].address2;
+                divInfo.appendChild(address2);
+
+                let address3 = document.createElement ('p');
+                address3.innerHTML = temple[i].address3;
+                divInfo.appendChild(address3);
 
                 let phone = document.createElement ('h4');
                 phone.textContent = "Telephone";
@@ -83,6 +90,15 @@ let divInfo = document.createElement('div');
                 let email1 = document.createElement ('p')
                 email1.textContent = temple[i].email;
                 divInfo.appendChild(email1);
+
+                let link= document.createElement ('a');
+                link.innerHTML= "Temple Website";
+                link.setAttribute('href', temple[i].link);
+                link.setAttribute('target',"blank");
+                link.className = "templeLink"
+                divInfo.appendChild(link);
+
+
 
 
     let templeImage = document.createElement('img');

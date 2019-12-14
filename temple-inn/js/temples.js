@@ -96,8 +96,6 @@ let divInfo = document.createElement('div');
  //-------------------------- Sechedule ---------------------------        
         let divSchedule = document.createElement('div');
         divSchedule.className = "templeSchedule";
-        
-               
      
         let h3Schedule =document.createElement('h3');
         h3Schedule.textContent = "Endowment Schedule";

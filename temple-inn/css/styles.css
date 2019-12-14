@@ -703,13 +703,14 @@ footer {
   max-width: 100%;
   overflow: hidden; }
 
-.hideInfo {
+.templeInfoLong0 {
   display: none;
+  list-style: none;
   padding: .5rem;
   margin: 0 0 1rem 0;
   line-height: 1.5rem; }
 
-.templeInfoLong button {
+.infoContainer button {
   background-color: transparent;
   border: none;
   color: #3a435e;

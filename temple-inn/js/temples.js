@@ -25,8 +25,13 @@ let infoContainer = document.createElement('div');
         templeTitle.textContent = temple[i].name;
         infoContainer.appendChild(templeTitle);  
 
+    let button = document.createElement('button');
+        button.setAttribute('onclick', 'toggle' + i + '()');
+        button.textContent = "&#9662";
+        infoContainer.appendChild(button);        
+
 let divInfo = document.createElement('div');
-        divInfo.className = "templeInfoLong";
+        divInfo.className = "templeInfoLong" + i;
         divInfo.id= "dropDown" + i;
         infoContainer.appendChild(divInfo);
         
@@ -34,10 +39,7 @@ let divInfo = document.createElement('div');
     
   
         
-    let button = document.createElement('button');
-        button.setAttribute('onclick', 'toggle()');
-        button.textContent = "&#9662";
-        divInfo.appendChild(button);
+
 
                           
                 let announced = document.createElement ('h4');

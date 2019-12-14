@@ -381,13 +381,15 @@ main, footer {
 //   margin: 0 0 1rem 0;
 //   line-height: 1.5rem;
 // }
-.hideInfo{
+.templeInfoLong0, .templeInfoLong1, .templeInfoLong2, .templeInfoLong3, .templeInfoLong4{
   display:none;
+  list-style:none;
   padding: .5rem;
   margin: 0 0 1rem 0;
   line-height: 1.5rem;
 }
-.templeInfoLong button{
+
+.infoContainer button{
   background-color: transparent;
   border: none;
   color: $navy;

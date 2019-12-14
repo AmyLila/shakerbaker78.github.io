@@ -888,5 +888,6 @@ footer {
     font-size: .9rem; }
 
   .templeForcast {
-    max-width: 80%; } }
+    max-width: 80%;
+    margin: auto; } }
 /* end of media query */

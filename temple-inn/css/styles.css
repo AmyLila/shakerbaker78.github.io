@@ -717,6 +717,22 @@ footer {
   font-size: 2.5rem;
   padding: .2rem 2rem; }
 
+.templeLink {
+  color: #3a435e;
+  padding: 0 0 1rem 0;
+  margin: 0 auto 1rem auto;
+  font-family: "Abril Fatface", cursive;
+  font-weight: normal;
+  text-decoration: none; }
+
+.templeLink:hover {
+  color: #7fffd4;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem; }
+
+.templeLink:visited {
+  color: #7fffd4; }
+
 .templeForcast {
   max-width: 200%;
   display: flex;

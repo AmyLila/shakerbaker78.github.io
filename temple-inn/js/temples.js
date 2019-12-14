@@ -92,10 +92,11 @@ let divInfo = document.createElement('div');
                 divInfo.appendChild(email1);
 
                 let link= document.createElement ('a');
+                link.className = "templeLink";
                 link.innerHTML= "Temple Website";
                 link.setAttribute('href', temple[i].link);
                 link.setAttribute('target',"blank");
-                link.className = "templeLink"
+                // link.className = "templeLink";
                 divInfo.appendChild(link);
 
 

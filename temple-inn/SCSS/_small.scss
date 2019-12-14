@@ -379,6 +379,24 @@ main, footer {
   font-size: 2.5rem;
   padding: .2rem 2rem;
 } 
+.templeLink{
+  color:$navy;
+  padding: 0 0 1rem 0;
+  margin: 0 auto 1rem auto;
+  font-family: $headings;
+  font-weight: normal;
+  text-decoration: none;
+}
+.templeLink:hover{
+  color:$buttoncolor;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding:1rem;
+  
+}
+.templeLink:visited{
+  color:$buttoncolor;
+ 
+}
 //---------------------------------Forecast ------------------------------------------
 .templeForcast {
   max-width: 200%;

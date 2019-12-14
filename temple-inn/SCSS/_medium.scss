@@ -114,3 +114,12 @@ h1 {
     display:block;
 
   }   
+
+//--------------------------Forecast -----------------------------------------------
+.templeForcast {
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin:1rem;
+    padding: 0;
+   }  

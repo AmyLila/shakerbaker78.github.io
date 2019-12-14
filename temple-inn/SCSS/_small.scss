@@ -377,9 +377,72 @@ main, footer {
   font-size: 2.5rem;
   padding: .2rem 2rem;
 } 
+//---------------------------------Forecast ------------------------------------------
+.templeForcast {
+  max-width: 200%;
+  display:flex;
+  flex-direction:row;
+  align-items: stretch;
+  justify-items:center;
+  margin:1rem;
+  padding: 0;
+  overflow: scroll;
+  background-color: $buttoncolor;
+ }
+
+.templeForcast ol {
+  max-width: 100%;
+  list-style-type: none;
+  margin:1rem;
+  padding: 0;
+ }
+
+ .templeForcast ol li {
+  max-width: 100%;
+   background-color: $navy;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .templeForcast ol li h4{
+   color: $cream;
+   padding:1rem 0 0 0;
+   font-size: 1rem;
+   font-weight: $regularWeight;
+ 
+ }
+ .templeForcast ol li h5{
+   color: $cream;
+   padding:.1rem;
+   font-size: 1rem;
+ }
+ .templeForcast ol li h6{
+   text-transform: capitalize;
+   font-family: $bodycopy;
+   color: $cream;
+   padding:.5rem 1rem 1rem 1rem;
+   font-size: 1rem;
+ 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
+

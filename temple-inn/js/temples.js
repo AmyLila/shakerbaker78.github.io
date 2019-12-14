@@ -158,18 +158,30 @@ let divInfo = document.createElement('div');
                 liClosure .textContent = temple[i].closures[e];
                 ulclosure.appendChild(liClosure );
                 console.log(cb.length); 
-              }   
+              } 
+              
+//------------------------------ History --------------------------------------------              
+        let divHistory = document.createElement('div');
+            divHistory.className = "templeHistory";
+
+            let h3history =document.createElement('h3');
+                 h3history.textContent = "Temple History";
+                 divHistory.appendChild(h3history);
+            let phistory = document.createElement('p')
+                 phistory.textContent = temple[i].history;
+                 divHistory.appendChild(phistory);
 
 //------------------------------ Forcast --------------------------------------------
               let divForcast = document.createElement('div');
               divForcast.className = "templeForcast";
 
+    document.querySelector('section.templeHeroContainer').appendChild(divHistory);
     document.querySelector('section.templeHeroContainer').appendChild(divForcast);
     document.querySelector('section.templeHeroContainer').appendChild(divSchedule);
     document.querySelector('section.templeHeroContainer').appendChild(divServices);
     document.querySelector('section.templeHeroContainer').appendChild(divClosure);
     
-//------------------------------ Forcast --------------------------------------------
+//------------------------------ Rome Forcast --------------------------------------------
 if (temple[i].name == "Rome Italy Temple")
           { 
 

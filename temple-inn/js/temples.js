@@ -27,7 +27,7 @@ let infoContainer = document.createElement('div');
 
     let button = document.createElement('button');
         button.setAttribute('onclick', 'toggle' + i + '()');
-        button.textContent = "&#9662";
+        button.innerHTML = "&#9662";
         infoContainer.appendChild(button);        
 
 let divInfo = document.createElement('div');

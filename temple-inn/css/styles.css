@@ -703,7 +703,7 @@ footer {
   max-width: 100%;
   overflow: hidden; }
 
-.templeInfoLong0 {
+.templeInfoLong0, .templeInfoLong1, .templeInfoLong2, .templeInfoLong3, .templeInfoLong4 {
   display: none;
   list-style: none;
   padding: .5rem;

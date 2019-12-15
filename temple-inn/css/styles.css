@@ -439,7 +439,7 @@ header {
   margin: 1rem 1rem 0 1rem;
   background-color: #7fffd4;
   color: #3a435e;
-  padding: .5rem;
+  padding: 1rem .5rem;
   border-radius: 10px;
   font-family: "Abril Fatface", cursive;
   border: 1px solid rgba(0, 0, 0, 0.3); }
@@ -705,7 +705,7 @@ footer {
   margin: 1rem; }
 
 .templeName {
-  padding: 1rem 0 0 0; }
+  padding: 1rem .5rem 0 .5rem; }
 
 .infoContainer button {
   background-color: transparent;

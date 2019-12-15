@@ -47,9 +47,68 @@
    
    <main>
 
-<!--------------------------------- Reservation Form ------------------------------------->
-    <section class="templeHeroContainer">
-
+<!--------------------------------- Reservation Form -------------------------------------
+  The reservation page contains a form that collects relevant information when making a normal stay reservation including the location, date, number and type of rooms, registrant's full name, email, phone, home state or country, and special accommodations/comments. You will need to use the CSS flex method for the layout of your reservation form for full credit.-->
+    <section class="reservationTitle">
+      <h2 class="h2h3 lt">Report Weather</h2>
+      <p>Experiencing Unusual Weather? We'd love to hear about it;<br> Report a storm or unusual weather event in your travel area here.</p>
+    </section>
+    
+  <form method="GET" action="thanks.html">
+    <div class="griditem">
+        <label class="top">Full Name*<input type="text" id="name" name="fullName" pattern="[A-Z a-z]{5,}" required></label> 
+        <label class="top">Email<input type="email" name="email" placeholder="stormwatcher@gmail.com"></label>
+        <label class="top">Phone Number*<input type="tel" name="phone" placeholder="2085551234" required></label> 
+        <label class="top">Zip Code*<input type="number" name="zip" required> </label> 
+    </div>
+    <div class="griditem">    
+      <label class="top">Storm Date<input type="date" name="stormDate">  </label>
+      <label class="top">Storm Type <input list="stormType" id="storm" name="storm">
+        <datalist id="stormType">
+              <option value="Flash Flood">Flash Flood</option>
+              <option value="Hail">Hail</option>
+              <option value="Hurricane">Hurricane</option>
+              <option value="Thunderstorm">Thunderstorm</option>
+              <option value="Tornado">Tornado</option>
+          </datalist>
+      </label>
+      <label class="top">Storm Region
+          <select name="region">
+              <option value="">Select Region ... &#9662;</option>
+              <option value="Preston">Preston</option>
+              <option value="sodaSprings">Soda Springs</option>
+              <option value="fishHaven">Fish Haven</option>
+          </select>
+      </label>
+      <div class="severity sbs">   
+          <label class="danger" for="rating">Storm Severity Rating: &nbsp;&nbsp;&nbsp;
+            <input type="range" name="rating" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span>
+          </label>
+            <datalist id="tickmarks">
+              <option value="0">
+              <option value="1">
+              <option value="2">
+              <option value="3">
+              <option value="4">
+              <option value="5">
+              <option value="6">
+              <option value="7">
+              <option value="8">
+              <option value="9">
+              <option value="10">
+            </datalist>
+        </div> 
+      <div class="dk">User In Danger</div>
+          <label class="sbs"><input type="radio" name="audience" value="yes">Yes</label>
+          <label class="sbs"><input type="radio" name="audience" value="maybe">Maybe</label>
+          <label class="sbs"><input type="radio" name="audience" value="no">No</label>
+      </div>  
+  <div class="dk griditem">
+      <label class="dk">Enter any additional information here <textarea class="textarea" id="comments" name="comments" placeholder="Type your comments here..." cols="50" wrap="hard"></textarea></label>
+  </div>
+  <input type="submit" value="Report A Storm" class="submitbutton">
+</form>
           
     </section> 
 

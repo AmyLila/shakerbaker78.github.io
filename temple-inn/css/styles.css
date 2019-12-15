@@ -601,7 +601,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta-button-full {
   width: 90%;
-  margin: 1rem;
+  margin: 1rem auto;
   text-align: center;
   background-color: #7fffd4;
   padding: 1rem .5rem;
@@ -827,7 +827,7 @@ footer {
   header img {
     max-width: 100%; }
 
-  .cta-button button {
+  .cta-button {
     padding: .5rem 2rem;
     margin: 0 0 1rem 0;
     line-height: 1.5rem;
@@ -954,7 +954,7 @@ footer {
   .logo {
     margin: 5%; }
 
-  .cta-button button {
+  .cta-button {
     padding: .5rem 2rem;
     margin: 0 5%;
     font-size: 1rem; }

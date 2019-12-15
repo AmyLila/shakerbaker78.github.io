@@ -401,12 +401,17 @@ main, footer {
   margin: .5rem auto;
 }
 //----------------------------------Temple History --------------------------------------
-.templeHistory h3{
+.templeHistory h3, .templeSchedule h3, .templeServices h3, .templeClosures h3 {
   margin: 1rem auto 0 auto;
   padding: .5rem 1rem 0 1rem;
 }
-.templeHistory p{
-  padding: 1rem;
+.templeHistory p, .templeSchedule p{
+  padding: .5rem 1rem 1rem 1rem;
+  margin:0 auto 1rem auto;
+}
+.templeServices ul, .templeClosures ul {
+  list-style-type: none;
+  padding: .5rem 1rem 1rem 1rem;
   margin:0 auto 1rem auto;
 }
 //---------------------------------Forecast ------------------------------------------

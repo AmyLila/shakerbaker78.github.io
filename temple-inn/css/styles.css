@@ -439,7 +439,7 @@ header {
   margin: 1rem 1rem 0 1rem;
   background-color: #7fffd4;
   color: #3a435e;
-  padding: 1rem .5rem;
+  padding: .5rem;
   border-radius: 10px;
   font-family: "Abril Fatface", cursive;
   border: 1px solid rgba(0, 0, 0, 0.3); }
@@ -599,11 +599,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #3a435e; }
 
 .cta-button-full button {
-  width: 100%;
-  margin: 1rem auto;
+  width: 90%;
+  margin: 1rem;
   background-color: #7fffd4;
   color: #3a435e;
-  padding: .5rem;
+  padding: 1rem .5rem;
   border-radius: 10px;
   font-family: "Abril Fatface", cursive;
   border: 1px solid rgba(0, 0, 0, 0.3); }

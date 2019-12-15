@@ -754,6 +754,7 @@ footer {
   margin: 0 auto 1rem auto; }
 
 .templeForcast {
+  border-radius: 10px;
   max-width: 200%;
   display: flex;
   flex-direction: row;
@@ -773,7 +774,7 @@ footer {
 .templeForcast ol li {
   max-width: 100%;
   background-color: #3a435e;
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -791,6 +792,7 @@ footer {
 
 .templeForcast ol li h6 {
   text-transform: capitalize;
+  text-align: center;
   font-family: "Source Sans Pro", sans-serif;
   color: #FBFBF2;
   padding: .5rem 1rem 1rem 1rem;
@@ -876,22 +878,24 @@ footer {
     display: block; }
 
   .templeHeroContainer {
-    display: block; }
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+
+  .infoContainer {
+    grid-column: span 2;
+    z-index: 1; }
 
   .templeName {
     padding: 1rem 1rem .3rem 1rem; }
 
-  .templeInfoLong {
-    position: absolute;
-    margin: 2rem; }
+  .templeHeroContainer img {
+    grid-column: span 2; }
 
-  .templeInfoLong button {
-    display: none; }
-
-  .hideInfo {
-    display: block; }
+  .templeHistory {
+    grid-column: span 2; }
 
   .templeForcast {
+    grid-column: span 2;
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

@@ -96,27 +96,28 @@ h1 {
 // -------------------- Temple Page Hero Image and Text -------------------------------
 
 .templeHeroContainer {
-
-    display:block;
-    // flex-direction: column-reverse;
-  }
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.infoContainer{
+  grid-column: span 2;
+  z-index: 1;
+  
+}
 .templeName{
     padding:1rem 1rem .3rem 1rem;
   } 
-.templeInfoLong {
-    position: absolute;
-    margin:2rem;     
- }  
-.templeInfoLong button{
-    display: none;
-} 
- .hideInfo{
-    display:block;
 
-  }   
-
+.templeHeroContainer img {
+grid-column: span 2;
+}
+//---------------------------History-------------------------------------------------
+.templeHistory{
+  grid-column: span 2;
+}
 //--------------------------Forecast -----------------------------------------------
 .templeForcast {
+    grid-column: span 2;
     list-style-type: none;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;

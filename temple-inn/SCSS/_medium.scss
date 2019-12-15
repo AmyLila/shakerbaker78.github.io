@@ -124,3 +124,10 @@ grid-column: span 2;
     margin:1rem;
     padding: 0;
    }  
+//---------------------------- Schedules ----------------------------------------------------
+.templeSchedule, .templeServices{
+  max-width: 80%;
+  background-color: $cream;
+  border-radius: 10px;
+  margin:auto;
+}   

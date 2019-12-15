@@ -339,18 +339,12 @@ main, footer {
 // -------------------- Temple Page Hero Image and Text -------------------------------
 
 .templeHeroContainer {
+  max-width: 100%;
   position: relative;
-  text-align: center;
-  // display:flex;
-  // flex-direction: column-reverse;
   color:$navy;
 }
-.templeName{
-  padding:0;
-}
-
-.templeInfoLong p{
-  padding:0 0 2% 0;
+.infoContainer{
+  text-align: center;
 }
 
 .templeHeroContainer img {
@@ -396,6 +390,19 @@ main, footer {
 .templeLink:visited{
   color:$buttoncolor;
  
+}
+#dropDown0, #dropDown1, #dropDown2, #dropDown3, #dropDown4{
+  margin: 0 auto 1rem auto;
+}
+#dropDown0 h4, #dropDown1 h4, #dropDown2 h4, #dropDown3 h4, #dropDown4 h4{
+  padding: 1rem 0 0 0;
+}
+#dropDown0 p, #dropDown1 p, #dropDown2 p, #dropDown3 p, #dropDown4 p{
+  margin: .5rem auto;
+}
+//----------------------------------Temple History --------------------------------------
+.templeHistory p{
+  padding: 1rem;
 }
 //---------------------------------Forecast ------------------------------------------
 .templeForcast {

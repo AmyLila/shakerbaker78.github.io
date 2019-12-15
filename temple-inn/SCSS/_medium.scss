@@ -119,15 +119,27 @@ grid-column: span 2;
 .templeForcast {
     grid-column: span 2;
     list-style-type: none;
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    // display:grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin:1rem;
     padding: 0;
+    overflow:hidden;
    }  
 //---------------------------- Schedules ----------------------------------------------------
 .templeSchedule, .templeServices{
-  max-width: 80%;
-  background-color: $cream;
+  width: 80%;
+  background-color: blueviolet;
   border-radius: 10px;
-  margin:auto;
+  justify-self: center;
+  margin: 1rem auto;
+  padding:1rem;
 }   
+.templeClosures{
+  grid-column: span 2;
+  width: 80%;
+  background-color: blueviolet;
+  border-radius: 10px;
+  justify-self: center;
+  margin: 1rem auto;
+  padding:1rem;
+}  

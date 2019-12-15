@@ -897,10 +897,26 @@ footer {
   .templeForcast {
     grid-column: span 2;
     list-style-type: none;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 1rem;
-    padding: 0; } }
+    padding: 0;
+    overflow: hidden; }
+
+  .templeSchedule, .templeServices {
+    width: 80%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    justify-self: center;
+    margin: 1rem auto;
+    padding: 1rem; }
+
+  .templeClosures {
+    grid-column: span 2;
+    width: 80%;
+    background-color: blueviolet;
+    border-radius: 10px;
+    justify-self: center;
+    margin: 1rem auto;
+    padding: 1rem; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {

@@ -690,6 +690,9 @@ footer {
   line-height: 1rem;
   font-size: 1.3rem; }
 
+.templePageTitle {
+  text-align: center; }
+
 .templeHeroContainer {
   max-width: 100%;
   position: relative;

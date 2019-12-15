@@ -50,10 +50,11 @@ header{
 
 .cta-button{
     grid-area: button;
+    margin:2rem auto 1rem auto;
     
 }    
-.cta-button button{
-    margin:1rem 1rem 0 1rem;
+.cta-button a{
+    text-decoration: none;
     background-color:$buttoncolor;
     color:$navy;
     padding:.5rem;
@@ -62,7 +63,7 @@ header{
     border:1px solid rgba(0, 0, 0, 0.3);
     
 } 
-.cta-button button:hover{
+.cta-button a:hover{
   box-shadow: $shadow;
 }
 header img {
@@ -239,17 +240,23 @@ main, footer {
 // -----------------------------End Home Page Link Section----------------------------------
 
 // ----------------------------- Home Page Button Section----------------------------------
-.cta-button-full button{
+.cta-button-full{
   width: 90%;
   margin:1rem;
+  text-align: center;
   background-color:$buttoncolor;
-  color:$navy;
   padding:1rem .5rem;
   border-radius: 10px;
   font-family:$headings;
   border:1px solid rgba(0, 0, 0, 0.3);
 }
-.cta-button-full button:hover{
+.cta-button-full a{
+  color:$navy;
+  font-family:$headings;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.cta-button-full:hover{
   box-shadow:$shadow;
 }
 

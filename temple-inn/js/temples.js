@@ -103,7 +103,7 @@ let divInfo = document.createElement('div');
 
 
     let templeImage = document.createElement('img');
-        templeImage.setAttribute('src', temple[i].imageurl);
+        templeImage.setAttribute('src', temple[i].photo);
         templeImage.setAttribute('alt', temple[i].name);
 
 

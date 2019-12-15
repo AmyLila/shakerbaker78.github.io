@@ -433,10 +433,11 @@ header {
   display: block; }
 
 .cta-button {
-  grid-area: button; }
+  grid-area: button;
+  margin: 2rem auto 1rem auto; }
 
-.cta-button button {
-  margin: 1rem 1rem 0 1rem;
+.cta-button a {
+  text-decoration: none;
   background-color: #7fffd4;
   color: #3a435e;
   padding: .5rem;
@@ -444,7 +445,7 @@ header {
   font-family: "Abril Fatface", cursive;
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
-.cta-button button:hover {
+.cta-button a:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
 
 header img {
@@ -598,17 +599,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #7fffd4;
   background-color: #3a435e; }
 
-.cta-button-full button {
+.cta-button-full {
   width: 90%;
   margin: 1rem;
+  text-align: center;
   background-color: #7fffd4;
-  color: #3a435e;
   padding: 1rem .5rem;
   border-radius: 10px;
   font-family: "Abril Fatface", cursive;
   border: 1px solid rgba(0, 0, 0, 0.3); }
 
-.cta-button-full button:hover {
+.cta-button-full a {
+  color: #3a435e;
+  font-family: "Abril Fatface", cursive;
+  text-decoration: none;
+  font-size: 1.3rem; }
+
+.cta-button-full:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
 
 .contactgrid {

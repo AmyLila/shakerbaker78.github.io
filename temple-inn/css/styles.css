@@ -848,13 +848,15 @@ footer {
 .reservationTitle h2 {
   color: #FBFBF2;
   text-transform: capitalize;
-  padding: 0 1rem; }
+  padding: 0 1rem;
+  font-weight: normal; }
 
 .reservationTitle h4 {
   color: #FBFBF2;
   text-transform: capitalize;
   padding: .5rem 1rem 1rem 1rem;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-weight: normal; }
 
 .reservation {
   max-width: 90%;

@@ -626,6 +626,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
 }
 .thanksText h2{
   padding:1rem 0 0 0;
+  text-transform: capitalize;
+}
+.thanksText p{
+  text-transform: capitalize;
 }
 
 //--------------------------------- End Reservations Page --------------------------------------

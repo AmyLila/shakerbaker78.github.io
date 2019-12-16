@@ -970,7 +970,11 @@ form input.submitbutton:hover {
   margin-bottom: 1rem; }
 
 .thanksText h2 {
-  padding: 1rem 0 0 0; }
+  padding: 1rem 0 0 0;
+  text-transform: capitalize; }
+
+.thanksText p {
+  text-transform: capitalize; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
@@ -1134,8 +1138,8 @@ form input.submitbutton:hover {
     max-width: 70%;
     border-radius: 10px;
     margin: 0 auto 1rem auto;
-    border-top: rgba(250, 250, 250, 0.5);
-    border-bottom: rgba(250, 250, 250, 0.5); } }
+    border-top: 2px solid rgba(250, 250, 250, 0.5);
+    border-bottom: 2px solid rgba(250, 250, 250, 0.5); } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {

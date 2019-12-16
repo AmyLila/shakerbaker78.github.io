@@ -613,22 +613,24 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta-button-full {
   width: 90%;
-  margin: 1rem auto;
+  margin: 2rem auto;
   text-align: center;
-  background-color: #7fffd4;
-  padding: 1rem .5rem;
-  border-radius: 10px;
-  font-family: "Abril Fatface", cursive;
-  border: 1px solid rgba(0, 0, 0, 0.3); }
+  background-color: transparent; }
 
 .cta-button-full a {
+  width: 90%;
   color: #3a435e;
   font-family: "Abril Fatface", cursive;
+  background-color: #7fffd4;
   text-decoration: none;
-  font-size: 1.3rem; }
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 1.3rem;
+  padding: 1rem 10%;
+  border-radius: 10px; }
 
-.cta-button-full:hover {
+.cta-button-full a:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
+  color: #FBFBF2;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a435e+0,11151c+100 */
   background: #3a435e;
   /* Old browsers */
@@ -640,9 +642,6 @@ h1, h2, h3, h4, h5, h6 {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', endColorstr='#11151c',GradientType=0 );
   /* IE6-9 */ }
-
-.cta-button-full a:hover {
-  color: #FBFBF2; }
 
 .contactgrid {
   background-color: #3a435e;

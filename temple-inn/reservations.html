@@ -45,23 +45,24 @@
 
    </header>
    
-   <main>
+   <main class="blueBackground">
 
 <!--------------------------------- Reservation Form -------------------------------------
   The reservation page contains a form that collects relevant information when making a normal stay reservation including the location, date, number and type of rooms, registrant's full name, email, phone, home state or country, and special accommodations/comments. You will need to use the CSS flex method for the layout of your reservation form for full credit.-->
     <section class="reservationTitle">
-      <h2 class="h2h3 lt">Reservations</h2>
-      <p>let us help you with your upcomming temple trip</p>
+      <h2>Reservations</h2>
+      <h4>Let us help you with your upcomming temple trip</h4>
     </section>
     
-  <form method="GET" action="thanks.html">
-    <div class="griditem">
+  <form method="GET" action="thanks.html" class="reservation">
+    <div class="personal">
         <label class="top">Full Name*<input type="text" id="name" name="fullName" pattern="[A-Z a-z]{5,}" required></label> 
-        <label class="top">Email*<input type="email" name="email" placeholder="stormwatcher@gmail.com"></label>
+        <label class="top">Email*<input type="email" name="email" placeholder="templepatron@gmail.com" required></label>
         <label class="top">Phone Number*<input type="tel" name="phone" placeholder="2085551234" required></label> 
         <label class="top">Home State if in the US*
           <select name="state" required>
               <option value="">Select State ... &#9662;</option>
+              <option value="outside">Outside US</option>
               <option value="AL">Alabama</option>
               <option value="AK">Alaska</option>
               <option value="AZ">Arizona</option>
@@ -114,17 +115,17 @@
               <option value="WY">Wyoming</option>
           </select>
       </label>
-//-------------------------------------End States -------------------------------------
+<!-- -------------------------------------End States ------------------------------------- -->
 
         <label class="top">Home country*<input type="text" name="country" placeholder="Switzerland" required></label> 
         <label class="top">Zip Code*<input type="number" name="zip" required> </label> 
     </div>
-//----------------------------------End Personal Info ---------------------
+<!-- ----------------------------------End Personal Info --------------------- -->
 
     <div class="roomInfo">
-        <label class="room">Date of Check-In*<input type="date" name="date" required>  </label>
-        <label class="room">Number of Nights*<input type="number" name="nights" required> </label> 
-        <label class="location">Select Location*
+        <label class="top">Date of Check-In*<input type="date" name="date" required>  </label>
+        <label class="top">Number of Nights*<input type="number" name="nights" required> </label> 
+        <label class="top">Select Location*
             <select name="location" required>
                 <option value="">Select Location ... &#9662;</option>
                 <option value="rome">Rome</option>
@@ -134,8 +135,8 @@
                 <option value="bern">Bern</option>
             </select>
         </label>
-        <label class="room">Number of Rooms*<input type="number" name="rooms" required> </label> 
-        <label class="type">Type of Room*
+        <label class="top">Number of Rooms*<input type="number" name="rooms" required> </label> 
+        <label class="top">Type of Room*
           <select name="type" required>
               <option value="">Select Room ... &#9662;</option>
               <option value="king">King</option>
@@ -147,47 +148,14 @@
       </label>
       </div>
       
-//---------------------------End Room Info -----------------------------------
+<!-- ---------------------------End Room Info ----------------------------------- -->
       
-  <div class="dk griditem">
-      <label class="dk">Please note any special requirements or accommodations here: <textarea class="textarea" id="comments" name="comments" placeholder="Type your comments here..." cols="50" wrap="hard"></textarea></label>
-  </div>
-  <input type="submit" value="Report A Storm" class="submitbutton">
-</form>
+    <div class="contact">
+        <label >Please note any special requirements or accommodations here: <textarea class="textarea" id="comments" name="comments" placeholder="Type your comments here..." cols="50" wrap="hard"></textarea></label>
+    </div>
+    <input type="submit" value="Reserve Your Room" class="submitbutton">
+  </form>
           
-    </section> 
-
-
-
-<!-- --------------------------------- Full Width Button ------------------------------------->
-    <section class="cta-button-full">
-      <a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reserve Your Room</a>
-    </section> 
-
-<!----------------------------------- Contact Section ------------------------------------>
-    <!-- <section class="contactgrid">
-      <div class="homeContact1">
-        <a href="https://shakerbaker78.github.io./temple-inn/contact.html"><h2 class="lt">Contact Us!</h2></a> 
-        <h3>Address</h3>
-        <p>4800 Montgomery Ln #300,<br> Bethesda, MD 20814</p>
-        <h3>Email</h3>
-        <p>amy@templeinns.com</p>
-      </div>
-      <div class="homeContact2">
-          <ul class="social">
-              <li><a href="https://www.facebook.com" target="_blank">
-                  <img src="images/social/facebook-light.png" alt="FaceBook Logo"></a></li>
-              <li><a href="https://www.linkedin.com" target="_blank">
-                  <img src="images/social/linkedin-light.png" alt="linkedIn Logo"></a></li>
-              <li><a href="https://twitter.com" target="_blank">
-                  <img src="images/social/twitter-light.png" alt="twitter Logo"></a></li>
-            </ul>  
-      </div>
-       <div class="homeContact3">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701322!2d-77.09772048494206!3d38.98325177955756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576127451905!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-      </div> 
-    </section> -->
-<!-------------------------------- End Contact Section ----------------------------------------------->
     </main>
     <footer>
         <nav>

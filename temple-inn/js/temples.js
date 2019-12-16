@@ -107,9 +107,9 @@ let divInfo = document.createElement('div');
         templeImage.setAttribute('alt', temple[i].name);
 
 
-        document.querySelector('section.templeHeroContainer').appendChild(infoContainer);
-        document.querySelector('section.templeHeroContainer').appendChild(templeImage);
         
+        document.querySelector('section.templeHeroContainer').appendChild(templeImage);
+        document.querySelector('section.templeHeroContainer').appendChild(infoContainer);
         
 
  //-------------------------- Sechedule ---------------------------        

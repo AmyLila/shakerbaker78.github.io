@@ -65,6 +65,13 @@ header{
 } 
 .cta-button a:hover{
   box-shadow: $shadow;
+  color:$cream;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a435e+0,11151c+100 */
+background: rgb(58,67,94); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(58,67,94,1) 0%, rgba(17,21,28,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(58,67,94,1) 0%,rgba(17,21,28,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(58,67,94,1) 0%,rgba(17,21,28,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', endColorstr='#11151c',GradientType=0 ); /* IE6-9 */
 }
 header img {
       max-width: 150px;
@@ -258,6 +265,13 @@ main, footer {
 }
 .cta-button-full:hover{
   box-shadow:$shadow;
+  color:$cream;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a435e+0,11151c+100 */
+background: rgb(58,67,94); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(58,67,94,1) 0%, rgba(17,21,28,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(58,67,94,1) 0%,rgba(17,21,28,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(58,67,94,1) 0%,rgba(17,21,28,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', endColorstr='#11151c',GradientType=0 ); /* IE6-9 */
 }
 
 // ----------------------------- Home Page Contact Section----------------------------------
@@ -424,6 +438,10 @@ main, footer {
   padding: .5rem 1rem 1rem 1rem;
   margin:0 auto 1rem auto;
 }
+.templeClosures{
+  margin-bottom:2rem;
+  border-bottom: 10px solid $navy;
+}
 //---------------------------------Forecast ------------------------------------------
 .templeForcast {
   border-radius: 10px;
@@ -475,10 +493,115 @@ main, footer {
  
  }
 
+//--------------------------------- Recervations Page -------------------------------------------
+.blueBackground{
+  background-image:url("../images/temple-background-texture-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 1rem;
+}
+.reservationTitle{
+  max-width: 90%;
+  margin: 0 auto;
+}
+.reservationTitle h2{
+  color:$cream;
+  text-transform: capitalize; 
+  padding: 1rem 1rem 0 1rem;
+}
+.reservationTitle h4{
+  color:$cream;
+  text-transform: capitalize;
+  padding:.5rem 1rem 1rem 1rem;
+  margin:0 auto;
+}
+.reservation{
+  max-width: 90%;
+  border-radius: 10px;
+  padding: 1rem;
+  background-image:url("../images/temple-background-texture-02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  overflow:hidden;
+  display:flex;
+  flex-direction: column;
+}
+.personal, .roomInfo{
+  max-width: 100%;
+  overflow:hidden;
+  display:flex;
+  flex-direction: column;
+  padding:1rem;
+  margin:1rem;
+  line-height: 2rem;
+  border:solid 1px rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+.contact{
+  max-width: 100%;
+  overflow:hidden;
+  display:flex;
+  flex-direction: column;
+  padding:1rem;
+  margin:1rem;
+  line-height: 1.3rem;
+  border:solid 1px rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+.textarea{
+  padding-top: .5rem;
+}
+//-----------------------------Text Field Styling --------------------------------------
+form label.top input, form label.top select, #comments {
+  -webkit-appearance: none;
+  display: block;
+  font-size:1rem;
+  border-radius: 4px;
+  padding:.75rem;
+  color:#555;
+  width:90%;
+  max-width: 20rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 3px 5px 5px rgba(0,0,0, 0.4);
+}
+form label.top input:required {
+  border-left:$buttoncolor solid 6px;
+}
+form label.top input:required:valid{
+  border-left: #B9CFA7 solid 6px;
+  background-color: rgba(255, 255, 255, 0.8);
 
+}
+form input.submitbutton{
+  border:1px solid rgba(0, 0, 0, 0.3);
+  /* background-color: #273C49; */
+  color:$navy;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin:1rem auto 2rem auto;
+  width:96%;
+  max-width: 20rem;
+  
+  box-shadow: $shadow;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7fffd4+0,2dffb5+100 */
+background: rgb(127,255,212); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(127,255,212,1) 0%, rgba(45,255,181,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(127,255,212,1) 0%,rgba(45,255,181,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(127,255,212,1) 0%,rgba(45,255,181,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fffd4', endColorstr='#2dffb5',GradientType=0 ); /* IE6-9 */
 
+}
+form input.submitbutton:hover{
+  color:$cream;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a435e+0,11151c+100 */
+background: rgb(58,67,94); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(58,67,94,1) 0%, rgba(17,21,28,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(58,67,94,1) 0%,rgba(17,21,28,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(58,67,94,1) 0%,rgba(17,21,28,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', endColorstr='#11151c',GradientType=0 ); /* IE6-9 */
 
-
+}
 
 
 

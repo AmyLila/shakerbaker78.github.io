@@ -162,7 +162,16 @@ h1 {
   background-color:white;
   border-radius: 10px;
   justify-self: center;
-  margin: 1rem auto;
+  // margin: 1rem auto;
   padding:1rem;
   box-shadow: $shadow;
-}  
+} 
+
+//--------------------------------- Reservations Page ---------------------------------------------
+.reservation{
+  max-width: 50%;
+  overflow:hidden;
+  display:flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}

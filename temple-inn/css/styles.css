@@ -443,7 +443,18 @@ header {
   padding: .5rem;
   border-radius: 10px;
   font-family: "Abril Fatface", cursive;
-  border: 1px solid rgba(0, 0, 0, 0.3); }
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7fffd4+0,2dffb5+100 */
+  background: aquamarine;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, aquamarine 0%, #2dffb5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, aquamarine 0%, #2dffb5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, aquamarine 0%, #2dffb5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fffd4', endColorstr='#2dffb5',GradientType=0 );
+  /* IE6-9 */ }
 
 .cta-button a:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
@@ -626,7 +637,18 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid rgba(0, 0, 0, 0.3);
   font-size: 1.3rem;
   padding: 1rem 10%;
-  border-radius: 10px; }
+  border-radius: 10px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7fffd4+0,2dffb5+100 */
+  background: aquamarine;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, aquamarine 0%, #2dffb5 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, aquamarine 0%, #2dffb5 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, aquamarine 0%, #2dffb5 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fffd4', endColorstr='#2dffb5',GradientType=0 );
+  /* IE6-9 */ }
 
 .cta-button-full a:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
@@ -973,7 +995,7 @@ form input.submitbutton:hover {
   padding: 1rem 0 0 0;
   text-transform: capitalize; }
 
-.thanksText p {
+.thanksText h4 {
   text-transform: capitalize; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/

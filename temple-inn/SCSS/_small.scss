@@ -61,6 +61,12 @@ header{
     border-radius: 10px;
     font-family:$headings;
     border:1px solid rgba(0, 0, 0, 0.3);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7fffd4+0,2dffb5+100 */
+background: rgb(127,255,212); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(127,255,212,1) 0%, rgba(45,255,181,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(127,255,212,1) 0%,rgba(45,255,181,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(127,255,212,1) 0%,rgba(45,255,181,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fffd4', endColorstr='#2dffb5',GradientType=0 ); /* IE6-9 */
     
 } 
 .cta-button a:hover{
@@ -263,6 +269,12 @@ main, footer {
   font-size: 1.3rem;
   padding:1rem 10%;
   border-radius: 10px;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7fffd4+0,2dffb5+100 */
+background: rgb(127,255,212); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(127,255,212,1) 0%, rgba(45,255,181,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(127,255,212,1) 0%,rgba(45,255,181,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(127,255,212,1) 0%,rgba(45,255,181,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fffd4', endColorstr='#2dffb5',GradientType=0 ); /* IE6-9 */
 }
 .cta-button-full a:hover{
   box-shadow:$shadow;
@@ -628,7 +640,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
   padding:1rem 0 0 0;
   text-transform: capitalize;
 }
-.thanksText p{
+.thanksText h4{
   text-transform: capitalize;
 }
 

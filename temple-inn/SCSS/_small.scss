@@ -495,10 +495,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
 
 //--------------------------------- Recervations Page -------------------------------------------
 .blueBackground{
-  background-image:url("../images/temple-background-texture-01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: $navy;
   padding-bottom: 1rem;
+  padding-top:1rem;
 }
 .reservationTitle{
   max-width: 90%;
@@ -507,7 +506,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
 .reservationTitle h2{
   color:$cream;
   text-transform: capitalize; 
-  padding: 1rem 1rem 0 1rem;
+  padding: 0 1rem;
 }
 .reservationTitle h4{
   color:$cream;

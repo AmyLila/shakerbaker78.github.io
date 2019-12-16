@@ -168,6 +168,12 @@ h1 {
 } 
 
 //--------------------------------- Reservations Page ---------------------------------------------
+.reservationTitle{
+  max-width: 50%;
+  overflow:hidden;
+  flex-direction: column;
+  margin: 1rem auto;
+}
 .reservation{
   max-width: 50%;
   overflow:hidden;

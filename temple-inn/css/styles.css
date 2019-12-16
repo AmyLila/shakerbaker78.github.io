@@ -837,10 +837,9 @@ footer {
   font-size: 1rem; }
 
 .blueBackground {
-  background-image: url("../images/temple-background-texture-01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 1rem; }
+  background-color: #3a435e;
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
 
 .reservationTitle {
   max-width: 90%;
@@ -849,7 +848,7 @@ footer {
 .reservationTitle h2 {
   color: #FBFBF2;
   text-transform: capitalize;
-  padding: 1rem 1rem 0 1rem; }
+  padding: 0 1rem; }
 
 .reservationTitle h4 {
   color: #FBFBF2;
@@ -1087,6 +1086,12 @@ form input.submitbutton:hover {
     justify-self: center;
     padding: 1rem;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
+
+  .reservationTitle {
+    max-width: 50%;
+    overflow: hidden;
+    flex-direction: column;
+    margin: 1rem auto; }
 
   .reservation {
     max-width: 50%;

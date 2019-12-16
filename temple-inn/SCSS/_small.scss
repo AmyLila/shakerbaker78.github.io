@@ -301,12 +301,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
   color:$buttoncolor;
 }
 
-.homeContact1 h3 {
+.homeContact1 h3, .homeContact2 h3 {
   color:$cream;
   padding:2%;
   margin: .5rem 0 0 0;
 }
-.homeContact1 p {
+.homeContact1 p, .homeContact2 p {
   margin: .2rem 0;
 }
 .social{

@@ -629,7 +629,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .cta-button-full:hover {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3);
-  color: #FBFBF2;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a435e+0,11151c+100 */
   background: #3a435e;
   /* Old browsers */
@@ -641,6 +640,9 @@ h1, h2, h3, h4, h5, h6 {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', endColorstr='#11151c',GradientType=0 );
   /* IE6-9 */ }
+
+.cta-button-full a:hover {
+  color: #FBFBF2; }
 
 .contactgrid {
   background-color: #3a435e;
@@ -1127,7 +1129,12 @@ form input.submitbutton:hover {
 
   .thanks {
     max-width: 50%;
-    margin-bottom: 1rem; } }
+    margin-bottom: 1rem; }
+
+  .contactgrid {
+    max-width: 70%;
+    border-radius: 10px;
+    margin: 0 auto 1rem auto; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {

@@ -953,6 +953,21 @@ form input.submitbutton:hover {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', endColorstr='#11151c',GradientType=0 );
   /* IE6-9 */ }
 
+.thanksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.thanks, .thanksText {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 10px; }
+
+.thanksText h2 {
+  padding: 1rem 0 0 0; }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
@@ -1106,7 +1121,11 @@ form input.submitbutton:hover {
     margin: 1rem auto; }
 
   form label.top input, form label.top select, #comments {
-    padding: .5rem; } }
+    padding: .5rem; }
+
+  .thanks {
+    max-width: 50%;
+    margin-bottom: 1rem; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {

@@ -507,12 +507,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
   color:$cream;
   text-transform: capitalize; 
   padding: 0 1rem;
+  font-weight: normal;
 }
 .reservationTitle h4{
   color:$cream;
   text-transform: capitalize;
   padding:.5rem 1rem 1rem 1rem;
   margin:0 auto;
+  font-weight: normal;
 }
 .reservation{
   max-width: 90%;
@@ -576,6 +578,9 @@ form input.submitbutton{
   border:1px solid rgba(0, 0, 0, 0.3);
   /* background-color: #273C49; */
   color:$navy;
+  font-family: $headings;
+  font-size: 1.3rem;
+  font-weight: normal;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
   margin:1rem auto 2rem auto;

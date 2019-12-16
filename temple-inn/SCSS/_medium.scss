@@ -181,3 +181,7 @@ h1 {
   flex-direction: column;
   margin: 1rem auto;
 }
+form label.top input, form label.top select, #comments {
+
+  padding:.5rem;
+}

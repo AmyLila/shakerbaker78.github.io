@@ -916,6 +916,9 @@ form input.submitbutton {
   border: 1px solid rgba(0, 0, 0, 0.3);
   /* background-color: #273C49; */
   color: #3a435e;
+  font-family: "Abril Fatface", cursive;
+  font-size: 1.3rem;
+  font-weight: normal;
   border-radius: 1rem;
   padding: .75rem 1.5rem;
   margin: 1rem auto 2rem auto;
@@ -1098,7 +1101,10 @@ form input.submitbutton:hover {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    margin: 1rem auto; } }
+    margin: 1rem auto; }
+
+  form label.top input, form label.top select, #comments {
+    padding: .5rem; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {

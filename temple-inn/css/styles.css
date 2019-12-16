@@ -965,6 +965,9 @@ form input.submitbutton:hover {
   margin: 0 auto;
   border-radius: 10px; }
 
+.thanks {
+  margin-bottom: 1rem; }
+
 .thanksText h2 {
   padding: 1rem 0 0 0; }
 
@@ -1006,7 +1009,6 @@ form input.submitbutton:hover {
     display: flex; }
 
   nav ul {
-    padding: 1rem;
     border-radius: 10px; }
 
   nav ul li {

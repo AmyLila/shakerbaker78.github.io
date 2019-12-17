@@ -206,3 +206,9 @@ form label.top input, form label.top select, #comments {
 .servicesLinkSection{
   grid-template-columns: 1fr 1fr;
 }
+.border{
+  display: none;
+}
+#amenitiesSection h2{
+  padding: 1rem 1rem 0 1rem;
+}

@@ -216,6 +216,7 @@ main, footer {
 //-------------------------- Home Page Link Section --------------------------------------------------
 .mapBackground{
   background-image:url("../images/temple-background-texture-02.jpg");
+  padding-bottom: .5rem;
 }
 .linkSection{
   display:grid;
@@ -230,6 +231,9 @@ main, footer {
 }
 .linkSection div a{
   text-decoration: none;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .linkSection img{
@@ -718,6 +722,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
   display:flex;
   flex-direction: column;
   justify-content: space-between;
+
 }  
 
 .servicesLinkSection div:hover{

@@ -590,7 +590,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: .2rem 2rem; }
 
 .mapBackground {
-  background-image: url("../images/temple-background-texture-02.jpg"); }
+  background-image: url("../images/temple-background-texture-02.jpg");
+  padding-bottom: .5rem; }
 
 .linkSection {
   display: grid; }
@@ -604,7 +605,10 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
 
 .linkSection div a {
-  text-decoration: none; }
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 .linkSection img {
   max-width: 100%; }

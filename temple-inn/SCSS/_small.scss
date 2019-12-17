@@ -530,8 +530,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
   font-weight: normal;
 }
 .reservationTitle h5{
-  font: size 1.2rem;
-  color:#6D1A36;
+  font-size: 1.1rem;
+  color:$navy;
   text-align: center;
   background-color: $buttoncolor;
   text-transform: capitalize;
@@ -552,7 +552,7 @@ background: -moz-linear-gradient(top,  rgba(58,67,94,1) 0%, rgba(17,21,28,1) 100
 background: -webkit-linear-gradient(top,  rgba(58,67,94,1) 0%,rgba(17,21,28,1) 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  rgba(58,67,94,1) 0%,rgba(17,21,28,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', endColorstr='#11151c',GradientType=0 ); /* IE6-9 */
-border:solid 1px rgba(255, 255, 255, 0.9);
+border:solid 1px rgba(255, 255, 255, 0.3);
   
 }
 .reservation{
@@ -658,11 +658,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
 #codeSection p {
   padding:0 1rem;
   font-size:1.3rem;
+  color:$navy;
 }
 #codeSection ul{
   padding-bottom:1rem;
   line-height:1.5rem;
   font-size: 1.3rem;
+  color:$navy;
 }
 
 //---------------------------- Thanks Page -------------------------------------------

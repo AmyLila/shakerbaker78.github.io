@@ -882,8 +882,8 @@ footer {
   font-weight: normal; }
 
 .reservationTitle h5 {
-  font: size 1.2rem;
-  color: #6D1A36;
+  font-size: 1.1rem;
+  color: #3a435e;
   text-align: center;
   background-color: #7fffd4;
   text-transform: capitalize;
@@ -908,7 +908,7 @@ footer {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', endColorstr='#11151c',GradientType=0 );
   /* IE6-9 */
-  border: solid 1px rgba(255, 255, 255, 0.9); }
+  border: solid 1px rgba(255, 255, 255, 0.3); }
 
 .reservation {
   max-width: 90%;
@@ -1016,12 +1016,14 @@ form input.submitbutton:hover {
 
 #codeSection p {
   padding: 0 1rem;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  color: #3a435e; }
 
 #codeSection ul {
   padding-bottom: 1rem;
   line-height: 1.5rem;
-  font-size: 1.3rem; }
+  font-size: 1.3rem;
+  color: #3a435e; }
 
 .thanksContainer {
   display: flex;

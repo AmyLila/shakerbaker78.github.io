@@ -1047,6 +1047,54 @@ form input.submitbutton:hover {
 .thanksText h4 {
   text-transform: capitalize; }
 
+.centered {
+  text-align: center; }
+
+.border {
+  max-width: 60%;
+  margin: .5rem auto 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+
+.servicesLinkSection {
+  display: grid; }
+
+.servicesLinkSection div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 90%;
+  background-color: white;
+  margin: 1rem auto .5rem auto; }
+
+.servicesLinkSection div a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.servicesLinkSection div:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
+
+.servicesLinkSection div a {
+  text-decoration: none; }
+
+.servicesLinkSection img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 1rem auto; }
+
+.servicesLinkSection div a h2, .servicesLinkSection div h2 {
+  padding: 1rem 1rem 0 1rem;
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
+
+.servicesLinkSection div a p, .servicesLinkSection div p {
+  color: #3a435e;
+  margin: 0;
+  padding: 1rem; }
+
+.servicesLinkSection div a p:hover {
+  color: #7fffd4;
+  background-color: #3a435e; }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
@@ -1213,7 +1261,10 @@ form input.submitbutton:hover {
     border-radius: 10px;
     margin: 0 auto 1rem auto;
     border-top: 2px solid rgba(250, 250, 250, 0.5);
-    border-bottom: 2px solid rgba(250, 250, 250, 0.5); } }
+    border-bottom: 2px solid rgba(250, 250, 250, 0.5); }
+
+  .servicesLinkSection {
+    grid-template-columns: 1fr 1fr; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {
@@ -1241,5 +1292,8 @@ form input.submitbutton:hover {
     grid-gap: 10px; }
 
   #footerNav li a {
-    font-size: .9rem; } }
+    font-size: .9rem; }
+
+  .servicesLinkSection {
+    grid-template-columns: 1fr 1fr 1fr; } }
 /* end of media query */

@@ -202,3 +202,7 @@ form label.top input, form label.top select, #comments {
   border-top: 2px solid rgba(250, 250, 250, 0.5);
   border-bottom: 2px solid rgba(250, 250, 250, 0.5);
 }
+//---------------------------------Services Page ---------------------------------------------
+.servicesLinkSection{
+  grid-template-columns: 1fr 1fr;
+}

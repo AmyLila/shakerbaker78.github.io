@@ -693,9 +693,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
 }
 
 //--------------------------------- End Reservations Page --------------------------------------
-//------------------------------------Contact Page --------------------------------------------
+//------------------------------------Services Page --------------------------------------------
+.centered{
+  text-align: center;
+}
+.border{
+  max-width:60%;
+  margin: .5rem auto 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
 
+.servicesLinkSection{
+  display:grid;
+}
+.servicesLinkSection div{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 90%;
+  background-color: white;
+  margin:1rem auto .5rem auto; 
+}
+.servicesLinkSection div a{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}  
 
+.servicesLinkSection div:hover{
+  box-shadow: $shadow;
+}
+.servicesLinkSection div a{
+  text-decoration: none;
+}
+
+.servicesLinkSection img{
+  display: block;
+  max-width: 100%;
+  margin:0 auto 1rem auto;
+}
+.servicesLinkSection div a h2, .servicesLinkSection div h2{
+ padding: 1rem 1rem 0 1rem;
+ text-shadow: $shadow;
+}
+.servicesLinkSection div a p, .servicesLinkSection div p{
+  color:$navy;
+  margin: 0;
+  padding: 1rem;
+  // text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.servicesLinkSection div a p:hover{
+  color:$buttoncolor;
+  background-color: $navy;
+}
+//----------------------------------End Services Page --------------------------------------
 
 
 

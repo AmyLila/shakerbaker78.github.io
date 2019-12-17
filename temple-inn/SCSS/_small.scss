@@ -620,7 +620,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
 
 }
 //------------------------------Code of Conduct --------------------------------------
-#codeSection
+#codeSection{
+  background-color: $buttoncolor;
+  max-width: 90%;
+  margin:1rem auto;
+  border-radius: 10px;
+}
+#codeSection h2{
+  padding:1rem 1rem 0 1rem;
+}
+#codeSection p {
+  padding:0 1rem;
+  font-size:1.3rem;
+}
+#codeSection ul{
+  padding-bottom:1rem;
+  line-height:1.5rem;
+  font-size: 1.3rem;
+}
 
 //---------------------------- Thanks Page -------------------------------------------
 .thanksContainer{

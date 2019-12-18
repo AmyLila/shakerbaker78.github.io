@@ -641,7 +641,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   border: 1px solid rgba(0, 0, 0, 0.3);
   font-size: 1.3rem;
-  padding: 1rem 10%;
+  padding: 1rem 20%;
   border-radius: 10px;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7fffd4+0,2dffb5+100 */
   background: aquamarine;
@@ -1168,6 +1168,10 @@ form input.submitbutton:hover {
 
   .hideInfo {
     display: block; }
+
+  .cta-button-full a {
+    padding: .5rem 25%;
+    font-size: 1.1rem; }
 
   .linkSection {
     grid-template-columns: 1fr 1fr; }

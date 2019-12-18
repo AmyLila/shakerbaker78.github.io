@@ -32,6 +32,10 @@ h1 {
   grid-template-columns: 1fr  1fr 1fr 1fr;
   grid-gap:10px;
 } 
+//---------------------------------Contact section--------------------------------
+.contactgrid{
+  grid-template-columns: 1fr 1fr 1fr;
+}
 // -----------------------------Footer Navigation----------------------------------
 #footerNav li a {
   font-size:.9rem;  

@@ -1380,7 +1380,7 @@ form input.submitbutton:hover {
     grid-template-columns: 1fr 1fr 1fr; }
 
   .homeContact3 {
-    grid-column: span 3; }
+    grid-column: span 1; }
 
   #footerNav li a {
     font-size: .9rem; }

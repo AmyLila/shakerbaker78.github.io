@@ -678,30 +678,39 @@ h1, h2, h3, h4, h5, h6 {
   justify-items: center;
   text-align: center; }
 
-.homeContact1, .homeContact2 {
+.contactgrid a {
+  text-decoration: none; }
+
+.homeContact, .homeContact1, .homeContact2, .homeContact4 {
   display: block;
   width: 100%;
   color: #FBFBF2; }
 
-.homeContact3 {
+.homeContact3, .homeContact {
   grid-column: span 1; }
 
-.lt {
-  color: #FBFBF2;
+.homeContact {
   padding: 1rem 0 0 0; }
 
-.homeContact1 a {
+.homeContact h2 {
+  color: #FBFBF2; }
+
+.homeContact h2 a {
+  color: #FBFBF2;
   text-decoration: none; }
 
-.homeContact1 a h2:hover {
+.homeContact h2:hover {
   color: #7fffd4; }
 
-.homeContact1 h3, .homeContact2 h3 {
+.homeContact4 {
+  display: none; }
+
+.homeContact1 h3, .homeContact2 h3, .homeContact4 h3 {
   color: #FBFBF2;
   padding: 2%;
   margin: .5rem 0 0 0; }
 
-.homeContact1 p, .homeContact2 p {
+.homeContact1 p, .homeContact2 p, .homeContact4 p {
   margin: .2rem 0; }
 
 .social {
@@ -1230,7 +1239,7 @@ form input.submitbutton:hover {
   .contactgrid {
     grid-template-columns: 1fr 1fr; }
 
-  .homeContact3 {
+  .homeContact, .homeContact3 {
     grid-column: span 2; }
 
   .homeContact1 p {
@@ -1379,7 +1388,13 @@ form input.submitbutton:hover {
   .contactgrid {
     grid-template-columns: 1fr 1fr 1fr; }
 
-  .homeContact3 {
+  .homeContact {
+    grid-column: span 3; }
+
+  .homeContact4 {
+    display: block; }
+
+  .homeContact3, .homeContact4 {
     grid-column: span 1; }
 
   #footerNav li a {

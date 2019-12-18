@@ -301,32 +301,39 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
   justify-items: center;
   text-align: center;
 }
-.homeContact1, .homeContact2 {
+.contactgrid a{
+  text-decoration: none;
+}
+.homeContact, .homeContact1, .homeContact2, .homeContact4{
   display:block;
   width: 100%;
   color:$cream;
 }
-.homeContact3{
+.homeContact3, .homeContact{
   grid-column: span 1;
 }
-.lt{
-  color:$cream;
+.homeContact{
   padding: 1rem 0 0 0;
-  
 }
-.homeContact1 a {
+.homeContact h2 {
+  color:$cream;
+}
+.homeContact h2  a{
+  color:$cream;
   text-decoration: none;
 }
-.homeContact1 a h2:hover {
+.homeContact h2:hover {
   color:$buttoncolor;
 }
-
-.homeContact1 h3, .homeContact2 h3 {
+.homeContact4{
+  display: none;
+}
+.homeContact1 h3, .homeContact2 h3, .homeContact4 h3 {
   color:$cream;
   padding:2%;
   margin: .5rem 0 0 0;
 }
-.homeContact1 p, .homeContact2 p {
+.homeContact1 p, .homeContact2 p, .homeContact4 p {
   margin: .2rem 0;
 }
 .social{

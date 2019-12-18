@@ -36,7 +36,13 @@ h1 {
 .contactgrid{
   grid-template-columns: 1fr 1fr 1fr;
 }
-.homeContact3{
+.homeContact{
+  grid-column: span 3;
+}
+.homeContact4{
+  display: block;
+}
+.homeContact3, .homeContact4{
   grid-column: span 1;
 }
 // -----------------------------Footer Navigation----------------------------------

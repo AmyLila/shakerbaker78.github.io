@@ -753,6 +753,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
   background-color: $navy;
 }
 //----------------------------------End Services Page --------------------------------------
+//-----------------------------------Missionary Page --------------------------------------
+.missionaryLinkSection{
+  display:grid;
+}
+.missionaryLinkSection div{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 90%;
+  background-color: white;
+  margin:1rem auto .5rem auto; 
+}
+ 
+.missionaryLinkSection div:hover{
+  box-shadow: $shadow;
+}
+
+.missionaryLinkSection img{
+  display: block;
+  max-width: 100%;
+  margin:0 auto 1rem auto;
+}
+.missionaryLinkSection div h2{
+ padding: 1rem 1rem 0 1rem;
+ text-shadow: $shadow;
+}
+.missionaryLinkSection div p{
+  color:$navy;
+  margin: 0;
+  padding: 1rem;
+  // text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 
 
 

@@ -1100,6 +1100,34 @@ form input.submitbutton:hover {
   color: #7fffd4;
   background-color: #3a435e; }
 
+.missionaryLinkSection {
+  display: grid; }
+
+.missionaryLinkSection div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 90%;
+  background-color: white;
+  margin: 1rem auto .5rem auto; }
+
+.missionaryLinkSection div:hover {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
+
+.missionaryLinkSection img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 1rem auto; }
+
+.missionaryLinkSection div h2 {
+  padding: 1rem 1rem 0 1rem;
+  text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); }
+
+.missionaryLinkSection div p {
+  color: #3a435e;
+  margin: 0;
+  padding: 1rem; }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
@@ -1279,7 +1307,15 @@ form input.submitbutton:hover {
     display: none; }
 
   #amenitiesSection h2 {
-    padding: 1rem 1rem 0 1rem; } }
+    padding: 1rem 1rem 0 1rem; }
+
+  .missionaryLinkSection {
+    grid-template-columns: 1fr 1fr; }
+
+  .missionaryLinkSection img {
+    display: block;
+    max-width: 100%;
+    margin: 0; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {
@@ -1310,5 +1346,8 @@ form input.submitbutton:hover {
     font-size: .9rem; }
 
   .servicesLinkSection {
-    grid-template-columns: 1fr 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr 1fr; }
+
+  .missionaryLinkSection {
+    grid-template-columns: 1fr 1fr 1fr 1fr; } }
 /* end of media query */

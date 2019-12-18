@@ -216,3 +216,12 @@ form label.top input, form label.top select, #comments {
 #amenitiesSection h2{
   padding: 1rem 1rem 0 1rem;
 }
+//---------------------------Missionary Page -----------------------------------------------
+.missionaryLinkSection{
+  grid-template-columns: 1fr 1fr;
+}
+.missionaryLinkSection img{
+  display: block;
+  max-width: 100%;
+  margin:0;
+}

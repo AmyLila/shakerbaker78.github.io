@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Temple Inn & Suites | Temples</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Temples page Temple Inn and Suites">
+      <link rel="stylesheet" href="css/styles.css">      
+  </head> 
+  <body onload="loadDate()">
+<!------------------------------------------ Header ---------------------------------------------------->
+    <header>
+      <picture class="logo"><img  src="images/logo.png" alt="Temple Inn and Suites Logo"></picture>
+      <picture class="smalllogo"><img  src="images/small-logo.png" alt="Temple Inn and Suites Logo"></picture>
+
+<!------------------------------------------ Navigation ------------------------------------------------>
+      <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+           <li><a href="https://shakerbaker78.github.io./temple-inn/index.html" >Home</a></li>
+           <li><a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reservations</a></li>
+
+<!------------------------------------------ Subnavigation -------------------------------------------->
+           <li onmouseover="mouseDropDown ()"><a href="https://shakerbaker78.github.io./temple-inn/services.html" class="services">Services</a>
+            <button onclick="toggleDropDown()">&#9662;</button>      
+                <ul id="dropDown" class="hideDropDown">
+                    <li onmouseover="mouseDropDown ()">
+                        <a href="https://shakerbaker78.github.io./temple-inn/missionary.html">Missionary</a>
+                    </li>
+                    <li onmouseover="mouseDropDown ()">
+                            <a href="https://shakerbaker78.github.io./temple-inn/receptions.html">Receptions</a>
+                    </li>
+                </ul>
+              </li>
+<!------------------------------------------ End Subnavigation -------------------------------------------> 
+            <li><a href="https://shakerbaker78.github.io./temple-inn/temples.html" class="active">Temples</a></li>
+          </ul>
+      </nav>
+<!------------------------------------------ End Navigation ------------------------------------------->       
+     <section class="cta-button">
+      <a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reserve Your Room</a>
+     </section> 
+
+   </header>
+   
+   <main>
+    <h1 class="templePageTitle">Temples We Serve</h1>
+<!--------------------------------- Temple Section------------------------------------->
+    <section class="templeHeroContainer">
+
+          
+    </section> 
+
+
+
+<!-- --------------------------------- Full Width Button ------------------------------------->
+    <section class="cta-button-full">
+      <a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reserve Your Room</a>
+    </section> 
+
+<!----------------------------------- Contact Section ------------------------------------>
+    <!-- <section class="contactgrid">
+      <div class="homeContact1">
+        <a href="https://shakerbaker78.github.io./temple-inn/contact.html"><h2 class="lt">Contact Us!</h2></a> 
+        <h3>Address</h3>
+        <p>4800 Montgomery Ln #300,<br> Bethesda, MD 20814</p>
+        <h3>Email</h3>
+        <p>amy@templeinns.com</p>
+      </div>
+      <div class="homeContact2">
+          <ul class="social">
+              <li><a href="https://www.facebook.com" target="_blank">
+                  <img src="images/social/facebook-light.png" alt="FaceBook Logo"></a></li>
+              <li><a href="https://www.linkedin.com" target="_blank">
+                  <img src="images/social/linkedin-light.png" alt="linkedIn Logo"></a></li>
+              <li><a href="https://twitter.com" target="_blank">
+                  <img src="images/social/twitter-light.png" alt="twitter Logo"></a></li>
+            </ul>  
+      </div>
+       <div class="homeContact3">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701322!2d-77.09772048494206!3d38.98325177955756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576127451905!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+      </div> 
+    </section> -->
+<!-------------------------------- End Contact Section ----------------------------------------------->
+    </main>
+    <footer>
+        <nav>
+            <ul id="footerNav">
+               <li class="homeHide"><a href="https://shakerbaker78.github.io./temple-inn/index.html">Home</a></li>
+               <li ><a href="https://shakerbaker78.github.io./temple-inn/reservations.html" class="homeHide">Reservations</a></li>
+               <li><a href="https://shakerbaker78.github.io./temple-inn/contact.html">Contact</a>
+                  </li>
+                <li><a href="https://shakerbaker78.github.io./temple-inn/references.html">References</a></li>
+              </ul>
+          </nav>
+      <div>
+        <p class="footertext"> &copy; <span id="year"> </span> Amy Baker</p>
+      </div>
+    </footer> 
+    <script src="js/scripts.js"></script> 
+    <script src="js/temples.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+  </body>
+</html>

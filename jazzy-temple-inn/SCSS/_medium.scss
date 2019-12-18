@@ -1,0 +1,239 @@
+// ----------------- Header -------------------------------------------------
+header{
+    grid-template-columns: 250px 1fr;
+    grid-template-areas:
+       "logo menu"
+       "logo button"; 
+
+}
+.smalllogo{
+    display:none;
+}
+.logo{
+    display:block;
+    margin:0 0 0 5%;
+    grid-area: logo;
+}
+header img {
+        max-width:100%;
+    } 
+   
+.cta-button{
+        padding:.5rem 2rem; 
+        margin: 0 0 1rem 0;
+        line-height: 1.5rem;
+        font-size: 1.2rem;
+    }     
+// ----------- Navigation -------------------
+nav{
+    grid-area: menu;
+}
+nav button {display:none;}  
+.hide{
+    display: flex;
+    }
+nav ul{
+    // padding:1rem;
+    border-radius: 10px;
+}    
+nav ul li { flex: 1 1 100%; }
+nav ul li a {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    line-height:1rem;
+    font-size:1.3rem;  
+}
+
+
+// ---------------- End Header ------------------------------
+
+// ----------------- Main -----------------------------------
+h1 {
+        font-size: 2rem;
+        font-weight: 700;
+      }    
+
+
+// -------------------- Home Page Hero Image and Text -------------------------------
+
+.homeHeroContainer {
+
+    display:block;
+    // flex-direction: column-reverse;
+  }
+.templeTitle{
+    padding:1rem 1rem .3rem 1rem;
+  } 
+.templeInfoShort {
+    position: absolute;
+    margin:2rem;     
+ }  
+.templeInfoShort button{
+    display: none;
+} 
+ .hideInfo{
+    display:block;
+
+  } 
+.cta-button-full a {
+  padding: .5rem 25%;
+  font-size: 1.1rem;
+}
+//-------------------------- End Hero --------------------------------------------------    
+
+//-------------------------- Home Page Link Section --------------------------------------------------
+.linkSection{
+    grid-template-columns: 1fr 1fr;
+  }
+ 
+// -----------------------------End Home Page Link Section----------------------------------  
+//-------------------------------Home Page Contact Section -------------------------------------
+.contactgrid{
+  grid-template-columns: 1fr 1fr;
+}
+.homeContact, .homeContact3{
+  grid-column: span 2;
+}
+
+.homeContact1 p {
+    margin: .2rem 0 1rem 0;
+  }
+//--------------------------------Footer Navigation--------------------------------------------
+.homeHide{
+    display:block;
+  }   
+
+
+// -------------------- Temple Page Hero Image and Text -------------------------------
+
+.templeHeroContainer {
+  width:100%;
+  margin:auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background-color:$cream;
+}
+.infoContainer{
+  grid-column: span 2;
+  z-index: 1;
+  
+}
+.templeName{
+    padding:1rem 1rem .3rem 1rem;
+  } 
+
+.templeHeroContainer img {
+  max-width: 90%;
+  grid-column: span 2;
+  margin:auto;
+  border-radius: 10px;
+}
+//---------------------------History-------------------------------------------------
+.templeHistory{
+  grid-column: span 2;
+  width: 90%;
+  background-color:white;
+  border-radius: 10px;
+  justify-self: center;
+  margin: 1rem auto;
+  padding:1rem;
+  box-shadow: $shadow;
+}   
+
+//--------------------------Forecast -----------------------------------------------
+.templeForcast {
+    max-width:90%;
+    grid-column: span 2;
+    list-style-type: none;
+    // display:grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin:1rem auto;
+    padding: 0;
+    overflow:hidden;
+   }  
+//---------------------------- Schedules ----------------------------------------------------
+.templeSchedule, .templeServices{
+  width: 80%;
+  background-color:white;
+  border-radius: 10px;
+  justify-self: center;
+  margin: 1rem auto;
+  padding:1rem;
+  box-shadow: $shadow;
+}   
+.templeServices ul, .templeClosures ul {
+  
+  line-height: 1.5rem;
+ 
+}
+.templeClosures{
+  text-align: center;
+  grid-column: span 2;
+  width: 90%;
+  background-color:white;
+  border-radius: 10px;
+  justify-self: center;
+  // margin: 1rem auto;
+  padding:1rem;
+  box-shadow: $shadow;
+} 
+
+//--------------------------------- Reservations Page ---------------------------------------------
+.reservationTitle{
+  max-width: 50%;
+  overflow:hidden;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+.reservationTitle h5{
+  margin:0 auto;
+}
+.reservation{
+  max-width: 50%;
+  overflow:hidden;
+  display:flex;
+  flex-direction: column;
+  margin: 1rem auto;
+}
+form label.top input, form label.top select, #comments {
+
+  padding:.5rem;
+}
+.thanks{
+  max-width: 50%;
+  margin-bottom: 1rem;
+  
+}
+//---------------------------------end reservations ---------------------------------------------
+//---------------------------------- Contact Page -----------------------------------------------
+.contactgrid{
+  max-width: 70%;
+  border-radius: 10px;
+  margin: 0 auto 1rem auto;
+  border-top: 2px solid rgba(250, 250, 250, 0.5);
+  border-bottom: 2px solid rgba(250, 250, 250, 0.5);
+}
+//---------------------------------Services Page ---------------------------------------------
+.servicesLinkSection{
+  grid-template-columns: 1fr 1fr;
+}
+.border{
+  display: none;
+}
+#amenitiesSection h2{
+  padding: 1rem 1rem 0 1rem;
+}
+//---------------------------Missionary Page -----------------------------------------------
+.missionaryLinkSection{
+  grid-template-columns: 1fr 1fr;
+}
+.missionaryLinkSection img{
+  display: block;
+  max-width: 100%;
+  margin:0;
+}
+#missionaryContainer, #receptionContainer{
+  position: relative;
+  display:flex;
+  flex-direction: column-reverse;
+}

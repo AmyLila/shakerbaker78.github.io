@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Temple Inn & Suites | Services</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Services page Temple Inn and Suites">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script> 
+      <script src="js/scripts.js"></script> 
+  </head> 
+  <body onload="loadDate()">
+<!------------------------------------------ Header ---------------------------------------------------->
+    <header>
+      <picture class="logo"><img  src="images/logo.png" alt="Temple Inn and Suites Logo"></picture>
+      <picture class="smalllogo"><img  src="images/small-logo.png" alt="Temple Inn and Suites Logo"></picture>
+
+<!------------------------------------------ Navigation ------------------------------------------------>
+      <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+           <li><a href="https://shakerbaker78.github.io./temple-inn/index.html">Home</a></li>
+           <li><a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reservations</a></li>
+
+<!------------------------------------------ Subnavigation -------------------------------------------->
+           <li onmouseover="mouseDropDown ()"><a href="https://shakerbaker78.github.io./temple-inn/services.html" class="services active">Services</a>
+            <button onclick="toggleDropDown()">&#9662;</button>      
+                <ul id="dropDown" class="hideDropDown">
+                    <li onmouseover="mouseDropDown ()">
+                        <a href="https://shakerbaker78.github.io./temple-inn/missionary.html">Missionary</a>
+                    </li>
+                    <li onmouseover="mouseDropDown ()">
+                            <a href="https://shakerbaker78.github.io./temple-inn/receptions.html">Receptions</a>
+                    </li>
+                </ul>
+              </li>
+<!------------------------------------------ End Subnavigation -------------------------------------------> 
+            <li><a href="https://shakerbaker78.github.io./temple-inn/temples.html">Temples</a></li>
+          </ul>
+      </nav>
+<!------------------------------------------ End Navigation ------------------------------------------->       
+     <section class="cta-button">
+      <a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reserve Your Room</a>
+     </section> 
+
+   </header>
+   
+   <main>
+<!--------------------------------------- Services Image and text --------------------------------------->
+    <h2 class="centered">Our Services and Amenities</h2>
+     <section class="homeHeroContainer">
+        <div class="templeInfoShort" id="amenitiesSection">
+            <h2>Free Amenities</h2>
+            <button onclick="toggleTemple()">&#9662;</button>
+            <ul id="templeDropDown" class=" hideInfo">
+              <li class="templeleft">Breakfast</li>
+              <li class="border"></li>          
+              <li class="templeleft">Exercise/workout room</li>
+              <li class="border"></li>           
+              <li class="templeleft">Indoor pool</li>
+              <li class="border"></li>          
+              <li class="templeleft">WiFi high-speed internet access</li>
+              <li class="border"></li>
+              <li class="templeleft">Smart TVs</li>
+              <li class="border"></li>
+              <li class="templeleft">Parking</li>
+              <li class="border"></li>
+              <li class="templeleft">Temple shuttle</li>
+              <li class="border"></li>
+              <li class="templeleft">Family history consultation<br>&<br>family ordinance card service</li>
+            </ul> 
+          </div> 
+        <div class="homeHeroImage"><img src="images/ball.jpg" alt="ball by swimming pool"></div>
+    </section>
+    
+<!-- --------------------------------- Full Width Button ------------------------------------->
+     <section class="cta-button-full">
+        <a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reserve Your Room</a>
+      </section> 
+     
+   
+ <!--------------------------------------- Specialized Services boxes ------------------------------------->
+    <section class=" mapBackground">
+    <h2 class="centered" id=servicesSection>Specialized Services</h2>
+    <section class="servicesLinkSection">
+      <div>
+          <h2>Change</h2>
+          <p>Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and need to change to and from church clothes</p>                
+          <img src="images/tie.jpg" alt="Father helping his son with his tie">
+      </div>
+
+      <div>
+          <h2>Play</h2>
+          <p>A playroom and low-cost, short-term babysitting services for the children of patrons</p>       
+          <img src="images/car.jpg" alt="child playing">
+      </div>
+       
+      <div>
+          <a href="https://shakerbaker78.github.io./temple-inn/missionary.html">
+            <h2>Serve</h2>
+            <p>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</p>
+          </a>    
+          <img src="images/missionary.jpg" alt="Senior Missionary Couple">
+          </a>
+      </div>
+        
+      <div>
+          <h2>Relax</h2>
+          <p>Temple history themed reception and sitting area</p>                  
+          <img src="images/waiting.jpg" alt="Waiting Room ">
+      </div>
+
+      <div>
+          <a href="https://shakerbaker78.github.io./temple-inn/receptions.html">
+              <h2>Celebrate</h2>
+              <p>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</p> 
+          </a>                   
+          <img src="images/flowers.jpg" alt="bouquet">
+      </div>
+
+      <div>
+          <h2>Research</h2>
+          <p>A family search center that supports family search and ordinance work</p> 
+          <img src="images/family.jpg" alt="family history">
+      </div>
+      </section>
+    </section> 
+
+<!-- --------------------------------- Full Width Button ------------------------------------->
+    <section class="cta-button-full">
+      <a href="https://shakerbaker78.github.io./temple-inn/reservations.html">Reserve Your Room</a>
+    </section> 
+
+<!----------------------------------- Contact Section ------------------------------------>
+<Section class="blueBackground">
+    <section class="contactgrid">
+        <a href="https://shakerbaker78.github.io./temple-inn/contact.html" class="homeContact"><h2>Contact Us!</h2></a>
+        <div class="homeContact1"> 
+          <h3>Address</h3>
+          <p>4800 Montgomery Ln #300,<br> Bethesda, MD 20814</p>
+        </div>
+        <div class="homeContact2">
+            <h3>Email</h3>
+            <p>amy@temples.com</p>
+            <ul class="social">
+                <li><a href="https://www.facebook.com" target="_blank">
+                    <img src="images/social/facebook-light.png" alt="FaceBook Logo"></a></li>
+                <li><a href="https://www.linkedin.com" target="_blank">
+                    <img src="images/social/linkedin-light.png" alt="linkedIn Logo"></a></li>
+                <li><a href="https://twitter.com" target="_blank">
+                    <img src="images/social/twitter-light.png" alt="twitter Logo"></a></li>
+              </ul>  
+        </div>
+        <div class="homeContact4">
+          <h3>Phone</h3>
+            <p>1(208)324-5667</p>
+        </div>
+        <!-- <div class="homeContact3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.405019701322!2d-77.09772048494206!3d38.98325177955756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1576127451905!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div> -->
+        
+      </section>
+  </Section>
+<!-------------------------------- End Contact Section ----------------------------------------------->
+    </main>
+    <footer>
+        <nav>
+            <ul id="footerNav">
+               <li class="homeHide"><a href="https://shakerbaker78.github.io./temple-inn/index.html">Home</a></li>
+               <li ><a href="https://shakerbaker78.github.io./temple-inn/reservations.html" class="homeHide">Reservations</a></li>
+               <li><a href="https://shakerbaker78.github.io./temple-inn/contact.html">Contact</a>
+                  </li>
+                <li><a href="https://shakerbaker78.github.io./temple-inn/references.html">References</a></li>
+              </ul>
+          </nav>
+      <div>
+        <p class="footertext"> &copy; <span id="year"> </span> Amy Baker</p>
+      </div>
+    </footer> 
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/webfonts.js"></script>
+  </body>
+</html>

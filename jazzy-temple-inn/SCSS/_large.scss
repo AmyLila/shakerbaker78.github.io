@@ -1,0 +1,81 @@
+// ----------------- Header -------------------------------------------------
+header{
+  grid-template-columns: 250px 1fr 250px;
+  grid-template-areas:
+     "logo menu button"; 
+  grid-gap:5px;   
+
+}
+.logo{
+  margin:5%;
+}
+.cta-button{
+  padding:.5rem 2rem; 
+  margin: 0 5%;
+  font-size: 1rem;
+} 
+
+// ----------- Navigation -------------------    
+nav ul li a {
+    line-height:1rem;
+    font-size: .9rem;
+    }
+// ---------------- End Header ------------------------------
+
+// ----------------- Main -----------------------------------
+h1 {
+      font-size: 2.5rem;
+    } 
+    
+//-------------------------- Home Page Link Section -------------------------------------------------- 
+.linkSection{
+  grid-template-columns: 1fr  1fr 1fr 1fr;
+  grid-gap:10px;
+} 
+//---------------------------------Contact section--------------------------------
+.contactgrid{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.homeContact{
+  grid-column: span 3;
+}
+.homeContact4{
+  display: block;
+}
+.homeContact3, .homeContact4{
+  grid-column: span 1;
+}
+// -----------------------------Footer Navigation----------------------------------
+#footerNav li a {
+  font-size:.9rem;  
+}
+//-------------------------------Services Page ------------------------------------
+.servicesLinkSection{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+//-------------------------------Missionary Page----------------------------------
+.missionaryLinkSection{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#missionaryContainer, #receptionContainer{
+  display:block;
+}
+#fixedWidth{
+  position: absolute;
+  margin:2rem;  
+  max-width: 100%;
+  padding:1rem;
+  background-color: rgba(250, 250, 250, 0.9);
+}
+//--------------------------------Receptions Page  -----------------------------------
+
+#rFixedWidth{
+  position: absolute;
+  margin:2rem;  
+  max-width: 50%;
+  bottom: 0;
+  left:0;
+  padding:1rem;
+  background-color: rgba(250, 250, 250, 0.9);
+}
+

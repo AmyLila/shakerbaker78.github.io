@@ -36,6 +36,9 @@ h1 {
 .contactgrid{
   grid-template-columns: 1fr 1fr 1fr;
 }
+.homeContact3{
+  grid-column: span 3;
+}
 // -----------------------------Footer Navigation----------------------------------
 #footerNav li a {
   font-size:.9rem;  

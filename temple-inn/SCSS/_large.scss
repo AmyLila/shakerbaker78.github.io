@@ -44,4 +44,23 @@ h1 {
 .missionaryLinkSection{
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+#missionaryContainer, #receptionContainer{
+  display:block;
+}
+#fixedWidth{
+  position: absolute;
+  margin:2rem;  
+  max-width: 100%;
+  padding:1rem;
+  background-color: rgba(250, 250, 250, 0.9);
+}
+//--------------------------------Receptions Page  -----------------------------------
+
+#rFixedWidth{
+  position: absolute;
+  margin:2rem;  
+  max-width: 100%;
+  padding:1rem;
+  background-color: rgba(250, 250, 250, 0.9);
+}
 

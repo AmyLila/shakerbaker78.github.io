@@ -1128,6 +1128,26 @@ form input.submitbutton:hover {
   margin: 0;
   padding: 1rem; }
 
+#fixedWidth {
+  max-width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #FBFBF2; }
+
+.mText {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  margin: 0 auto; }
+
+#rFixedWidth {
+  max-width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #FBFBF2; }
+
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
@@ -1315,7 +1335,12 @@ form input.submitbutton:hover {
   .missionaryLinkSection img {
     display: block;
     max-width: 100%;
-    margin: 0; } }
+    margin: 0; }
+
+  #missionaryContainer, #receptionContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse; } }
 /* end of media query */
 @media only screen and (min-width: 1028px) {
   header {
@@ -1349,5 +1374,22 @@ form input.submitbutton:hover {
     grid-template-columns: 1fr 1fr 1fr; }
 
   .missionaryLinkSection {
-    grid-template-columns: 1fr 1fr 1fr 1fr; } }
+    grid-template-columns: 1fr 1fr 1fr 1fr; }
+
+  #missionaryContainer, #receptionContainer {
+    display: block; }
+
+  #fixedWidth {
+    position: absolute;
+    margin: 2rem;
+    max-width: 100%;
+    padding: 1rem;
+    background-color: rgba(250, 250, 250, 0.9); }
+
+  #rFixedWidth {
+    position: absolute;
+    margin: 2rem;
+    max-width: 100%;
+    padding: 1rem;
+    background-color: rgba(250, 250, 250, 0.9); } }
 /* end of media query */

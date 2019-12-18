@@ -785,6 +785,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a435e', end
   padding: 1rem;
   // text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
+#fixedWidth{
+  max-width: 90%;
+  margin:1rem auto;
+  padding:1rem;
+  border-radius: 10px;
+  background-color: $cream;
+}
+.mText{
+  text-align: left;
+  font-size:1.1rem;
+  line-height:1.2rem;
+  margin:0 auto;
+}
+//---------------------------------Receptions Page ----------------------------------------
+#rFixedWidth{
+  max-width: 90%;
+  margin:1rem auto;
+  padding:1rem;
+  border-radius: 10px;
+  background-color: $cream;
+}
 
 
 

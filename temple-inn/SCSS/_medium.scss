@@ -225,3 +225,8 @@ form label.top input, form label.top select, #comments {
   max-width: 100%;
   margin:0;
 }
+#missionaryContainer, #receptionContainer{
+  position: relative;
+  display:flex;
+  flex-direction: column-reverse;
+}
